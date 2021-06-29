@@ -1,4 +1,4 @@
-package Util;
+package ajuda;
 
 import CFG.B;
 import CFG.C;

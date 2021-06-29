@@ -5,7 +5,6 @@ import java.util.List;
 
 import AIs.Interpreter;
 import Oraculo.Oraculo;
-import Util.ScriptsFactory;
 import ai.RandomBiasedAI;
 import ai.CMAB.A3NWithin;
 import ai.abstraction.WorkerRush;
@@ -13,6 +12,7 @@ import ai.configurablescript.BasicExpandedConfigurableScript;
 import ai.configurablescript.ScriptsCreator;
 import ai.core.AI;
 import ai.evaluation.SimpleSqrtEvaluationFunction3;
+import ajuda.ScriptsFactory;
 import rts.GameState;
 import rts.PhysicalGameState;
 import rts.units.UnitTypeTable;
