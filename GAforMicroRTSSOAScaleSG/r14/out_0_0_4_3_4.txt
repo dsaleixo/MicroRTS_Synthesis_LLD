@@ -1,0 +1,8 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;Harvest;S;C;Harvest;S;S_S;S;C;MoveToUnit;Ally;Random;S;C;Train;Heavy;Right;S;For_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Idle;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Base;Right;S;For_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Idle;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Harvest;S;S_S;S;For_S;S;For_S;S;For_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Idle;S;C;Attack;Weakest
+slurmstepd: error: *** JOB 5841246 ON cdr1589 CANCELLED AT 2021-06-23T07:34:44 DUE TO TIME LIMIT ***

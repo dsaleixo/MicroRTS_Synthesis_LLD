@@ -1,0 +1,533 @@
+trtrt
+trtrt
+Ganhador 0
+script 0 = (Z) for(u) (if(HaveQtdUnitsAttacking(Heavy,9,u)) then((Z)) if(HaveUnitsToDistantToEnemy(Heavy,15,u)) then(attack(Heavy,closest,u)) else(attack(Ranged,closest,u)))
+script 1 = if(HaveUnitsToDistantToEnemy(Ranged,19)) then(attack(Ranged,closest)) (Z) for(u) (attack(Heavy,closest,u) (Z))
+
+Ganhador 1
+script 0 = for(u) (if(HaveUnitsToDistantToEnemy(Heavy,11,u)) then(attack(Heavy,closest,u)) if(HaveQtdUnitsAttacking(Worker,14,u)) then((Z)) else(attack(Ranged,lessHealthy,u))) if(HaveQtdUnitsbyType(Worker,10)) then((Z)) else(moveToUnit(Heavy,Enemy,farthest)) if(HaveQtdEnemiesbyType(Light,12)) then((Z))
+script 1 = (Z) for(u) (if(HaveQtdUnitsbyType(Ranged,6,u)) then((Z)) else((Z)) if(HaveQtdEnemiesbyType(Light,17,u)) then((Z)) else(attack(Heavy,closest,u))) for(u) (if(HaveQtdEnemiesbyType(Light,9,u)) then((Z)) else((Z)) moveToUnit(Heavy,Ally,lessHealthy,u) attack(Ranged,lessHealthy,u) if(HaveQtdUnitsHarversting(7,u)) then((Z)))
+
+Ganhador 2
+script 0 = for(u) (attack(Ranged,closest,u)) (Z) for(u) (attack(Heavy,closest,u))
+script 1 = for(u) (if(HaveQtdUnitsbyType(Worker,12,u)) then((Z)) else(attack(Heavy,closest,u)) attack(Ranged,closest,u))
+
+Ganhador 3
+script 0 = for(u) (if(HaveQtdUnitsHarversting(5,u)) then((Z)) else(moveToUnit(Heavy,Ally,lessHealthy,u) attack(Ranged,closest,u)) moveToUnit(Heavy,Ally,mostHealthy,u) if(HaveUnitsToDistantToEnemy(Worker,6,u)) then((Z)) else(attack(Heavy,closest,u))) (Z)
+script 1 = if(HaveQtdUnitsbyType(Light,3)) then((Z)) else(attack(Heavy,closest)) for(u) ((Z)) for(u) (attack(Ranged,closest,u)) (Z)
+
+Ganhador 4
+script 0 = (Z) for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u) (Z) if(HaveQtdUnitsAttacking(Ranged,13,u)) then((Z)) else((Z))) if(HaveUnitsToDistantToEnemy(Light,3)) then((Z))
+script 1 = for(u) (if(HaveUnitsToDistantToEnemy(Ranged,11,u)) then(attack(Ranged,closest,u))) attack(Heavy,closest)
+
+Ganhador 5
+script 0 = for(u) (attack(Heavy,mostHealthy,u) (Z)) (Z) if(HaveEnemiesinUnitsRange(Ranged)) then(attack(Ranged,farthest))
+script 1 = for(u) (if(HaveEnemiesinUnitsRange(Ranged,u)) then((Z)) else(attack(Heavy,mostHealthy,u))) (Z) attack(Ranged,closest)
+
+Ganhador 6
+script 0 = (Z) (Z) (Z) (Z) for(u) (if(HaveQtdEnemiesbyType(Ranged,1,u)) then(attack(Ranged,strongest,u)) else(moveToUnit(Heavy,Ally,weakest,u)) if(HaveQtdUnitsAttacking(Worker,7,u)) then((Z)) else(attack(Heavy,closest,u)))
+script 1 = if(HaveUnitsToDistantToEnemy(Light,16)) then((Z)) else(attack(Heavy,closest)) for(u) (attack(Ranged,closest,u)) (Z) (Z) for(u) (if(HaveQtdUnitsbyType(Ranged,4,u)) then((Z)))
+
+Ganhador 7
+script 0 = if(HaveUnitsToDistantToEnemy(Heavy,17)) then(attack(Heavy,closest)) attack(Ranged,closest)
+script 1 = (Z) attack(Heavy,mostHealthy) if(HaveUnitsToDistantToEnemy(Ranged,17)) then(attack(Ranged,mostHealthy))
+
+Ganhador 8
+script 0 = (Z) if(HaveQtdEnemiesbyType(Heavy,19)) then((Z)) else(moveToUnit(Ranged,Enemy,strongest) attack(Heavy,mostHealthy)) attack(Ranged,closest)
+script 1 = attack(Ranged,mostHealthy) if(HaveQtdUnitsbyType(Ranged,1)) then((Z)) else(attack(Heavy,mostHealthy))
+
+Ganhador 9
+script 0 = if(HaveUnitsToDistantToEnemy(Heavy,10)) then(attack(Heavy,closest)) for(u) (attack(Ranged,lessHealthy,u) attack(Heavy,farthest,u))
+script 1 = attack(Heavy,closest) for(u) (if(HaveQtdUnitsHarversting(4,u)) then((Z)) else(attack(Ranged,closest,u))) (Z)
+
+Ganhador 10
+script 0 = for(u) (if(HaveQtdUnitsAttacking(Ranged,17,u)) then((Z)) else(attack(Ranged,closest,u))) for(u) (if(HaveUnitsToDistantToEnemy(Heavy,9,u)) then(attack(Heavy,closest,u)) else(attack(Heavy,strongest,u)))
+script 1 = attack(Heavy,closest) (Z) if(HaveUnitsToDistantToEnemy(Ranged,5)) then((Z)) else(moveToUnit(Ranged,Ally,strongest)) attack(Ranged,closest)
+
+Ganhador 11
+script 0 = for(u) (if(HaveQtdUnitsAttacking(Light,9,u)) then((Z)) else((Z)) (Z)) (Z) attack(Ranged,strongest) for(u) (attack(Heavy,weakest,u) if(HaveQtdEnemiesbyType(Ranged,15,u)) then((Z)) else(moveToUnit(Heavy,Enemy,strongest,u)))
+script 1 = (Z) for(u) (if(HaveQtdEnemiesbyType(Light,9,u)) then((Z)) else(moveToUnit(Ranged,Ally,mostHealthy,u)) if(HaveUnitsToDistantToEnemy(Heavy,18,u)) then((Z)) else(attack(Ranged,closest,u)) attack(Heavy,closest,u))
+
+Ganhador 12
+script 0 = for(u) (if(HaveQtdUnitsAttacking(Ranged,2,u)) then(attack(Ranged,mostHealthy,u)) else(attack(Heavy,closest,u)) attack(Ranged,lessHealthy,u)) (Z) for(u) (moveToUnit(Heavy,Ally,mostHealthy,u)) for(u) ((Z) attack(Heavy,closest,u))
+script 1 = if(HaveQtdUnitsbyType(Worker,8)) then((Z)) else(attack(Heavy,closest)) for(u) (if(HaveQtdEnemiesbyType(Light,18,u)) then((Z)) else(attack(Ranged,weakest,u))) (Z)
+
+Ganhador 13
+script 0 = if(HaveUnitsinEnemyRange(Light)) then((Z)) else(attack(Ranged,closest)) for(u) (if(HaveQtdUnitsAttacking(Ranged,4,u)) then((Z)) else(attack(Heavy,closest,u)) moveToUnit(Heavy,Ally,mostHealthy,u)) (Z) (Z) (Z)
+script 1 = for(u) (if(HaveQtdUnitsbyType(Light,12,u)) then((Z)) else(attack(Ranged,closest,u)) attack(Heavy,closest,u)) (Z)
+
+Ganhador 14
+script 0 = if(HaveQtdEnemiesbyType(Heavy,3)) then(attack(Ranged,closest)) (Z) if(HaveUnitsinEnemyRange(Worker)) then((Z)) else(attack(Heavy,closest))
+script 1 = for(u) (moveToUnit(Ranged,Enemy,closest,u) attack(Ranged,closest,u) if(HaveUnitsToDistantToEnemy(Worker,11,u)) then((Z)) else(attack(Heavy,closest,u))) (Z) (Z) for(u) (if(HaveQtdUnitsAttacking(Heavy,12,u)) then((Z)))
+
+Ganhador 15
+script 0 = for(u) (attack(Heavy,closest,u) if(HaveQtdUnitsAttacking(Worker,7,u)) then((Z)) else((Z))) (Z) moveToUnit(Ranged,Ally,weakest) attack(Ranged,closest)
+script 1 = for(u) (attack(Ranged,closest,u)) (Z) (Z) for(u) (attack(Heavy,closest,u)) (Z)
+
+Ganhador 16
+script 0 = for(u) (attack(Heavy,weakest,u) if(HaveQtdUnitsAttacking(Heavy,2,u)) then(moveToUnit(Ranged,Enemy,closest,u)) moveToUnit(Ranged,Enemy,closest,u) attack(Ranged,closest,u)) for(u) (if(HaveUnitsToDistantToEnemy(Ranged,13,u)) then((Z)))
+script 1 = for(u) ((Z) attack(Heavy,closest,u) attack(Ranged,closest,u)) (Z) (Z)
+
+Ganhador 17
+script 0 = for(u) (attack(Heavy,closest,u) if(HaveQtdEnemiesbyType(Heavy,2,u)) then((Z)) else(moveToUnit(Ranged,Ally,farthest,u) (Z)) if(HaveQtdEnemiesbyType(Ranged,12,u)) then((Z)) else(attack(Ranged,closest,u)))
+script 1 = for(u) (attack(Heavy,closest,u) moveToUnit(Heavy,Enemy,farthest,u) attack(Ranged,closest,u))
+
+Ganhador 18
+script 0 = (Z) if(HaveQtdUnitsbyType(Ranged,20)) then((Z)) else(attack(Heavy,closest) attack(Ranged,closest))
+script 1 = for(u) (if(HaveUnitsToDistantToEnemy(Ranged,14,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Worker,4,u)) then((Z)) else(attack(Ranged,closest,u))) (Z)
+
+Ganhador 19
+script 0 = for(u) (if(HaveUnitsToDistantToEnemy(Ranged,20,u)) then(attack(Ranged,closest,u)) attack(Heavy,closest,u)) for(u) (if(HaveQtdUnitsAttacking(Heavy,12,u)) then((Z))) for(u) (if(HaveQtdUnitsbyType(Ranged,12,u)) then((Z)))
+script 1 = attack(Ranged,weakest) attack(Heavy,closest) moveToUnit(Heavy,Ally,weakest) (Z)
+
+Ganhador 20
+script 0 = if(HaveUnitsToDistantToEnemy(Ranged,10)) then(attack(Ranged,closest)) else(attack(Heavy,closest)) attack(Ranged,weakest) (Z) for(u) (if(HaveQtdUnitsAttacking(Worker,14,u)) then((Z)) else(moveToUnit(Heavy,Enemy,farthest,u))) (Z) (Z)
+script 1 = (Z) for(u) (if(HaveQtdUnitsAttacking(Ranged,3,u)) then(moveToUnit(Heavy,Enemy,mostHealthy,u) attack(Ranged,weakest,u)) else(attack(Ranged,closest,u))) for(u) ((Z) attack(Heavy,lessHealthy,u)) (Z)
+
+Ganhador 21
+script 0 = attack(Heavy,closest) (Z) if(HaveUnitsToDistantToEnemy(Worker,12)) then((Z)) else(attack(Ranged,closest)) if(HaveQtdUnitsAttacking(Heavy,18)) then((Z)) (Z)
+script 1 = for(u) (if(HaveQtdUnitsAttacking(Worker,6,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveUnitsToDistantToEnemy(Heavy,10,u)) then(attack(Heavy,closest,u)) else(attack(Heavy,mostHealthy,u)))
+
+Ganhador 22
+script 0 = for(u) (attack(Ranged,closest,u)) for(u) (attack(Heavy,closest,u)) (Z)
+script 1 = (Z) for(u) (if(HaveQtdUnitsbyType(Ranged,3,u)) then(attack(Ranged,closest,u) moveToUnit(Heavy,Enemy,closest,u) (Z)) else(attack(Heavy,closest,u)))
+
+Ganhador 23
+script 0 = (Z) for(u) (attack(Ranged,closest,u)) for(u) (if(HaveQtdUnitsAttacking(Light,10,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Light,6,u)) then((Z)) if(HaveUnitsinEnemyRange(Heavy,u)) then((Z)) else((Z)))
+script 1 = for(u) (attack(Ranged,closest,u)) for(u) (attack(Heavy,closest,u)) (Z)
+
+Ganhador 24
+script 0 = for(u) (if(HaveQtdUnitsbyType(Worker,1,u)) then((Z)) else(attack(Heavy,closest,u))) moveToUnit(Ranged,Enemy,weakest) for(u) ((Z)) (Z) (Z) moveToUnit(Ranged,Ally,lessHealthy) attack(Ranged,lessHealthy)
+script 1 = for(u) (moveToUnit(Heavy,Ally,mostHealthy,u) attack(Heavy,closest,u)) (Z) for(u) (if(HaveUnitsToDistantToEnemy(Ranged,5,u)) then(attack(Ranged,closest,u)) (Z))
+
+Ganhador 25
+script 0 = if(HaveQtdUnitsAttacking(Heavy,15)) then((Z)) if(HaveUnitsToDistantToEnemy(Ranged,3)) then((Z)) else(moveToUnit(Ranged,Ally,mostHealthy) attack(Ranged,closest)) attack(Heavy,closest) attack(Heavy,lessHealthy)
+script 1 = if(HaveQtdUnitsbyType(Worker,6)) then((Z)) else(attack(Heavy,closest) attack(Ranged,closest))
+
+Ganhador 26
+script 0 = if(HaveQtdEnemiesbyType(Ranged,15)) then((Z)) else(attack(Heavy,closest)) (Z) (Z) if(HaveUnitsToDistantToEnemy(Ranged,8)) then(attack(Ranged,closest))
+script 1 = for(u) ((Z)) if(HaveUnitsToDistantToEnemy(Light,13)) then((Z)) attack(Heavy,closest) for(u) ((Z)) for(u) (attack(Ranged,closest,u))
+
+Ganhador 27
+script 0 = attack(Heavy,closest) for(u) (if(HaveQtdEnemiesbyType(Light,9,u)) then((Z)) else((Z)) if(HaveQtdUnitsbyType(Worker,1,u)) then((Z))) (Z) attack(Ranged,closest)
+script 1 = for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u))
+
+Ganhador 28
+script 0 = moveToUnit(Heavy,Enemy,closest) for(u) (if(HaveQtdEnemiesbyType(Heavy,14,u)) then((Z)) else(attack(Heavy,closest,u)) moveToUnit(Ranged,Ally,lessHealthy,u) moveToUnit(Ranged,Ally,strongest,u)) if(HaveQtdEnemiesbyType(Worker,12)) then((Z)) else(attack(Ranged,closest)) (Z) (Z)
+script 1 = attack(Heavy,closest) (Z) for(u) (attack(Ranged,closest,u))
+
+Ganhador 29
+script 0 = for(u) ((Z) if(HaveUnitsToDistantToEnemy(Heavy,19,u)) then(attack(Heavy,closest,u)) else(attack(Ranged,closest,u)))
+script 1 = for(u) ((Z) attack(Ranged,closest,u)) (Z) if(HaveUnitsinEnemyRange(Heavy)) then(attack(Heavy,closest)) else(moveToUnit(Heavy,Enemy,farthest))
+
+Ganhador 30
+script 0 = for(u) (attack(Heavy,weakest,u) attack(Ranged,strongest,u))
+script 1 = attack(Heavy,closest) attack(Ranged,closest) (Z)
+
+Ganhador 31
+script 0 = (Z) for(u) (attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Heavy,12)) then((Z)) for(u) (if(HaveQtdUnitsbyType(Ranged,20,u)) then((Z)) else(attack(Ranged,closest,u)))
+script 1 = if(HaveUnitsToDistantToEnemy(Worker,20)) then((Z)) else(attack(Ranged,closest)) for(u) (attack(Heavy,closest,u))
+
+Ganhador 32
+script 0 = attack(Ranged,closest) attack(Heavy,closest) if(HaveQtdEnemiesbyType(Ranged,11)) then((Z))
+script 1 = for(u) (attack(Heavy,closest,u)) for(u) (attack(Ranged,closest,u))
+
+Ganhador 33
+script 0 = attack(Heavy,weakest) (Z) if(HaveQtdUnitsAttacking(Heavy,4)) then(moveToUnit(Ranged,Ally,strongest)) else(attack(Ranged,closest))
+script 1 = for(u) (attack(Heavy,closest,u)) for(u) (if(HaveQtdEnemiesbyType(Heavy,7,u)) then((Z)) else(moveToUnit(Ranged,Ally,weakest,u) attack(Ranged,closest,u)) (Z))
+
+Ganhador 34
+script 0 = for(u) (if(HaveQtdUnitsAttacking(Ranged,8,u)) then((Z)) if(HaveUnitsToDistantToEnemy(Worker,2,u)) then((Z)) else(attack(Ranged,closest,u) attack(Heavy,strongest,u))) (Z) for(u) (if(HaveUnitsToDistantToEnemy(Heavy,13,u)) then((Z)) else((Z))) (Z)
+script 1 = for(u) (attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Worker,17)) then((Z)) else((Z)) (Z) for(u) (attack(Ranged,closest,u)) for(u) (if(HaveUnitsToDistantToEnemy(Light,11,u)) then((Z)))
+
+Ganhador 35
+script 0 = (Z) for(u) (attack(Heavy,closest,u) if(HaveQtdUnitsbyType(Light,5,u)) then((Z)) else(moveToUnit(Ranged,Ally,weakest,u)) if(HaveQtdEnemiesbyType(Ranged,1,u)) then((Z)) else(attack(Ranged,closest,u)))
+script 1 = if(HaveQtdUnitsAttacking(Light,12)) then((Z)) else(moveToUnit(Ranged,Enemy,weakest)) attack(Ranged,closest) if(HaveUnitsToDistantToEnemy(Heavy,3)) then(attack(Heavy,closest)) if(HaveQtdUnitsbyType(Light,10)) then((Z)) moveToUnit(Heavy,Ally,weakest) if(HaveQtdEnemiesbyType(Heavy,1)) then(moveToUnit(Heavy,Enemy,lessHealthy))
+
+Ganhador 36
+script 0 = if(HaveUnitsToDistantToEnemy(Worker,4)) then((Z)) attack(Heavy,closest) attack(Ranged,closest) (Z) (Z)
+script 1 = for(u) (if(HaveQtdUnitsbyType(Light,3,u)) then((Z)) else(attack(Ranged,closest,u))) if(HaveQtdUnitsbyType(Light,16)) then((Z)) for(u) (if(HaveQtdUnitsbyType(Light,10,u)) then((Z)) else(attack(Heavy,closest,u)) (Z)) (Z)
+
+Ganhador 37
+script 0 = for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u))
+script 1 = for(u) (if(HaveUnitsToDistantToEnemy(Heavy,4,u)) then(attack(Heavy,closest,u)) else(attack(Ranged,closest,u) moveToUnit(Heavy,Ally,farthest,u)) (Z))
+
+Ganhador 38
+script 0 = if(HaveUnitsToDistantToEnemy(Worker,15)) then((Z)) attack(Heavy,closest) (Z) attack(Ranged,closest) for(u) (if(HaveQtdUnitsbyType(Worker,20,u)) then((Z)))
+script 1 = moveToUnit(Heavy,Enemy,strongest) for(u) (attack(Ranged,closest,u)) if(HaveQtdUnitsHarversting(15)) then((Z)) else(attack(Heavy,strongest) (Z))
+
+Ganhador 39
+script 0 = for(u) (moveToUnit(Ranged,Enemy,lessHealthy,u) attack(Ranged,closest,u)) for(u) (if(HaveQtdUnitsAttacking(Worker,12,u)) then((Z)) else(attack(Heavy,closest,u) attack(Heavy,mostHealthy,u))) (Z) (Z)
+script 1 = for(u) (if(HaveQtdUnitsbyType(Worker,11,u)) then((Z)) else(attack(Heavy,closest,u))) for(u) (moveToUnit(Heavy,Ally,lessHealthy,u) attack(Ranged,closest,u))
+
+Ganhador 40
+script 0 = for(u) (if(HaveUnitsToDistantToEnemy(Heavy,3,u)) then(attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Worker,6,u)) then((Z)) else(attack(Ranged,closest,u) moveToUnit(Heavy,Ally,weakest,u))) if(HaveQtdUnitsAttacking(Heavy,12)) then((Z)) (Z) (Z)
+script 1 = for(u) (if(HaveUnitsToDistantToEnemy(Light,4,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Light,13,u)) then((Z)) else(moveToUnit(Ranged,Ally,strongest,u))) (Z) for(u) (if(HaveQtdUnitsAttacking(Heavy,13,u)) then((Z)) attack(Ranged,weakest,u)) for(u) ((Z)) (Z)
+
+Ganhador 41
+script 0 = for(u) (if(HaveQtdUnitsAttacking(Worker,9,u)) then((Z)) else(attack(Heavy,closest,u) attack(Ranged,closest,u)) if(HaveQtdEnemiesbyType(Heavy,19,u)) then((Z)))
+script 1 = (Z) (Z) (Z) for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u)) (Z)
+
+Ganhador 42
+script 0 = for(u) (if(HaveQtdUnitsbyType(Ranged,16,u)) then((Z)) else(attack(Heavy,closest,u) attack(Ranged,closest,u)))
+script 1 = for(u) (attack(Ranged,closest,u)) if(HaveQtdUnitsAttacking(Ranged,10)) then((Z)) else((Z)) attack(Heavy,closest) (Z)
+
+Ganhador 43
+script 0 = for(u) (if(HaveUnitsToDistantToEnemy(Light,10,u)) then((Z)) else(attack(Heavy,weakest,u) attack(Ranged,closest,u))) (Z)
+script 1 = for(u) (if(HaveQtdEnemiesbyType(Worker,16,u)) then((Z)) else(attack(Heavy,closest,u))) for(u) (if(HaveQtdUnitsAttacking(Heavy,14,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveQtdUnitsAttacking(Ranged,15,u)) then((Z)))
+
+Ganhador 44
+script 0 = if(HaveQtdUnitsAttacking(Heavy,3)) then((Z)) else(moveToUnit(Ranged,Enemy,closest) attack(Heavy,closest)) if(HaveQtdEnemiesbyType(Heavy,3)) then(attack(Ranged,lessHealthy))
+script 1 = for(u) (if(HaveUnitsToDistantToEnemy(Worker,3,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveQtdUnitsbyType(Light,7,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveQtdUnitsAttacking(Light,15,u)) then((Z)) (Z))
+
+Ganhador 45
+script 0 = for(u) ((Z)) for(u) (moveToUnit(Heavy,Enemy,strongest,u) moveToUnit(Heavy,Enemy,farthest,u) (Z) if(HaveUnitsStrongest(Heavy,u)) then((Z)) else(attack(Ranged,closest,u))) (Z) (Z)
+script 1 = (Z) (Z) for(u) (moveToUnit(Heavy,Enemy,closest,u) attack(Heavy,lessHealthy,u) attack(Ranged,weakest,u) (Z))
+
+Ganhador 46
+script 0 = for(u) (moveToUnit(Heavy,Ally,strongest,u) moveToUnit(Heavy,Ally,weakest,u)) if(HaveQtdUnitsbyType(Ranged,9)) then((Z)) else(attack(Ranged,closest)) for(u) ((Z)) (Z) if(HaveUnitsToDistantToEnemy(Heavy,7)) then(attack(Heavy,lessHealthy))
+script 1 = (Z) for(u) (if(HaveQtdUnitsbyType(Ranged,14,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Worker,2,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveQtdUnitsbyType(Worker,6,u)) then((Z)))
+
+Ganhador 47
+script 0 = for(u) (if(HaveQtdUnitsbyType(Ranged,1,u)) then(attack(Ranged,closest,u)) attack(Heavy,closest,u)) for(u) (if(HaveUnitsToDistantToEnemy(Worker,13,u)) then((Z))) (Z) (Z)
+script 1 = for(u) (if(HaveUnitsToDistantToEnemy(Heavy,19,u)) then(attack(Heavy,closest,u)) else(moveToUnit(Ranged,Enemy,lessHealthy,u))) if(HaveQtdUnitsAttacking(Light,15)) then((Z)) else(attack(Ranged,closest)) (Z) (Z) (Z)
+
+Ganhador 48
+script 0 = (Z) for(u) (if(HaveUnitsToDistantToEnemy(Worker,3,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveUnitsToDistantToEnemy(Heavy,20,u)) then(attack(Heavy,closest,u))) (Z)
+script 1 = for(u) (if(HaveUnitsToDistantToEnemy(Worker,8,u)) then((Z)) else(attack(Ranged,closest,u) attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Light,3,u)) then((Z)) else((Z)))
+
+Ganhador 49
+script 0 = for(u) (if(HaveQtdUnitsAttacking(Ranged,1,u)) then(moveToUnit(Heavy,Ally,strongest,u)) else(attack(Heavy,closest,u))) (Z) attack(Heavy,lessHealthy) attack(Ranged,closest) if(HaveQtdEnemiesbyType(Heavy,17)) then((Z)) (Z)
+script 1 = if(HaveUnitsToDistantToEnemy(Light,19)) then((Z)) for(u) (if(HaveUnitsStrongest(Worker,u)) then((Z)) else(attack(Heavy,mostHealthy,u)) if(HaveQtdUnitsbyType(Ranged,11,u)) then((Z)) if(HaveQtdUnitsAttacking(Light,10,u)) then((Z)) else(moveToUnit(Heavy,Ally,strongest,u))) for(u) (if(HaveQtdUnitsAttacking(Ranged,8,u)) then((Z)) else(moveToUnit(Ranged,Ally,lessHealthy,u))) if(HaveQtdUnitsAttacking(Worker,3)) then((Z)) else(attack(Ranged,closest)) (Z)
+
+TempoLSBU  = 7223.353
+Camp;(Z) for(u) (if(HaveQtdUnitsAttacking(Heavy,9,u)) then((Z)) if(HaveUnitsToDistantToEnemy(Heavy,15,u)) then(attack(Heavy,closest,u)) else(attack(Ranged,closest,u)));144.495
+Camp;if(HaveUnitsToDistantToEnemy(Ranged,19)) then(attack(Ranged,closest)) (Z) for(u) (attack(Heavy,closest,u) (Z));144.495
+Camp;for(u) (if(HaveUnitsToDistantToEnemy(Heavy,11,u)) then(attack(Heavy,closest,u)) if(HaveQtdUnitsAttacking(Worker,14,u)) then((Z)) else(attack(Ranged,lessHealthy,u))) if(HaveQtdUnitsbyType(Worker,10)) then((Z)) else(moveToUnit(Heavy,Enemy,farthest)) if(HaveQtdEnemiesbyType(Light,12)) then((Z));324.321
+Camp;(Z) for(u) (if(HaveQtdUnitsbyType(Ranged,6,u)) then((Z)) else((Z)) if(HaveQtdEnemiesbyType(Light,17,u)) then((Z)) else(attack(Heavy,closest,u))) for(u) (if(HaveQtdEnemiesbyType(Light,9,u)) then((Z)) else((Z)) moveToUnit(Heavy,Ally,lessHealthy,u) attack(Ranged,lessHealthy,u) if(HaveQtdUnitsHarversting(7,u)) then((Z)));324.321
+Camp;for(u) (attack(Ranged,closest,u)) (Z) for(u) (attack(Heavy,closest,u));446.222
+Camp;for(u) (if(HaveQtdUnitsbyType(Worker,12,u)) then((Z)) else(attack(Heavy,closest,u)) attack(Ranged,closest,u));446.222
+Camp;for(u) (if(HaveQtdUnitsHarversting(5,u)) then((Z)) else(moveToUnit(Heavy,Ally,lessHealthy,u) attack(Ranged,closest,u)) moveToUnit(Heavy,Ally,mostHealthy,u) if(HaveUnitsToDistantToEnemy(Worker,6,u)) then((Z)) else(attack(Heavy,closest,u))) (Z);642.31
+Camp;if(HaveQtdUnitsbyType(Light,3)) then((Z)) else(attack(Heavy,closest)) for(u) ((Z)) for(u) (attack(Ranged,closest,u)) (Z);642.31
+Camp;(Z) for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u) (Z) if(HaveQtdUnitsAttacking(Ranged,13,u)) then((Z)) else((Z))) if(HaveUnitsToDistantToEnemy(Light,3)) then((Z));770.308
+Camp;for(u) (if(HaveUnitsToDistantToEnemy(Ranged,11,u)) then(attack(Ranged,closest,u))) attack(Heavy,closest);770.308
+Camp;for(u) (attack(Heavy,mostHealthy,u) (Z)) (Z) if(HaveEnemiesinUnitsRange(Ranged)) then(attack(Ranged,farthest));861.894
+Camp;for(u) (if(HaveEnemiesinUnitsRange(Ranged,u)) then((Z)) else(attack(Heavy,mostHealthy,u))) (Z) attack(Ranged,closest);861.894
+Camp;(Z) (Z) (Z) (Z) for(u) (if(HaveQtdEnemiesbyType(Ranged,1,u)) then(attack(Ranged,strongest,u)) else(moveToUnit(Heavy,Ally,weakest,u)) if(HaveQtdUnitsAttacking(Worker,7,u)) then((Z)) else(attack(Heavy,closest,u)));1020.136
+Camp;if(HaveUnitsToDistantToEnemy(Light,16)) then((Z)) else(attack(Heavy,closest)) for(u) (attack(Ranged,closest,u)) (Z) (Z) for(u) (if(HaveQtdUnitsbyType(Ranged,4,u)) then((Z)));1020.136
+Camp;if(HaveUnitsToDistantToEnemy(Heavy,17)) then(attack(Heavy,closest)) attack(Ranged,closest);1105.648
+Camp;(Z) attack(Heavy,mostHealthy) if(HaveUnitsToDistantToEnemy(Ranged,17)) then(attack(Ranged,mostHealthy));1105.648
+Camp;(Z) if(HaveQtdEnemiesbyType(Heavy,19)) then((Z)) else(moveToUnit(Ranged,Enemy,strongest) attack(Heavy,mostHealthy)) attack(Ranged,closest);1215.526
+Camp;attack(Ranged,mostHealthy) if(HaveQtdUnitsbyType(Ranged,1)) then((Z)) else(attack(Heavy,mostHealthy));1215.526
+Camp;if(HaveUnitsToDistantToEnemy(Heavy,10)) then(attack(Heavy,closest)) for(u) (attack(Ranged,lessHealthy,u) attack(Heavy,farthest,u));1340.244
+Camp;attack(Heavy,closest) for(u) (if(HaveQtdUnitsHarversting(4,u)) then((Z)) else(attack(Ranged,closest,u))) (Z);1340.244
+Camp;for(u) (if(HaveQtdUnitsAttacking(Ranged,17,u)) then((Z)) else(attack(Ranged,closest,u))) for(u) (if(HaveUnitsToDistantToEnemy(Heavy,9,u)) then(attack(Heavy,closest,u)) else(attack(Heavy,strongest,u)));1552.906
+Camp;attack(Heavy,closest) (Z) if(HaveUnitsToDistantToEnemy(Ranged,5)) then((Z)) else(moveToUnit(Ranged,Ally,strongest)) attack(Ranged,closest);1552.906
+Camp;for(u) (if(HaveQtdUnitsAttacking(Light,9,u)) then((Z)) else((Z)) (Z)) (Z) attack(Ranged,strongest) for(u) (attack(Heavy,weakest,u) if(HaveQtdEnemiesbyType(Ranged,15,u)) then((Z)) else(moveToUnit(Heavy,Enemy,strongest,u)));1698.691
+Camp;(Z) for(u) (if(HaveQtdEnemiesbyType(Light,9,u)) then((Z)) else(moveToUnit(Ranged,Ally,mostHealthy,u)) if(HaveUnitsToDistantToEnemy(Heavy,18,u)) then((Z)) else(attack(Ranged,closest,u)) attack(Heavy,closest,u));1698.691
+Camp;for(u) (if(HaveQtdUnitsAttacking(Ranged,2,u)) then(attack(Ranged,mostHealthy,u)) else(attack(Heavy,closest,u)) attack(Ranged,lessHealthy,u)) (Z) for(u) (moveToUnit(Heavy,Ally,mostHealthy,u)) for(u) ((Z) attack(Heavy,closest,u));1853.753
+Camp;if(HaveQtdUnitsbyType(Worker,8)) then((Z)) else(attack(Heavy,closest)) for(u) (if(HaveQtdEnemiesbyType(Light,18,u)) then((Z)) else(attack(Ranged,weakest,u))) (Z);1853.753
+Camp;if(HaveUnitsinEnemyRange(Light)) then((Z)) else(attack(Ranged,closest)) for(u) (if(HaveQtdUnitsAttacking(Ranged,4,u)) then((Z)) else(attack(Heavy,closest,u)) moveToUnit(Heavy,Ally,mostHealthy,u)) (Z) (Z) (Z);2020.494
+Camp;for(u) (if(HaveQtdUnitsbyType(Light,12,u)) then((Z)) else(attack(Ranged,closest,u)) attack(Heavy,closest,u)) (Z);2020.494
+Camp;if(HaveQtdEnemiesbyType(Heavy,3)) then(attack(Ranged,closest)) (Z) if(HaveUnitsinEnemyRange(Worker)) then((Z)) else(attack(Heavy,closest));2140.333
+Camp;for(u) (moveToUnit(Ranged,Enemy,closest,u) attack(Ranged,closest,u) if(HaveUnitsToDistantToEnemy(Worker,11,u)) then((Z)) else(attack(Heavy,closest,u))) (Z) (Z) for(u) (if(HaveQtdUnitsAttacking(Heavy,12,u)) then((Z)));2140.333
+Camp;for(u) (attack(Heavy,closest,u) if(HaveQtdUnitsAttacking(Worker,7,u)) then((Z)) else((Z))) (Z) moveToUnit(Ranged,Ally,weakest) attack(Ranged,closest);2337.269
+Camp;for(u) (attack(Ranged,closest,u)) (Z) (Z) for(u) (attack(Heavy,closest,u)) (Z);2337.269
+Camp;for(u) (attack(Heavy,weakest,u) if(HaveQtdUnitsAttacking(Heavy,2,u)) then(moveToUnit(Ranged,Enemy,closest,u)) moveToUnit(Ranged,Enemy,closest,u) attack(Ranged,closest,u)) for(u) (if(HaveUnitsToDistantToEnemy(Ranged,13,u)) then((Z)));2469.119
+Camp;for(u) ((Z) attack(Heavy,closest,u) attack(Ranged,closest,u)) (Z) (Z);2469.119
+Camp;for(u) (attack(Heavy,closest,u) if(HaveQtdEnemiesbyType(Heavy,2,u)) then((Z)) else(moveToUnit(Ranged,Ally,farthest,u) (Z)) if(HaveQtdEnemiesbyType(Ranged,12,u)) then((Z)) else(attack(Ranged,closest,u)));2597.292
+Camp;for(u) (attack(Heavy,closest,u) moveToUnit(Heavy,Enemy,farthest,u) attack(Ranged,closest,u));2597.292
+Camp;(Z) if(HaveQtdUnitsbyType(Ranged,20)) then((Z)) else(attack(Heavy,closest) attack(Ranged,closest));2669.397
+Camp;for(u) (if(HaveUnitsToDistantToEnemy(Ranged,14,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Worker,4,u)) then((Z)) else(attack(Ranged,closest,u))) (Z);2669.397
+Camp;for(u) (if(HaveUnitsToDistantToEnemy(Ranged,20,u)) then(attack(Ranged,closest,u)) attack(Heavy,closest,u)) for(u) (if(HaveQtdUnitsAttacking(Heavy,12,u)) then((Z))) for(u) (if(HaveQtdUnitsbyType(Ranged,12,u)) then((Z)));2778.821
+Camp;attack(Ranged,weakest) attack(Heavy,closest) moveToUnit(Heavy,Ally,weakest) (Z);2778.821
+Camp;if(HaveUnitsToDistantToEnemy(Ranged,10)) then(attack(Ranged,closest)) else(attack(Heavy,closest)) attack(Ranged,weakest) (Z) for(u) (if(HaveQtdUnitsAttacking(Worker,14,u)) then((Z)) else(moveToUnit(Heavy,Enemy,farthest,u))) (Z) (Z);2929.002
+Camp;(Z) for(u) (if(HaveQtdUnitsAttacking(Ranged,3,u)) then(moveToUnit(Heavy,Enemy,mostHealthy,u) attack(Ranged,weakest,u)) else(attack(Ranged,closest,u))) for(u) ((Z) attack(Heavy,lessHealthy,u)) (Z);2929.002
+Camp;attack(Heavy,closest) (Z) if(HaveUnitsToDistantToEnemy(Worker,12)) then((Z)) else(attack(Ranged,closest)) if(HaveQtdUnitsAttacking(Heavy,18)) then((Z)) (Z);3133.545
+Camp;for(u) (if(HaveQtdUnitsAttacking(Worker,6,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveUnitsToDistantToEnemy(Heavy,10,u)) then(attack(Heavy,closest,u)) else(attack(Heavy,mostHealthy,u)));3133.545
+Camp;for(u) (attack(Ranged,closest,u)) for(u) (attack(Heavy,closest,u)) (Z);3257.819
+Camp;(Z) for(u) (if(HaveQtdUnitsbyType(Ranged,3,u)) then(attack(Ranged,closest,u) moveToUnit(Heavy,Enemy,closest,u) (Z)) else(attack(Heavy,closest,u)));3257.819
+Camp;(Z) for(u) (attack(Ranged,closest,u)) for(u) (if(HaveQtdUnitsAttacking(Light,10,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Light,6,u)) then((Z)) if(HaveUnitsinEnemyRange(Heavy,u)) then((Z)) else((Z)));3457.569
+Camp;for(u) (attack(Ranged,closest,u)) for(u) (attack(Heavy,closest,u)) (Z);3457.569
+Camp;for(u) (if(HaveQtdUnitsbyType(Worker,1,u)) then((Z)) else(attack(Heavy,closest,u))) moveToUnit(Ranged,Enemy,weakest) for(u) ((Z)) (Z) (Z) moveToUnit(Ranged,Ally,lessHealthy) attack(Ranged,lessHealthy);3634.692
+Camp;for(u) (moveToUnit(Heavy,Ally,mostHealthy,u) attack(Heavy,closest,u)) (Z) for(u) (if(HaveUnitsToDistantToEnemy(Ranged,5,u)) then(attack(Ranged,closest,u)) (Z));3634.692
+Camp;if(HaveQtdUnitsAttacking(Heavy,15)) then((Z)) if(HaveUnitsToDistantToEnemy(Ranged,3)) then((Z)) else(moveToUnit(Ranged,Ally,mostHealthy) attack(Ranged,closest)) attack(Heavy,closest) attack(Heavy,lessHealthy);3734.737
+Camp;if(HaveQtdUnitsbyType(Worker,6)) then((Z)) else(attack(Heavy,closest) attack(Ranged,closest));3734.737
+Camp;if(HaveQtdEnemiesbyType(Ranged,15)) then((Z)) else(attack(Heavy,closest)) (Z) (Z) if(HaveUnitsToDistantToEnemy(Ranged,8)) then(attack(Ranged,closest));3888.861
+Camp;for(u) ((Z)) if(HaveUnitsToDistantToEnemy(Light,13)) then((Z)) attack(Heavy,closest) for(u) ((Z)) for(u) (attack(Ranged,closest,u));3888.861
+Camp;attack(Heavy,closest) for(u) (if(HaveQtdEnemiesbyType(Light,9,u)) then((Z)) else((Z)) if(HaveQtdUnitsbyType(Worker,1,u)) then((Z))) (Z) attack(Ranged,closest);4000.611
+Camp;for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u));4000.611
+Camp;moveToUnit(Heavy,Enemy,closest) for(u) (if(HaveQtdEnemiesbyType(Heavy,14,u)) then((Z)) else(attack(Heavy,closest,u)) moveToUnit(Ranged,Ally,lessHealthy,u) moveToUnit(Ranged,Ally,strongest,u)) if(HaveQtdEnemiesbyType(Worker,12)) then((Z)) else(attack(Ranged,closest)) (Z) (Z);4158.72
+Camp;attack(Heavy,closest) (Z) for(u) (attack(Ranged,closest,u));4158.72
+Camp;for(u) ((Z) if(HaveUnitsToDistantToEnemy(Heavy,19,u)) then(attack(Heavy,closest,u)) else(attack(Ranged,closest,u)));4316.475
+Camp;for(u) ((Z) attack(Ranged,closest,u)) (Z) if(HaveUnitsinEnemyRange(Heavy)) then(attack(Heavy,closest)) else(moveToUnit(Heavy,Enemy,farthest));4316.475
+Camp;for(u) (attack(Heavy,weakest,u) attack(Ranged,strongest,u));4430.968
+Camp;attack(Heavy,closest) attack(Ranged,closest) (Z);4430.968
+Camp;(Z) for(u) (attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Heavy,12)) then((Z)) for(u) (if(HaveQtdUnitsbyType(Ranged,20,u)) then((Z)) else(attack(Ranged,closest,u)));4576.561
+Camp;if(HaveUnitsToDistantToEnemy(Worker,20)) then((Z)) else(attack(Ranged,closest)) for(u) (attack(Heavy,closest,u));4576.561
+Camp;attack(Ranged,closest) attack(Heavy,closest) if(HaveQtdEnemiesbyType(Ranged,11)) then((Z));4740.778
+Camp;for(u) (attack(Heavy,closest,u)) for(u) (attack(Ranged,closest,u));4740.778
+Camp;attack(Heavy,weakest) (Z) if(HaveQtdUnitsAttacking(Heavy,4)) then(moveToUnit(Ranged,Ally,strongest)) else(attack(Ranged,closest));4847.256
+Camp;for(u) (attack(Heavy,closest,u)) for(u) (if(HaveQtdEnemiesbyType(Heavy,7,u)) then((Z)) else(moveToUnit(Ranged,Ally,weakest,u) attack(Ranged,closest,u)) (Z));4847.256
+Camp;for(u) (if(HaveQtdUnitsAttacking(Ranged,8,u)) then((Z)) if(HaveUnitsToDistantToEnemy(Worker,2,u)) then((Z)) else(attack(Ranged,closest,u) attack(Heavy,strongest,u))) (Z) for(u) (if(HaveUnitsToDistantToEnemy(Heavy,13,u)) then((Z)) else((Z))) (Z);4979.311
+Camp;for(u) (attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Worker,17)) then((Z)) else((Z)) (Z) for(u) (attack(Ranged,closest,u)) for(u) (if(HaveUnitsToDistantToEnemy(Light,11,u)) then((Z)));4979.311
+Camp;(Z) for(u) (attack(Heavy,closest,u) if(HaveQtdUnitsbyType(Light,5,u)) then((Z)) else(moveToUnit(Ranged,Ally,weakest,u)) if(HaveQtdEnemiesbyType(Ranged,1,u)) then((Z)) else(attack(Ranged,closest,u)));5091.613
+Camp;if(HaveQtdUnitsAttacking(Light,12)) then((Z)) else(moveToUnit(Ranged,Enemy,weakest)) attack(Ranged,closest) if(HaveUnitsToDistantToEnemy(Heavy,3)) then(attack(Heavy,closest)) if(HaveQtdUnitsbyType(Light,10)) then((Z)) moveToUnit(Heavy,Ally,weakest) if(HaveQtdEnemiesbyType(Heavy,1)) then(moveToUnit(Heavy,Enemy,lessHealthy));5091.613
+Camp;if(HaveUnitsToDistantToEnemy(Worker,4)) then((Z)) attack(Heavy,closest) attack(Ranged,closest) (Z) (Z);5215.386
+Camp;for(u) (if(HaveQtdUnitsbyType(Light,3,u)) then((Z)) else(attack(Ranged,closest,u))) if(HaveQtdUnitsbyType(Light,16)) then((Z)) for(u) (if(HaveQtdUnitsbyType(Light,10,u)) then((Z)) else(attack(Heavy,closest,u)) (Z)) (Z);5215.386
+Camp;for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u));5348.76
+Camp;for(u) (if(HaveUnitsToDistantToEnemy(Heavy,4,u)) then(attack(Heavy,closest,u)) else(attack(Ranged,closest,u) moveToUnit(Heavy,Ally,farthest,u)) (Z));5348.76
+Camp;if(HaveUnitsToDistantToEnemy(Worker,15)) then((Z)) attack(Heavy,closest) (Z) attack(Ranged,closest) for(u) (if(HaveQtdUnitsbyType(Worker,20,u)) then((Z)));5468.403
+Camp;moveToUnit(Heavy,Enemy,strongest) for(u) (attack(Ranged,closest,u)) if(HaveQtdUnitsHarversting(15)) then((Z)) else(attack(Heavy,strongest) (Z));5468.403
+Camp;for(u) (moveToUnit(Ranged,Enemy,lessHealthy,u) attack(Ranged,closest,u)) for(u) (if(HaveQtdUnitsAttacking(Worker,12,u)) then((Z)) else(attack(Heavy,closest,u) attack(Heavy,mostHealthy,u))) (Z) (Z);5598.128
+Camp;for(u) (if(HaveQtdUnitsbyType(Worker,11,u)) then((Z)) else(attack(Heavy,closest,u))) for(u) (moveToUnit(Heavy,Ally,lessHealthy,u) attack(Ranged,closest,u));5598.128
+Camp;for(u) (if(HaveUnitsToDistantToEnemy(Heavy,3,u)) then(attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Worker,6,u)) then((Z)) else(attack(Ranged,closest,u) moveToUnit(Heavy,Ally,weakest,u))) if(HaveQtdUnitsAttacking(Heavy,12)) then((Z)) (Z) (Z);5810.302
+Camp;for(u) (if(HaveUnitsToDistantToEnemy(Light,4,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Light,13,u)) then((Z)) else(moveToUnit(Ranged,Ally,strongest,u))) (Z) for(u) (if(HaveQtdUnitsAttacking(Heavy,13,u)) then((Z)) attack(Ranged,weakest,u)) for(u) ((Z)) (Z);5810.302
+Camp;for(u) (if(HaveQtdUnitsAttacking(Worker,9,u)) then((Z)) else(attack(Heavy,closest,u) attack(Ranged,closest,u)) if(HaveQtdEnemiesbyType(Heavy,19,u)) then((Z)));5938.935
+Camp;(Z) (Z) (Z) for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u)) (Z);5938.935
+Camp;for(u) (if(HaveQtdUnitsbyType(Ranged,16,u)) then((Z)) else(attack(Heavy,closest,u) attack(Ranged,closest,u)));6047.646
+Camp;for(u) (attack(Ranged,closest,u)) if(HaveQtdUnitsAttacking(Ranged,10)) then((Z)) else((Z)) attack(Heavy,closest) (Z);6047.646
+Camp;for(u) (if(HaveUnitsToDistantToEnemy(Light,10,u)) then((Z)) else(attack(Heavy,weakest,u) attack(Ranged,closest,u))) (Z);6132.316
+Camp;for(u) (if(HaveQtdEnemiesbyType(Worker,16,u)) then((Z)) else(attack(Heavy,closest,u))) for(u) (if(HaveQtdUnitsAttacking(Heavy,14,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveQtdUnitsAttacking(Ranged,15,u)) then((Z)));6132.316
+Camp;if(HaveQtdUnitsAttacking(Heavy,3)) then((Z)) else(moveToUnit(Ranged,Enemy,closest) attack(Heavy,closest)) if(HaveQtdEnemiesbyType(Heavy,3)) then(attack(Ranged,lessHealthy));6321.807
+Camp;for(u) (if(HaveUnitsToDistantToEnemy(Worker,3,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveQtdUnitsbyType(Light,7,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveQtdUnitsAttacking(Light,15,u)) then((Z)) (Z));6321.807
+Camp;for(u) ((Z)) for(u) (moveToUnit(Heavy,Enemy,strongest,u) moveToUnit(Heavy,Enemy,farthest,u) (Z) if(HaveUnitsStrongest(Heavy,u)) then((Z)) else(attack(Ranged,closest,u))) (Z) (Z);6414.348
+Camp;(Z) (Z) for(u) (moveToUnit(Heavy,Enemy,closest,u) attack(Heavy,lessHealthy,u) attack(Ranged,weakest,u) (Z));6414.348
+Camp;for(u) (moveToUnit(Heavy,Ally,strongest,u) moveToUnit(Heavy,Ally,weakest,u)) if(HaveQtdUnitsbyType(Ranged,9)) then((Z)) else(attack(Ranged,closest)) for(u) ((Z)) (Z) if(HaveUnitsToDistantToEnemy(Heavy,7)) then(attack(Heavy,lessHealthy));6624.932
+Camp;(Z) for(u) (if(HaveQtdUnitsbyType(Ranged,14,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Worker,2,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveQtdUnitsbyType(Worker,6,u)) then((Z)));6624.932
+Camp;for(u) (if(HaveQtdUnitsbyType(Ranged,1,u)) then(attack(Ranged,closest,u)) attack(Heavy,closest,u)) for(u) (if(HaveUnitsToDistantToEnemy(Worker,13,u)) then((Z))) (Z) (Z);6826.405
+Camp;for(u) (if(HaveUnitsToDistantToEnemy(Heavy,19,u)) then(attack(Heavy,closest,u)) else(moveToUnit(Ranged,Enemy,lessHealthy,u))) if(HaveQtdUnitsAttacking(Light,15)) then((Z)) else(attack(Ranged,closest)) (Z) (Z) (Z);6826.405
+Camp;(Z) for(u) (if(HaveUnitsToDistantToEnemy(Worker,3,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveUnitsToDistantToEnemy(Heavy,20,u)) then(attack(Heavy,closest,u))) (Z);6974.223
+Camp;for(u) (if(HaveUnitsToDistantToEnemy(Worker,8,u)) then((Z)) else(attack(Ranged,closest,u) attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Light,3,u)) then((Z)) else((Z)));6974.223
+Camp;for(u) (if(HaveQtdUnitsAttacking(Ranged,1,u)) then(moveToUnit(Heavy,Ally,strongest,u)) else(attack(Heavy,closest,u))) (Z) attack(Heavy,lessHealthy) attack(Ranged,closest) if(HaveQtdEnemiesbyType(Heavy,17)) then((Z)) (Z);7145.262
+Camp;if(HaveUnitsToDistantToEnemy(Light,19)) then((Z)) for(u) (if(HaveUnitsStrongest(Worker,u)) then((Z)) else(attack(Heavy,mostHealthy,u)) if(HaveQtdUnitsbyType(Ranged,11,u)) then((Z)) if(HaveQtdUnitsAttacking(Light,10,u)) then((Z)) else(moveToUnit(Heavy,Ally,strongest,u))) for(u) (if(HaveQtdUnitsAttacking(Ranged,8,u)) then((Z)) else(moveToUnit(Ranged,Ally,lessHealthy,u))) if(HaveQtdUnitsAttacking(Worker,3)) then((Z)) else(attack(Ranged,closest)) (Z);7145.262
+
+
+LSBU
+Ganhadores 0 n = 100
+58.5 (Z) for(u) (if(HaveQtdUnitsAttacking(Heavy,9,u)) then((Z)) if(HaveUnitsToDistantToEnemy(Heavy,15,u)) then(attack(Heavy,closest,u)) else(attack(Ranged,closest,u)))
+58.5 if(HaveUnitsToDistantToEnemy(Ranged,19)) then(attack(Ranged,closest)) (Z) for(u) (attack(Heavy,closest,u) (Z))
+71.0 for(u) (if(HaveUnitsToDistantToEnemy(Heavy,11,u)) then(attack(Heavy,closest,u)) if(HaveQtdUnitsAttacking(Worker,14,u)) then((Z)) else(attack(Ranged,lessHealthy,u))) if(HaveQtdUnitsbyType(Worker,10)) then((Z)) else(moveToUnit(Heavy,Enemy,farthest)) if(HaveQtdEnemiesbyType(Light,12)) then((Z))
+-46.253246 (Z) for(u) (if(HaveQtdUnitsbyType(Ranged,6,u)) then((Z)) else((Z)) if(HaveQtdEnemiesbyType(Light,17,u)) then((Z)) else(attack(Heavy,closest,u))) for(u) (if(HaveQtdEnemiesbyType(Light,9,u)) then((Z)) else((Z)) moveToUnit(Heavy,Ally,lessHealthy,u) attack(Ranged,lessHealthy,u) if(HaveQtdUnitsHarversting(7,u)) then((Z)))
+58.5 for(u) (attack(Ranged,closest,u)) (Z) for(u) (attack(Heavy,closest,u))
+58.5 for(u) (if(HaveQtdUnitsbyType(Worker,12,u)) then((Z)) else(attack(Heavy,closest,u)) attack(Ranged,closest,u))
+30.441557 for(u) (if(HaveQtdUnitsHarversting(5,u)) then((Z)) else(moveToUnit(Heavy,Ally,lessHealthy,u) attack(Ranged,closest,u)) moveToUnit(Heavy,Ally,mostHealthy,u) if(HaveUnitsToDistantToEnemy(Worker,6,u)) then((Z)) else(attack(Heavy,closest,u))) (Z)
+58.5 if(HaveQtdUnitsbyType(Light,3)) then((Z)) else(attack(Heavy,closest)) for(u) ((Z)) for(u) (attack(Ranged,closest,u)) (Z)
+58.5 (Z) for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u) (Z) if(HaveQtdUnitsAttacking(Ranged,13,u)) then((Z)) else((Z))) if(HaveUnitsToDistantToEnemy(Light,3)) then((Z))
+58.5 for(u) (if(HaveUnitsToDistantToEnemy(Ranged,11,u)) then(attack(Ranged,closest,u))) attack(Heavy,closest)
+-100.0 for(u) (attack(Heavy,mostHealthy,u) (Z)) (Z) if(HaveEnemiesinUnitsRange(Ranged)) then(attack(Ranged,farthest))
+-66.0 for(u) (if(HaveEnemiesinUnitsRange(Ranged,u)) then((Z)) else(attack(Heavy,mostHealthy,u))) (Z) attack(Ranged,closest)
+-83.57143 (Z) (Z) (Z) (Z) for(u) (if(HaveQtdEnemiesbyType(Ranged,1,u)) then(attack(Ranged,strongest,u)) else(moveToUnit(Heavy,Ally,weakest,u)) if(HaveQtdUnitsAttacking(Worker,7,u)) then((Z)) else(attack(Heavy,closest,u)))
+58.5 if(HaveUnitsToDistantToEnemy(Light,16)) then((Z)) else(attack(Heavy,closest)) for(u) (attack(Ranged,closest,u)) (Z) (Z) for(u) (if(HaveQtdUnitsbyType(Ranged,4,u)) then((Z)))
+58.5 if(HaveUnitsToDistantToEnemy(Heavy,17)) then(attack(Heavy,closest)) attack(Ranged,closest)
+-92.23529 (Z) attack(Heavy,mostHealthy) if(HaveUnitsToDistantToEnemy(Ranged,17)) then(attack(Ranged,mostHealthy))
+-88.0 (Z) if(HaveQtdEnemiesbyType(Heavy,19)) then((Z)) else(moveToUnit(Ranged,Enemy,strongest) attack(Heavy,mostHealthy)) attack(Ranged,closest)
+-97.0 attack(Ranged,mostHealthy) if(HaveQtdUnitsbyType(Ranged,1)) then((Z)) else(attack(Heavy,mostHealthy))
+71.0 if(HaveUnitsToDistantToEnemy(Heavy,10)) then(attack(Heavy,closest)) for(u) (attack(Ranged,lessHealthy,u) attack(Heavy,farthest,u))
+58.5 attack(Heavy,closest) for(u) (if(HaveQtdUnitsHarversting(4,u)) then((Z)) else(attack(Ranged,closest,u))) (Z)
+59.307693 for(u) (if(HaveQtdUnitsAttacking(Ranged,17,u)) then((Z)) else(attack(Ranged,closest,u))) for(u) (if(HaveUnitsToDistantToEnemy(Heavy,9,u)) then(attack(Heavy,closest,u)) else(attack(Heavy,strongest,u)))
+-18.0 attack(Heavy,closest) (Z) if(HaveUnitsToDistantToEnemy(Ranged,5)) then((Z)) else(moveToUnit(Ranged,Ally,strongest)) attack(Ranged,closest)
+-90.5 for(u) (if(HaveQtdUnitsAttacking(Light,9,u)) then((Z)) else((Z)) (Z)) (Z) attack(Ranged,strongest) for(u) (attack(Heavy,weakest,u) if(HaveQtdEnemiesbyType(Ranged,15,u)) then((Z)) else(moveToUnit(Heavy,Enemy,strongest,u)))
+-36.636364 (Z) for(u) (if(HaveQtdEnemiesbyType(Light,9,u)) then((Z)) else(moveToUnit(Ranged,Ally,mostHealthy,u)) if(HaveUnitsToDistantToEnemy(Heavy,18,u)) then((Z)) else(attack(Ranged,closest,u)) attack(Heavy,closest,u))
+80.71429 for(u) (if(HaveQtdUnitsAttacking(Ranged,2,u)) then(attack(Ranged,mostHealthy,u)) else(attack(Heavy,closest,u)) attack(Ranged,lessHealthy,u)) (Z) for(u) (moveToUnit(Heavy,Ally,mostHealthy,u)) for(u) ((Z) attack(Heavy,closest,u))
+-46.253246 if(HaveQtdUnitsbyType(Worker,8)) then((Z)) else(attack(Heavy,closest)) for(u) (if(HaveQtdEnemiesbyType(Light,18,u)) then((Z)) else(attack(Ranged,weakest,u))) (Z)
+91.09341 if(HaveUnitsinEnemyRange(Light)) then((Z)) else(attack(Ranged,closest)) for(u) (if(HaveQtdUnitsAttacking(Ranged,4,u)) then((Z)) else(attack(Heavy,closest,u)) moveToUnit(Heavy,Ally,mostHealthy,u)) (Z) (Z) (Z)
+58.5 for(u) (if(HaveQtdUnitsbyType(Light,12,u)) then((Z)) else(attack(Ranged,closest,u)) attack(Heavy,closest,u)) (Z)
+58.5 if(HaveQtdEnemiesbyType(Heavy,3)) then(attack(Ranged,closest)) (Z) if(HaveUnitsinEnemyRange(Worker)) then((Z)) else(attack(Heavy,closest))
+58.5 for(u) (moveToUnit(Ranged,Enemy,closest,u) attack(Ranged,closest,u) if(HaveUnitsToDistantToEnemy(Worker,11,u)) then((Z)) else(attack(Heavy,closest,u))) (Z) (Z) for(u) (if(HaveQtdUnitsAttacking(Heavy,12,u)) then((Z)))
+56.5 for(u) (attack(Heavy,closest,u) if(HaveQtdUnitsAttacking(Worker,7,u)) then((Z)) else((Z))) (Z) moveToUnit(Ranged,Ally,weakest) attack(Ranged,closest)
+58.5 for(u) (attack(Ranged,closest,u)) (Z) (Z) for(u) (attack(Heavy,closest,u)) (Z)
+-50.0 for(u) (attack(Heavy,weakest,u) if(HaveQtdUnitsAttacking(Heavy,2,u)) then(moveToUnit(Ranged,Enemy,closest,u)) moveToUnit(Ranged,Enemy,closest,u) attack(Ranged,closest,u)) for(u) (if(HaveUnitsToDistantToEnemy(Ranged,13,u)) then((Z)))
+58.5 for(u) ((Z) attack(Heavy,closest,u) attack(Ranged,closest,u)) (Z) (Z)
+58.5 for(u) (attack(Heavy,closest,u) if(HaveQtdEnemiesbyType(Heavy,2,u)) then((Z)) else(moveToUnit(Ranged,Ally,farthest,u) (Z)) if(HaveQtdEnemiesbyType(Ranged,12,u)) then((Z)) else(attack(Ranged,closest,u)))
+58.5 for(u) (attack(Heavy,closest,u) moveToUnit(Heavy,Enemy,farthest,u) attack(Ranged,closest,u))
+58.5 (Z) if(HaveQtdUnitsbyType(Ranged,20)) then((Z)) else(attack(Heavy,closest) attack(Ranged,closest))
+58.5 for(u) (if(HaveUnitsToDistantToEnemy(Ranged,14,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Worker,4,u)) then((Z)) else(attack(Ranged,closest,u))) (Z)
+58.5 for(u) (if(HaveUnitsToDistantToEnemy(Ranged,20,u)) then(attack(Ranged,closest,u)) attack(Heavy,closest,u)) for(u) (if(HaveQtdUnitsAttacking(Heavy,12,u)) then((Z))) for(u) (if(HaveQtdUnitsbyType(Ranged,12,u)) then((Z)))
+-46.253246 attack(Ranged,weakest) attack(Heavy,closest) moveToUnit(Heavy,Ally,weakest) (Z)
+40.214287 if(HaveUnitsToDistantToEnemy(Ranged,10)) then(attack(Ranged,closest)) else(attack(Heavy,closest)) attack(Ranged,weakest) (Z) for(u) (if(HaveQtdUnitsAttacking(Worker,14,u)) then((Z)) else(moveToUnit(Heavy,Enemy,farthest,u))) (Z) (Z)
+-53.0 (Z) for(u) (if(HaveQtdUnitsAttacking(Ranged,3,u)) then(moveToUnit(Heavy,Enemy,mostHealthy,u) attack(Ranged,weakest,u)) else(attack(Ranged,closest,u))) for(u) ((Z) attack(Heavy,lessHealthy,u)) (Z)
+58.5 attack(Heavy,closest) (Z) if(HaveUnitsToDistantToEnemy(Worker,12)) then((Z)) else(attack(Ranged,closest)) if(HaveQtdUnitsAttacking(Heavy,18)) then((Z)) (Z)
+59.307693 for(u) (if(HaveQtdUnitsAttacking(Worker,6,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveUnitsToDistantToEnemy(Heavy,10,u)) then(attack(Heavy,closest,u)) else(attack(Heavy,mostHealthy,u)))
+58.5 for(u) (attack(Ranged,closest,u)) for(u) (attack(Heavy,closest,u)) (Z)
+50.3052 (Z) for(u) (if(HaveQtdUnitsbyType(Ranged,3,u)) then(attack(Ranged,closest,u) moveToUnit(Heavy,Enemy,closest,u) (Z)) else(attack(Heavy,closest,u)))
+58.5 (Z) for(u) (attack(Ranged,closest,u)) for(u) (if(HaveQtdUnitsAttacking(Light,10,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Light,6,u)) then((Z)) if(HaveUnitsinEnemyRange(Heavy,u)) then((Z)) else((Z)))
+58.5 for(u) (attack(Ranged,closest,u)) for(u) (attack(Heavy,closest,u)) (Z)
+-46.253246 for(u) (if(HaveQtdUnitsbyType(Worker,1,u)) then((Z)) else(attack(Heavy,closest,u))) moveToUnit(Ranged,Enemy,weakest) for(u) ((Z)) (Z) (Z) moveToUnit(Ranged,Ally,lessHealthy) attack(Ranged,lessHealthy)
+-35.357143 for(u) (moveToUnit(Heavy,Ally,mostHealthy,u) attack(Heavy,closest,u)) (Z) for(u) (if(HaveUnitsToDistantToEnemy(Ranged,5,u)) then(attack(Ranged,closest,u)) (Z))
+-83.818184 if(HaveQtdUnitsAttacking(Heavy,15)) then((Z)) if(HaveUnitsToDistantToEnemy(Ranged,3)) then((Z)) else(moveToUnit(Ranged,Ally,mostHealthy) attack(Ranged,closest)) attack(Heavy,closest) attack(Heavy,lessHealthy)
+58.5 if(HaveQtdUnitsbyType(Worker,6)) then((Z)) else(attack(Heavy,closest) attack(Ranged,closest))
+55.81818 if(HaveQtdEnemiesbyType(Ranged,15)) then((Z)) else(attack(Heavy,closest)) (Z) (Z) if(HaveUnitsToDistantToEnemy(Ranged,8)) then(attack(Ranged,closest))
+58.5 for(u) ((Z)) if(HaveUnitsToDistantToEnemy(Light,13)) then((Z)) attack(Heavy,closest) for(u) ((Z)) for(u) (attack(Ranged,closest,u))
+58.5 attack(Heavy,closest) for(u) (if(HaveQtdEnemiesbyType(Light,9,u)) then((Z)) else((Z)) if(HaveQtdUnitsbyType(Worker,1,u)) then((Z))) (Z) attack(Ranged,closest)
+58.5 for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u))
+85.0 moveToUnit(Heavy,Enemy,closest) for(u) (if(HaveQtdEnemiesbyType(Heavy,14,u)) then((Z)) else(attack(Heavy,closest,u)) moveToUnit(Ranged,Ally,lessHealthy,u) moveToUnit(Ranged,Ally,strongest,u)) if(HaveQtdEnemiesbyType(Worker,12)) then((Z)) else(attack(Ranged,closest)) (Z) (Z)
+58.5 attack(Heavy,closest) (Z) for(u) (attack(Ranged,closest,u))
+58.5 for(u) ((Z) if(HaveUnitsToDistantToEnemy(Heavy,19,u)) then(attack(Heavy,closest,u)) else(attack(Ranged,closest,u)))
+61.818184 for(u) ((Z) attack(Ranged,closest,u)) (Z) if(HaveUnitsinEnemyRange(Heavy)) then(attack(Heavy,closest)) else(moveToUnit(Heavy,Enemy,farthest))
+-90.0 for(u) (attack(Heavy,weakest,u) attack(Ranged,strongest,u))
+58.5 attack(Heavy,closest) attack(Ranged,closest) (Z)
+58.5 (Z) for(u) (attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Heavy,12)) then((Z)) for(u) (if(HaveQtdUnitsbyType(Ranged,20,u)) then((Z)) else(attack(Ranged,closest,u)))
+58.5 if(HaveUnitsToDistantToEnemy(Worker,20)) then((Z)) else(attack(Ranged,closest)) for(u) (attack(Heavy,closest,u))
+58.5 attack(Ranged,closest) attack(Heavy,closest) if(HaveQtdEnemiesbyType(Ranged,11)) then((Z))
+58.5 for(u) (attack(Heavy,closest,u)) for(u) (attack(Ranged,closest,u))
+-64.520996 attack(Heavy,weakest) (Z) if(HaveQtdUnitsAttacking(Heavy,4)) then(moveToUnit(Ranged,Ally,strongest)) else(attack(Ranged,closest))
+56.5 for(u) (attack(Heavy,closest,u)) for(u) (if(HaveQtdEnemiesbyType(Heavy,7,u)) then((Z)) else(moveToUnit(Ranged,Ally,weakest,u) attack(Ranged,closest,u)) (Z))
+-66.0 for(u) (if(HaveQtdUnitsAttacking(Ranged,8,u)) then((Z)) if(HaveUnitsToDistantToEnemy(Worker,2,u)) then((Z)) else(attack(Ranged,closest,u) attack(Heavy,strongest,u))) (Z) for(u) (if(HaveUnitsToDistantToEnemy(Heavy,13,u)) then((Z)) else((Z))) (Z)
+58.5 for(u) (attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Worker,17)) then((Z)) else((Z)) (Z) for(u) (attack(Ranged,closest,u)) for(u) (if(HaveUnitsToDistantToEnemy(Light,11,u)) then((Z)))
+36.714287 (Z) for(u) (attack(Heavy,closest,u) if(HaveQtdUnitsbyType(Light,5,u)) then((Z)) else(moveToUnit(Ranged,Ally,weakest,u)) if(HaveQtdEnemiesbyType(Ranged,1,u)) then((Z)) else(attack(Ranged,closest,u)))
+-42.524525 if(HaveQtdUnitsAttacking(Light,12)) then((Z)) else(moveToUnit(Ranged,Enemy,weakest)) attack(Ranged,closest) if(HaveUnitsToDistantToEnemy(Heavy,3)) then(attack(Heavy,closest)) if(HaveQtdUnitsbyType(Light,10)) then((Z)) moveToUnit(Heavy,Ally,weakest) if(HaveQtdEnemiesbyType(Heavy,1)) then(moveToUnit(Heavy,Enemy,lessHealthy))
+58.5 if(HaveUnitsToDistantToEnemy(Worker,4)) then((Z)) attack(Heavy,closest) attack(Ranged,closest) (Z) (Z)
+58.5 for(u) (if(HaveQtdUnitsbyType(Light,3,u)) then((Z)) else(attack(Ranged,closest,u))) if(HaveQtdUnitsbyType(Light,16)) then((Z)) for(u) (if(HaveQtdUnitsbyType(Light,10,u)) then((Z)) else(attack(Heavy,closest,u)) (Z)) (Z)
+58.5 for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u))
+51.499996 for(u) (if(HaveUnitsToDistantToEnemy(Heavy,4,u)) then(attack(Heavy,closest,u)) else(attack(Ranged,closest,u) moveToUnit(Heavy,Ally,farthest,u)) (Z))
+58.5 if(HaveUnitsToDistantToEnemy(Worker,15)) then((Z)) attack(Heavy,closest) (Z) attack(Ranged,closest) for(u) (if(HaveQtdUnitsbyType(Worker,20,u)) then((Z)))
+-66.0 moveToUnit(Heavy,Enemy,strongest) for(u) (attack(Ranged,closest,u)) if(HaveQtdUnitsHarversting(15)) then((Z)) else(attack(Heavy,strongest) (Z))
+-38.422077 for(u) (moveToUnit(Ranged,Enemy,lessHealthy,u) attack(Ranged,closest,u)) for(u) (if(HaveQtdUnitsAttacking(Worker,12,u)) then((Z)) else(attack(Heavy,closest,u) attack(Heavy,mostHealthy,u))) (Z) (Z)
+58.5 for(u) (if(HaveQtdUnitsbyType(Worker,11,u)) then((Z)) else(attack(Heavy,closest,u))) for(u) (moveToUnit(Heavy,Ally,lessHealthy,u) attack(Ranged,closest,u))
+89.19769 for(u) (if(HaveUnitsToDistantToEnemy(Heavy,3,u)) then(attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Worker,6,u)) then((Z)) else(attack(Ranged,closest,u) moveToUnit(Heavy,Ally,weakest,u))) if(HaveQtdUnitsAttacking(Heavy,12)) then((Z)) (Z) (Z)
+-61.285713 for(u) (if(HaveUnitsToDistantToEnemy(Light,4,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Light,13,u)) then((Z)) else(moveToUnit(Ranged,Ally,strongest,u))) (Z) for(u) (if(HaveQtdUnitsAttacking(Heavy,13,u)) then((Z)) attack(Ranged,weakest,u)) for(u) ((Z)) (Z)
+58.5 for(u) (if(HaveQtdUnitsAttacking(Worker,9,u)) then((Z)) else(attack(Heavy,closest,u) attack(Ranged,closest,u)) if(HaveQtdEnemiesbyType(Heavy,19,u)) then((Z)))
+58.5 (Z) (Z) (Z) for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u)) (Z)
+58.5 for(u) (if(HaveQtdUnitsbyType(Ranged,16,u)) then((Z)) else(attack(Heavy,closest,u) attack(Ranged,closest,u)))
+58.5 for(u) (attack(Ranged,closest,u)) if(HaveQtdUnitsAttacking(Ranged,10)) then((Z)) else((Z)) attack(Heavy,closest) (Z)
+-50.0 for(u) (if(HaveUnitsToDistantToEnemy(Light,10,u)) then((Z)) else(attack(Heavy,weakest,u) attack(Ranged,closest,u))) (Z)
+58.5 for(u) (if(HaveQtdEnemiesbyType(Worker,16,u)) then((Z)) else(attack(Heavy,closest,u))) for(u) (if(HaveQtdUnitsAttacking(Heavy,14,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveQtdUnitsAttacking(Ranged,15,u)) then((Z)))
+-54.383026 if(HaveQtdUnitsAttacking(Heavy,3)) then((Z)) else(moveToUnit(Ranged,Enemy,closest) attack(Heavy,closest)) if(HaveQtdEnemiesbyType(Heavy,3)) then(attack(Ranged,lessHealthy))
+58.5 for(u) (if(HaveUnitsToDistantToEnemy(Worker,3,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveQtdUnitsbyType(Light,7,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveQtdUnitsAttacking(Light,15,u)) then((Z)) (Z))
+-67.68889 for(u) ((Z)) for(u) (moveToUnit(Heavy,Enemy,strongest,u) moveToUnit(Heavy,Enemy,farthest,u) (Z) if(HaveUnitsStrongest(Heavy,u)) then((Z)) else(attack(Ranged,closest,u))) (Z) (Z)
+-83.23529 (Z) (Z) for(u) (moveToUnit(Heavy,Enemy,closest,u) attack(Heavy,lessHealthy,u) attack(Ranged,weakest,u) (Z))
+-56.847378 for(u) (moveToUnit(Heavy,Ally,strongest,u) moveToUnit(Heavy,Ally,weakest,u)) if(HaveQtdUnitsbyType(Ranged,9)) then((Z)) else(attack(Ranged,closest)) for(u) ((Z)) (Z) if(HaveUnitsToDistantToEnemy(Heavy,7)) then(attack(Heavy,lessHealthy))
+58.5 (Z) for(u) (if(HaveQtdUnitsbyType(Ranged,14,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Worker,2,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveQtdUnitsbyType(Worker,6,u)) then((Z)))
+58.5 for(u) (if(HaveQtdUnitsbyType(Ranged,1,u)) then(attack(Ranged,closest,u)) attack(Heavy,closest,u)) for(u) (if(HaveUnitsToDistantToEnemy(Worker,13,u)) then((Z))) (Z) (Z)
+-38.65984 for(u) (if(HaveUnitsToDistantToEnemy(Heavy,19,u)) then(attack(Heavy,closest,u)) else(moveToUnit(Ranged,Enemy,lessHealthy,u))) if(HaveQtdUnitsAttacking(Light,15)) then((Z)) else(attack(Ranged,closest)) (Z) (Z) (Z)
+58.5 (Z) for(u) (if(HaveUnitsToDistantToEnemy(Worker,3,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveUnitsToDistantToEnemy(Heavy,20,u)) then(attack(Heavy,closest,u))) (Z)
+58.5 for(u) (if(HaveUnitsToDistantToEnemy(Worker,8,u)) then((Z)) else(attack(Ranged,closest,u) attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Light,3,u)) then((Z)) else((Z)))
+53.0 for(u) (if(HaveQtdUnitsAttacking(Ranged,1,u)) then(moveToUnit(Heavy,Ally,strongest,u)) else(attack(Heavy,closest,u))) (Z) attack(Heavy,lessHealthy) attack(Ranged,closest) if(HaveQtdEnemiesbyType(Heavy,17)) then((Z)) (Z)
+-56.0 if(HaveUnitsToDistantToEnemy(Light,19)) then((Z)) for(u) (if(HaveUnitsStrongest(Worker,u)) then((Z)) else(attack(Heavy,mostHealthy,u)) if(HaveQtdUnitsbyType(Ranged,11,u)) then((Z)) if(HaveQtdUnitsAttacking(Light,10,u)) then((Z)) else(moveToUnit(Heavy,Ally,strongest,u))) for(u) (if(HaveQtdUnitsAttacking(Ranged,8,u)) then((Z)) else(moveToUnit(Ranged,Ally,lessHealthy,u))) if(HaveQtdUnitsAttacking(Worker,3)) then((Z)) else(attack(Ranged,closest)) (Z)
+Ganhadores 1 n = 100
+55.0 (Z) for(u) (if(HaveQtdUnitsAttacking(Heavy,9,u)) then((Z)) if(HaveUnitsToDistantToEnemy(Heavy,15,u)) then(attack(Heavy,closest,u)) else(attack(Ranged,closest,u)))
+55.0 if(HaveUnitsToDistantToEnemy(Ranged,19)) then(attack(Ranged,closest)) (Z) for(u) (attack(Heavy,closest,u) (Z))
+-62.35642 for(u) (if(HaveUnitsToDistantToEnemy(Heavy,11,u)) then(attack(Heavy,closest,u)) if(HaveQtdUnitsAttacking(Worker,14,u)) then((Z)) else(attack(Ranged,lessHealthy,u))) if(HaveQtdUnitsbyType(Worker,10)) then((Z)) else(moveToUnit(Heavy,Enemy,farthest)) if(HaveQtdEnemiesbyType(Light,12)) then((Z))
+-51.080803 (Z) for(u) (if(HaveQtdUnitsbyType(Ranged,6,u)) then((Z)) else((Z)) if(HaveQtdEnemiesbyType(Light,17,u)) then((Z)) else(attack(Heavy,closest,u))) for(u) (if(HaveQtdEnemiesbyType(Light,9,u)) then((Z)) else((Z)) moveToUnit(Heavy,Ally,lessHealthy,u) attack(Ranged,lessHealthy,u) if(HaveQtdUnitsHarversting(7,u)) then((Z)))
+55.0 for(u) (attack(Ranged,closest,u)) (Z) for(u) (attack(Heavy,closest,u))
+55.0 for(u) (if(HaveQtdUnitsbyType(Worker,12,u)) then((Z)) else(attack(Heavy,closest,u)) attack(Ranged,closest,u))
+29.0 for(u) (if(HaveQtdUnitsHarversting(5,u)) then((Z)) else(moveToUnit(Heavy,Ally,lessHealthy,u) attack(Ranged,closest,u)) moveToUnit(Heavy,Ally,mostHealthy,u) if(HaveUnitsToDistantToEnemy(Worker,6,u)) then((Z)) else(attack(Heavy,closest,u))) (Z)
+55.0 if(HaveQtdUnitsbyType(Light,3)) then((Z)) else(attack(Heavy,closest)) for(u) ((Z)) for(u) (attack(Ranged,closest,u)) (Z)
+55.0 (Z) for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u) (Z) if(HaveQtdUnitsAttacking(Ranged,13,u)) then((Z)) else((Z))) if(HaveUnitsToDistantToEnemy(Light,3)) then((Z))
+55.0 for(u) (if(HaveUnitsToDistantToEnemy(Ranged,11,u)) then(attack(Ranged,closest,u))) attack(Heavy,closest)
+-90.0 for(u) (attack(Heavy,mostHealthy,u) (Z)) (Z) if(HaveEnemiesinUnitsRange(Ranged)) then(attack(Ranged,farthest))
+-44.29293 for(u) (if(HaveEnemiesinUnitsRange(Ranged,u)) then((Z)) else(attack(Heavy,mostHealthy,u))) (Z) attack(Ranged,closest)
+-83.730156 (Z) (Z) (Z) (Z) for(u) (if(HaveQtdEnemiesbyType(Ranged,1,u)) then(attack(Ranged,strongest,u)) else(moveToUnit(Heavy,Ally,weakest,u)) if(HaveQtdUnitsAttacking(Worker,7,u)) then((Z)) else(attack(Heavy,closest,u)))
+55.0 if(HaveUnitsToDistantToEnemy(Light,16)) then((Z)) else(attack(Heavy,closest)) for(u) (attack(Ranged,closest,u)) (Z) (Z) for(u) (if(HaveQtdUnitsbyType(Ranged,4,u)) then((Z)))
+55.0 if(HaveUnitsToDistantToEnemy(Heavy,17)) then(attack(Heavy,closest)) attack(Ranged,closest)
+-92.0 (Z) attack(Heavy,mostHealthy) if(HaveUnitsToDistantToEnemy(Ranged,17)) then(attack(Ranged,mostHealthy))
+-84.0 (Z) if(HaveQtdEnemiesbyType(Heavy,19)) then((Z)) else(moveToUnit(Ranged,Enemy,strongest) attack(Heavy,mostHealthy)) attack(Ranged,closest)
+-93.0 attack(Ranged,mostHealthy) if(HaveQtdUnitsbyType(Ranged,1)) then((Z)) else(attack(Heavy,mostHealthy))
+-60.35642 if(HaveUnitsToDistantToEnemy(Heavy,10)) then(attack(Heavy,closest)) for(u) (attack(Ranged,lessHealthy,u) attack(Heavy,farthest,u))
+55.0 attack(Heavy,closest) for(u) (if(HaveQtdUnitsHarversting(4,u)) then((Z)) else(attack(Ranged,closest,u))) (Z)
+61.5 for(u) (if(HaveQtdUnitsAttacking(Ranged,17,u)) then((Z)) else(attack(Ranged,closest,u))) for(u) (if(HaveUnitsToDistantToEnemy(Heavy,9,u)) then(attack(Heavy,closest,u)) else(attack(Heavy,strongest,u)))
+92.07143 attack(Heavy,closest) (Z) if(HaveUnitsToDistantToEnemy(Ranged,5)) then((Z)) else(moveToUnit(Ranged,Ally,strongest)) attack(Ranged,closest)
+-87.0 for(u) (if(HaveQtdUnitsAttacking(Light,9,u)) then((Z)) else((Z)) (Z)) (Z) attack(Ranged,strongest) for(u) (attack(Heavy,weakest,u) if(HaveQtdEnemiesbyType(Ranged,15,u)) then((Z)) else(moveToUnit(Heavy,Enemy,strongest,u)))
+62.785713 (Z) for(u) (if(HaveQtdEnemiesbyType(Light,9,u)) then((Z)) else(moveToUnit(Ranged,Ally,mostHealthy,u)) if(HaveUnitsToDistantToEnemy(Heavy,18,u)) then((Z)) else(attack(Ranged,closest,u)) attack(Heavy,closest,u))
+84.0 for(u) (if(HaveQtdUnitsAttacking(Ranged,2,u)) then(attack(Ranged,mostHealthy,u)) else(attack(Heavy,closest,u)) attack(Ranged,lessHealthy,u)) (Z) for(u) (moveToUnit(Heavy,Ally,mostHealthy,u)) for(u) ((Z) attack(Heavy,closest,u))
+-53.080803 if(HaveQtdUnitsbyType(Worker,8)) then((Z)) else(attack(Heavy,closest)) for(u) (if(HaveQtdEnemiesbyType(Light,18,u)) then((Z)) else(attack(Ranged,weakest,u))) (Z)
+29.681818 if(HaveUnitsinEnemyRange(Light)) then((Z)) else(attack(Ranged,closest)) for(u) (if(HaveQtdUnitsAttacking(Ranged,4,u)) then((Z)) else(attack(Heavy,closest,u)) moveToUnit(Heavy,Ally,mostHealthy,u)) (Z) (Z) (Z)
+55.0 for(u) (if(HaveQtdUnitsbyType(Light,12,u)) then((Z)) else(attack(Ranged,closest,u)) attack(Heavy,closest,u)) (Z)
+55.0 if(HaveQtdEnemiesbyType(Heavy,3)) then(attack(Ranged,closest)) (Z) if(HaveUnitsinEnemyRange(Worker)) then((Z)) else(attack(Heavy,closest))
+55.0 for(u) (moveToUnit(Ranged,Enemy,closest,u) attack(Ranged,closest,u) if(HaveUnitsToDistantToEnemy(Worker,11,u)) then((Z)) else(attack(Heavy,closest,u))) (Z) (Z) for(u) (if(HaveQtdUnitsAttacking(Heavy,12,u)) then((Z)))
+53.0 for(u) (attack(Heavy,closest,u) if(HaveQtdUnitsAttacking(Worker,7,u)) then((Z)) else((Z))) (Z) moveToUnit(Ranged,Ally,weakest) attack(Ranged,closest)
+55.0 for(u) (attack(Ranged,closest,u)) (Z) (Z) for(u) (attack(Heavy,closest,u)) (Z)
+-59.214287 for(u) (attack(Heavy,weakest,u) if(HaveQtdUnitsAttacking(Heavy,2,u)) then(moveToUnit(Ranged,Enemy,closest,u)) moveToUnit(Ranged,Enemy,closest,u) attack(Ranged,closest,u)) for(u) (if(HaveUnitsToDistantToEnemy(Ranged,13,u)) then((Z)))
+55.0 for(u) ((Z) attack(Heavy,closest,u) attack(Ranged,closest,u)) (Z) (Z)
+55.0 for(u) (attack(Heavy,closest,u) if(HaveQtdEnemiesbyType(Heavy,2,u)) then((Z)) else(moveToUnit(Ranged,Ally,farthest,u) (Z)) if(HaveQtdEnemiesbyType(Ranged,12,u)) then((Z)) else(attack(Ranged,closest,u)))
+55.0 for(u) (attack(Heavy,closest,u) moveToUnit(Heavy,Enemy,farthest,u) attack(Ranged,closest,u))
+55.0 (Z) if(HaveQtdUnitsbyType(Ranged,20)) then((Z)) else(attack(Heavy,closest) attack(Ranged,closest))
+55.0 for(u) (if(HaveUnitsToDistantToEnemy(Ranged,14,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Worker,4,u)) then((Z)) else(attack(Ranged,closest,u))) (Z)
+55.0 for(u) (if(HaveUnitsToDistantToEnemy(Ranged,20,u)) then(attack(Ranged,closest,u)) attack(Heavy,closest,u)) for(u) (if(HaveQtdUnitsAttacking(Heavy,12,u)) then((Z))) for(u) (if(HaveQtdUnitsbyType(Ranged,12,u)) then((Z)))
+-51.080803 attack(Ranged,weakest) attack(Heavy,closest) moveToUnit(Heavy,Ally,weakest) (Z)
+35.785713 if(HaveUnitsToDistantToEnemy(Ranged,10)) then(attack(Ranged,closest)) else(attack(Heavy,closest)) attack(Ranged,weakest) (Z) for(u) (if(HaveQtdUnitsAttacking(Worker,14,u)) then((Z)) else(moveToUnit(Heavy,Enemy,farthest,u))) (Z) (Z)
+-41.269844 (Z) for(u) (if(HaveQtdUnitsAttacking(Ranged,3,u)) then(moveToUnit(Heavy,Enemy,mostHealthy,u) attack(Ranged,weakest,u)) else(attack(Ranged,closest,u))) for(u) ((Z) attack(Heavy,lessHealthy,u)) (Z)
+55.0 attack(Heavy,closest) (Z) if(HaveUnitsToDistantToEnemy(Worker,12)) then((Z)) else(attack(Ranged,closest)) if(HaveQtdUnitsAttacking(Heavy,18)) then((Z)) (Z)
+61.5 for(u) (if(HaveQtdUnitsAttacking(Worker,6,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveUnitsToDistantToEnemy(Heavy,10,u)) then(attack(Heavy,closest,u)) else(attack(Heavy,mostHealthy,u)))
+55.0 for(u) (attack(Ranged,closest,u)) for(u) (attack(Heavy,closest,u)) (Z)
+38.285713 (Z) for(u) (if(HaveQtdUnitsbyType(Ranged,3,u)) then(attack(Ranged,closest,u) moveToUnit(Heavy,Enemy,closest,u) (Z)) else(attack(Heavy,closest,u)))
+55.0 (Z) for(u) (attack(Ranged,closest,u)) for(u) (if(HaveQtdUnitsAttacking(Light,10,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Light,6,u)) then((Z)) if(HaveUnitsinEnemyRange(Heavy,u)) then((Z)) else((Z)))
+55.0 for(u) (attack(Ranged,closest,u)) for(u) (attack(Heavy,closest,u)) (Z)
+-53.080803 for(u) (if(HaveQtdUnitsbyType(Worker,1,u)) then((Z)) else(attack(Heavy,closest,u))) moveToUnit(Ranged,Enemy,weakest) for(u) ((Z)) (Z) (Z) moveToUnit(Ranged,Ally,lessHealthy) attack(Ranged,lessHealthy)
+-49.17436 for(u) (moveToUnit(Heavy,Ally,mostHealthy,u) attack(Heavy,closest,u)) (Z) for(u) (if(HaveUnitsToDistantToEnemy(Ranged,5,u)) then(attack(Ranged,closest,u)) (Z))
+-82.76471 if(HaveQtdUnitsAttacking(Heavy,15)) then((Z)) if(HaveUnitsToDistantToEnemy(Ranged,3)) then((Z)) else(moveToUnit(Ranged,Ally,mostHealthy) attack(Ranged,closest)) attack(Heavy,closest) attack(Heavy,lessHealthy)
+55.0 if(HaveQtdUnitsbyType(Worker,6)) then((Z)) else(attack(Heavy,closest) attack(Ranged,closest))
+60.31818 if(HaveQtdEnemiesbyType(Ranged,15)) then((Z)) else(attack(Heavy,closest)) (Z) (Z) if(HaveUnitsToDistantToEnemy(Ranged,8)) then(attack(Ranged,closest))
+55.0 for(u) ((Z)) if(HaveUnitsToDistantToEnemy(Light,13)) then((Z)) attack(Heavy,closest) for(u) ((Z)) for(u) (attack(Ranged,closest,u))
+55.0 attack(Heavy,closest) for(u) (if(HaveQtdEnemiesbyType(Light,9,u)) then((Z)) else((Z)) if(HaveQtdUnitsbyType(Worker,1,u)) then((Z))) (Z) attack(Ranged,closest)
+55.0 for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u))
+-22.928572 moveToUnit(Heavy,Enemy,closest) for(u) (if(HaveQtdEnemiesbyType(Heavy,14,u)) then((Z)) else(attack(Heavy,closest,u)) moveToUnit(Ranged,Ally,lessHealthy,u) moveToUnit(Ranged,Ally,strongest,u)) if(HaveQtdEnemiesbyType(Worker,12)) then((Z)) else(attack(Ranged,closest)) (Z) (Z)
+55.0 attack(Heavy,closest) (Z) for(u) (attack(Ranged,closest,u))
+55.0 for(u) ((Z) if(HaveUnitsToDistantToEnemy(Heavy,19,u)) then(attack(Heavy,closest,u)) else(attack(Ranged,closest,u)))
+61.0 for(u) ((Z) attack(Ranged,closest,u)) (Z) if(HaveUnitsinEnemyRange(Heavy)) then(attack(Heavy,closest)) else(moveToUnit(Heavy,Enemy,farthest))
+-90.5 for(u) (attack(Heavy,weakest,u) attack(Ranged,strongest,u))
+55.0 attack(Heavy,closest) attack(Ranged,closest) (Z)
+55.0 (Z) for(u) (attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Heavy,12)) then((Z)) for(u) (if(HaveQtdUnitsbyType(Ranged,20,u)) then((Z)) else(attack(Ranged,closest,u)))
+55.0 if(HaveUnitsToDistantToEnemy(Worker,20)) then((Z)) else(attack(Ranged,closest)) for(u) (attack(Heavy,closest,u))
+55.0 attack(Ranged,closest) attack(Heavy,closest) if(HaveQtdEnemiesbyType(Ranged,11)) then((Z))
+55.0 for(u) (attack(Heavy,closest,u)) for(u) (attack(Ranged,closest,u))
+-74.95841 attack(Heavy,weakest) (Z) if(HaveQtdUnitsAttacking(Heavy,4)) then(moveToUnit(Ranged,Ally,strongest)) else(attack(Ranged,closest))
+53.0 for(u) (attack(Heavy,closest,u)) for(u) (if(HaveQtdEnemiesbyType(Heavy,7,u)) then((Z)) else(moveToUnit(Ranged,Ally,weakest,u) attack(Ranged,closest,u)) (Z))
+-44.29293 for(u) (if(HaveQtdUnitsAttacking(Ranged,8,u)) then((Z)) if(HaveUnitsToDistantToEnemy(Worker,2,u)) then((Z)) else(attack(Ranged,closest,u) attack(Heavy,strongest,u))) (Z) for(u) (if(HaveUnitsToDistantToEnemy(Heavy,13,u)) then((Z)) else((Z))) (Z)
+55.0 for(u) (attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Worker,17)) then((Z)) else((Z)) (Z) for(u) (attack(Ranged,closest,u)) for(u) (if(HaveUnitsToDistantToEnemy(Light,11,u)) then((Z)))
+-64.28571 (Z) for(u) (attack(Heavy,closest,u) if(HaveQtdUnitsbyType(Light,5,u)) then((Z)) else(moveToUnit(Ranged,Ally,weakest,u)) if(HaveQtdEnemiesbyType(Ranged,1,u)) then((Z)) else(attack(Ranged,closest,u)))
+72.28571 if(HaveQtdUnitsAttacking(Light,12)) then((Z)) else(moveToUnit(Ranged,Enemy,weakest)) attack(Ranged,closest) if(HaveUnitsToDistantToEnemy(Heavy,3)) then(attack(Heavy,closest)) if(HaveQtdUnitsbyType(Light,10)) then((Z)) moveToUnit(Heavy,Ally,weakest) if(HaveQtdEnemiesbyType(Heavy,1)) then(moveToUnit(Heavy,Enemy,lessHealthy))
+55.0 if(HaveUnitsToDistantToEnemy(Worker,4)) then((Z)) attack(Heavy,closest) attack(Ranged,closest) (Z) (Z)
+55.0 for(u) (if(HaveQtdUnitsbyType(Light,3,u)) then((Z)) else(attack(Ranged,closest,u))) if(HaveQtdUnitsbyType(Light,16)) then((Z)) for(u) (if(HaveQtdUnitsbyType(Light,10,u)) then((Z)) else(attack(Heavy,closest,u)) (Z)) (Z)
+55.0 for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u))
+66.80769 for(u) (if(HaveUnitsToDistantToEnemy(Heavy,4,u)) then(attack(Heavy,closest,u)) else(attack(Ranged,closest,u) moveToUnit(Heavy,Ally,farthest,u)) (Z))
+55.0 if(HaveUnitsToDistantToEnemy(Worker,15)) then((Z)) attack(Heavy,closest) (Z) attack(Ranged,closest) for(u) (if(HaveQtdUnitsbyType(Worker,20,u)) then((Z)))
+-44.29293 moveToUnit(Heavy,Enemy,strongest) for(u) (attack(Ranged,closest,u)) if(HaveQtdUnitsHarversting(15)) then((Z)) else(attack(Heavy,strongest) (Z))
+-41.626263 for(u) (moveToUnit(Ranged,Enemy,lessHealthy,u) attack(Ranged,closest,u)) for(u) (if(HaveQtdUnitsAttacking(Worker,12,u)) then((Z)) else(attack(Heavy,closest,u) attack(Heavy,mostHealthy,u))) (Z) (Z)
+55.0 for(u) (if(HaveQtdUnitsbyType(Worker,11,u)) then((Z)) else(attack(Heavy,closest,u))) for(u) (moveToUnit(Heavy,Ally,lessHealthy,u) attack(Ranged,closest,u))
+-45.53247 for(u) (if(HaveUnitsToDistantToEnemy(Heavy,3,u)) then(attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Worker,6,u)) then((Z)) else(attack(Ranged,closest,u) moveToUnit(Heavy,Ally,weakest,u))) if(HaveQtdUnitsAttacking(Heavy,12)) then((Z)) (Z) (Z)
+-40.983402 for(u) (if(HaveUnitsToDistantToEnemy(Light,4,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Light,13,u)) then((Z)) else(moveToUnit(Ranged,Ally,strongest,u))) (Z) for(u) (if(HaveQtdUnitsAttacking(Heavy,13,u)) then((Z)) attack(Ranged,weakest,u)) for(u) ((Z)) (Z)
+55.0 for(u) (if(HaveQtdUnitsAttacking(Worker,9,u)) then((Z)) else(attack(Heavy,closest,u) attack(Ranged,closest,u)) if(HaveQtdEnemiesbyType(Heavy,19,u)) then((Z)))
+55.0 (Z) (Z) (Z) for(u) (attack(Heavy,closest,u) attack(Ranged,closest,u)) (Z)
+55.0 for(u) (if(HaveQtdUnitsbyType(Ranged,16,u)) then((Z)) else(attack(Heavy,closest,u) attack(Ranged,closest,u)))
+55.0 for(u) (attack(Ranged,closest,u)) if(HaveQtdUnitsAttacking(Ranged,10)) then((Z)) else((Z)) attack(Heavy,closest) (Z)
+-59.214287 for(u) (if(HaveUnitsToDistantToEnemy(Light,10,u)) then((Z)) else(attack(Heavy,weakest,u) attack(Ranged,closest,u))) (Z)
+55.0 for(u) (if(HaveQtdEnemiesbyType(Worker,16,u)) then((Z)) else(attack(Heavy,closest,u))) for(u) (if(HaveQtdUnitsAttacking(Heavy,14,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveQtdUnitsAttacking(Ranged,15,u)) then((Z)))
+-55.248108 if(HaveQtdUnitsAttacking(Heavy,3)) then((Z)) else(moveToUnit(Ranged,Enemy,closest) attack(Heavy,closest)) if(HaveQtdEnemiesbyType(Heavy,3)) then(attack(Ranged,lessHealthy))
+55.0 for(u) (if(HaveUnitsToDistantToEnemy(Worker,3,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveQtdUnitsbyType(Light,7,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveQtdUnitsAttacking(Light,15,u)) then((Z)) (Z))
+-70.997116 for(u) ((Z)) for(u) (moveToUnit(Heavy,Enemy,strongest,u) moveToUnit(Heavy,Enemy,farthest,u) (Z) if(HaveUnitsStrongest(Heavy,u)) then((Z)) else(attack(Ranged,closest,u))) (Z) (Z)
+-82.23529 (Z) (Z) for(u) (moveToUnit(Heavy,Enemy,closest,u) attack(Heavy,lessHealthy,u) attack(Ranged,weakest,u) (Z))
+-66.04396 for(u) (moveToUnit(Heavy,Ally,strongest,u) moveToUnit(Heavy,Ally,weakest,u)) if(HaveQtdUnitsbyType(Ranged,9)) then((Z)) else(attack(Ranged,closest)) for(u) ((Z)) (Z) if(HaveUnitsToDistantToEnemy(Heavy,7)) then(attack(Heavy,lessHealthy))
+55.0 (Z) for(u) (if(HaveQtdUnitsbyType(Ranged,14,u)) then((Z)) else(attack(Heavy,closest,u)) if(HaveQtdUnitsbyType(Worker,2,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveQtdUnitsbyType(Worker,6,u)) then((Z)))
+55.0 for(u) (if(HaveQtdUnitsbyType(Ranged,1,u)) then(attack(Ranged,closest,u)) attack(Heavy,closest,u)) for(u) (if(HaveUnitsToDistantToEnemy(Worker,13,u)) then((Z))) (Z) (Z)
+-41.626263 for(u) (if(HaveUnitsToDistantToEnemy(Heavy,19,u)) then(attack(Heavy,closest,u)) else(moveToUnit(Ranged,Enemy,lessHealthy,u))) if(HaveQtdUnitsAttacking(Light,15)) then((Z)) else(attack(Ranged,closest)) (Z) (Z) (Z)
+55.0 (Z) for(u) (if(HaveUnitsToDistantToEnemy(Worker,3,u)) then((Z)) else(attack(Ranged,closest,u)) if(HaveUnitsToDistantToEnemy(Heavy,20,u)) then(attack(Heavy,closest,u))) (Z)
+55.0 for(u) (if(HaveUnitsToDistantToEnemy(Worker,8,u)) then((Z)) else(attack(Ranged,closest,u) attack(Heavy,closest,u)) if(HaveUnitsToDistantToEnemy(Light,3,u)) then((Z)) else((Z)))
+47.285713 for(u) (if(HaveQtdUnitsAttacking(Ranged,1,u)) then(moveToUnit(Heavy,Ally,strongest,u)) else(attack(Heavy,closest,u))) (Z) attack(Heavy,lessHealthy) attack(Ranged,closest) if(HaveQtdEnemiesbyType(Heavy,17)) then((Z)) (Z)
+-44.29293 if(HaveUnitsToDistantToEnemy(Light,19)) then((Z)) for(u) (if(HaveUnitsStrongest(Worker,u)) then((Z)) else(attack(Heavy,mostHealthy,u)) if(HaveQtdUnitsbyType(Ranged,11,u)) then((Z)) if(HaveQtdUnitsAttacking(Light,10,u)) then((Z)) else(moveToUnit(Heavy,Ally,strongest,u))) for(u) (if(HaveQtdUnitsAttacking(Ranged,8,u)) then((Z)) else(moveToUnit(Ranged,Ally,lessHealthy,u))) if(HaveQtdUnitsAttacking(Worker,3)) then((Z)) else(attack(Ranged,closest)) (Z)
+
+
+Campeao0 if(HaveUnitsinEnemyRange(Light)) then((Z)) else(attack(Ranged,closest)) for(u) (if(HaveQtdUnitsAttacking(Ranged,4,u)) then((Z)) else(attack(Heavy,closest,u)) moveToUnit(Heavy,Ally,mostHealthy,u)) (Z) (Z) (Z)
+Campeao1 attack(Heavy,closest) (Z) if(HaveUnitsToDistantToEnemy(Ranged,5)) then((Z)) else(moveToUnit(Ranged,Ally,strongest)) attack(Ranged,closest)
+
+
+Resultado 0
+Script if(HaveUnitsinEnemyRange(Light)) then((Z)) else(attack(Ranged,closest)) for(u) (if(HaveQtdUnitsAttacking(Ranged,4,u)) then((Z)) else(attack(Heavy,closest,u)) moveToUnit(Heavy,Ally,mostHealthy,u)) (Z) (Z) (Z)
+0 TT A3N =1.0
+0 TT LR =10.0
+0 TT WR =10.0
+0 TT P0 =10.0
+0 TT P1 =10.0
+0 TT P2 =5.0
+0 TT P3 =10.0
+Resultado 1
+Script attack(Heavy,closest) (Z) if(HaveUnitsToDistantToEnemy(Ranged,5)) then((Z)) else(moveToUnit(Ranged,Ally,strongest)) attack(Ranged,closest)
+1 TT A3N =0.5
+1 TT LR =0.0
+1 TT WR =0.0
+1 TT P0 =10.0
+1 TT P1 =10.0
+1 TT P2 =5.0
+1 TT P3 =10.0
+Tempo  = 7716.286

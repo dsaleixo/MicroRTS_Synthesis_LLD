@@ -1,0 +1,28 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;C;Idle;S;S_S;S;C;Harvest;S;S_S;S;C;Harvest;S;C;Attack;Weakest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;C;Idle;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;C;Harvest;S;C;Attack;Weakest;S;C;Train;Worker;Up
+
+
+
+for(Unit u){
+	u.idle()
+	if(HaveQtdUnitsAttacking(3)) then {
+		u.harvest()
+	}
+	u.attack(Weakest)
+	u.train(Worker,Up)
+}
+FIM

@@ -1,0 +1,24 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;If_B_then_S;B;HasLessNumberOfUnits;Worker;3;S;C;Harvest;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;If_B_then_S;B;HaveQtdUnitsAttacking;1;S;C;Harvest;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;If_B_then_S;B;HaveQtdUnitsAttacking;4;S;For_S;S;C;Harvest;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;If_B_then_S;B;HaveQtdUnitsAttacking;2;S;For_S;S;C;Harvest;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+
+
+
+for(Unit u){
+	if(u.OpponentHasUnitThatKillsUnitInOneAttack()) then {
+		if(HaveQtdUnitsAttacking(2)) then {
+			for(Unit u){
+				u.harvest()
+			}
+		}
+	}
+	u.attack(LessHealthy)
+	u.train(Worker,Up)
+}
+FIM

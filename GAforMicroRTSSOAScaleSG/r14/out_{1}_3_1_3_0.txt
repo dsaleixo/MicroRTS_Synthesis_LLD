@@ -1,0 +1,26 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;S_S;S;C;Train;Light;Up;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Idle;S;C;Harvest;S;S_S;S;C;MoveAway;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;25;S;If_B_then_S;B;CanAttack;S;For_S;S;C;Attack;Random;S;C;Harvest;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;25;S;If_B_then_S;B;CanAttack;S;For_S;S;C;Attack;Closest;S;C;Harvest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;25;S;If_B_then_S;B;CanAttack;S;For_S;S;C;Attack;Closest;S;C;Harvest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;25;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;3;S;For_S;S;C;Attack;Closest;S;C;Harvest;S;C;Train;Worker;Down
+
+
+
+for(Unit u){
+	for(Unit u){
+		if(u.HasUnitWithinDistanceFromOpponent(25)) then {
+			if(HasNumberOfWorkersHarvesting(3)) then {
+				for(Unit u){
+					u.attack(Closest)
+				}
+			}
+		}
+		u.harvest()
+	}
+	u.train(Worker,Down)
+}
+FIM

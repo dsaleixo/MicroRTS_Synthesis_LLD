@@ -1,0 +1,11 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Build;Ranged;Left;S;S_S;S;C;Train;Worker;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Build;Light;EnemyDir;S;S_S;S;S_S;S;C;Train;Worker;Left;S;C;Attack;Weakest;S;C;Attack;MostHealthy
+Atual=S;For_S;S;S_S;S;C;Build;Light;Down;S;S_S;S;C;Train;Worker;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Build;Light;Down;S;S_S;S;C;Train;Worker;Down;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;is_Type;Base;S;S_S;S;C;Train;Ranged;Up;S;For_S;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;S;C;Attack;LessHealthy;S;For_S;S;C;Attack;LessHealthy;S;S_S;S;C;Train;Worker;Down;S;C;Attack;LessHealthy
+slurmstepd: error: *** JOB 5840812 ON cdr642 CANCELLED AT 2021-06-23T07:32:15 DUE TO TIME LIMIT ***

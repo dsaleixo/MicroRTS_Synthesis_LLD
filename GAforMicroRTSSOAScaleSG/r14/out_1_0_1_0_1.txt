@@ -1,0 +1,24 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;C;Attack;Weakest;S;S_S;S;C;Train;Worker;Up;S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Farthest;S;C;Idle;S;For_S;S;C;Attack;Weakest;S;S_S;S;S_S;S;C;Train;Worker;Down;S;S_S;S;C;Train;Barracks;EnemyDir;S;C;Idle;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;C;Train;Light;Up;S;C;Idle
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;C;MoveAway;S;For_S;S;C;Attack;Weakest;S;S_S;S;S_S;S;Empty;S;Empty;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;S;S_S;S;For_S;S;C;Attack;Weakest;S;C;MoveAway;S;S_S;S;S_S;S;For_S;S;C;Train;Barracks;Right;S;Empty;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Build;Light;Up;S;C;MoveAway;S;S_S;S;C;Harvest;S;S_S;S;For_S;S;C;Attack;Weakest;S;C;MoveAway;S;S_S;S;S_S;S;C;Train;Worker;Up;S;C;Train;Heavy;EnemyDir;S;S_S;S;C;Train;Heavy;Left;S;C;MoveAway
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Build;Heavy;Left;S;C;Train;Heavy;EnemyDir;S;S_S;S;C;Train;Worker;Right;S;C;Attack;Closest;S;S_S;S;S_S;S;C;Train;Worker;Up;S;C;Train;Light;Up;S;S_S;S;C;Train;Ranged;EnemyDir;S;C;Idle
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;S;C;Train;Heavy;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Barracks;Left;S;S_S;S;S_S;S;C;Idle;S;C;Build;Ranged;EnemyDir;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;S;C;Train;Heavy;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Barracks;Left;S;S_S;S;S_S;S;C;Idle;S;C;Build;Ranged;EnemyDir;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;S;C;Train;Heavy;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Barracks;Left;S;S_S;S;S_S;S;C;Idle;S;C;Build;Ranged;EnemyDir;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;S;C;Train;Heavy;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Barracks;Left;S;S_S;S;S_S;S;C;Idle;S;C;Build;Ranged;EnemyDir;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;S;C;Train;Heavy;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Barracks;Left;S;S_S;S;S_S;S;C;Idle;S;C;Build;Ranged;EnemyDir;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;S;C;Train;Heavy;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Barracks;Left;S;S_S;S;S_S;S;C;Idle;S;C;Build;Ranged;EnemyDir;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;S;C;Train;Heavy;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Barracks;Left;S;S_S;S;S_S;S;C;Idle;S;C;Build;Ranged;EnemyDir;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;S;C;Train;Heavy;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Barracks;Left;S;S_S;S;S_S;S;C;Idle;S;C;Build;Ranged;EnemyDir;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;S;C;Train;Heavy;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Barracks;Left;S;S_S;S;S_S;S;C;Idle;S;C;Build;Ranged;EnemyDir;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Build;Base;Up;S;C;Train;Heavy;EnemyDir;S;S_S;S;Empty;S;Empty;S;S_S;S;S_S;S;C;Attack;Closest;S;C;Harvest;S;S_S;S;C;Train;Worker;Left;S;C;Idle
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Train;Heavy;EnemyDir;S;S_S;S;C;Harvest;S;C;MoveToUnit;Ally;Weakest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Strongest;S;S_S;S;C;Attack;Weakest;S;C;MoveAway;S;S_S;S;For_S;S;C;Train;Worker;Left;S;C;Idle
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Idle;S;S_S;S;C;Build;Barracks;Down;S;C;Harvest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Strongest;S;S_S;S;C;Build;Light;Right;S;C;MoveAway;S;S_S;S;For_S;S;C;Train;Ranged;EnemyDir;S;C;Build;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Idle;S;S_S;S;C;Build;Barracks;Down;S;C;Harvest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Strongest;S;S_S;S;C;Build;Base;Up;S;C;Idle;S;S_S;S;For_S;S;C;Train;Light;Up;S;C;Build;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Idle;S;S_S;S;C;Build;Barracks;Down;S;C;Harvest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Strongest;S;S_S;S;C;Build;Heavy;Right;S;C;Train;Light;Down;S;S_S;S;For_S;S;C;Train;Light;Right;S;C;Build;Worker;Up
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException
+FIM

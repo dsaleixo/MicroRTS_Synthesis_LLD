@@ -1,0 +1,25 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;If_B_then_S_else_S;B;is_Type;Base;S;C;Train;Worker;Left;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;CanHarvest;S;C;Build;Ranged;Left;S;If_B_then_S_else_S;B;is_Type;Base;S;C;Train;Worker;Left;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Build;Light;Right;S;If_B_then_S_else_S;B;is_Type;Base;S;C;Train;Worker;Left;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;C;Train;Barracks;Down;S;C;Harvest;S;For_S;S;If_B_then_S_else_S;B;HasUnitThatKillsInOneAttack;S;C;Idle;S;C;Harvest;S;If_B_then_S_else_S;B;is_Type;Base;S;C;Train;Worker;Left;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;C;Train;Base;EnemyDir;S;For_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;3;S;C;Idle;S;C;Harvest;S;If_B_then_S_else_S;B;is_Type;Base;S;C;Train;Worker;Left;S;C;Attack;Strongest
+
+
+
+for(Unit u){
+	for(Unit u){
+		if(HasNumberOfWorkersHarvesting(3)) then {
+			u.idle()
+		} else {
+			u.harvest()
+		}
+	}
+	if(u.is(Base)) then {
+		u.train(Worker,Left)
+	} else {
+		u.attack(Strongest)
+	}
+}
+FIM

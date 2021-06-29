@@ -1,0 +1,35 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;Build;Worker;Down;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Left;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S;B;HasNumberOfUnits;Heavy;10;S;C;MoveToUnit;Enemy;Closest;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Left;S;For_S;S;C;Build;Ranged;Right;S;S_S;S;If_B_then_S;B;HasNumberOfUnits;Heavy;50;S;S_S;S;C;Train;Base;EnemyDir;S;C;MoveToUnit;Enemy;Closest;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Right;S;C;Build;Heavy;Left;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Left;S;C;Build;Worker;Right;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Left;S;C;Build;Ranged;Right;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Left;S;C;Build;Light;Right;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Left;S;C;Build;Worker;Right;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Left;S;C;Build;Ranged;Left;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Left;S;C;Build;Light;Down;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Build;Ranged;Left;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Build;Light;Right;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Idle;S;For_S;S;C;Train;Worker;Up;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Idle;S;For_S;S;C;Train;Worker;Up;S;S_S;S;C;Harvest;S;C;MoveAway;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;2;S;C;MoveToUnit;Enemy;Strongest;S;C;Harvest;S;S_S;S;S_S;S;C;Idle;S;For_S;S;C;Train;Worker;Up;S;C;Harvest;S;C;Attack;Weakest
+
+
+
+for(Unit u){
+	if(HasNumberOfWorkersHarvesting(2)) then {
+		u.moveToUnit(Enemy,Strongest)
+	} else {
+		u.harvest()
+	}
+	u.idle()
+	for(Unit u){
+		u.train(Worker,Up)
+	}
+	u.harvest()
+}
+FIM

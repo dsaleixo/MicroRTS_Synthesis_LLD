@@ -1,0 +1,32 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;MostHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;C;MoveToUnit;Enemy;MostHealthy;S;For_S;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;S_S;S;C;MoveToUnit;Enemy;MostHealthy;S;For_S;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;MostHealthy;S;For_S;S;C;Harvest;S;S_S;S;C;Build;Heavy;Down;S;For_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;C;MoveAway;S;C;Harvest;S;For_S;S;S_S;S;C;Idle;S;For_S;S;C;Harvest;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Train;Worker;Up;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;C;Train;Heavy;Right;S;C;Train;Base;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;3;S;C;Idle;S;C;Harvest;S;If_B_then_S;B;CanAttack;S;C;MoveToUnit;Enemy;Strongest;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Train;Worker;Up;S;Empty
+
+
+
+for(Unit u){
+	u.attack(Weakest)
+	if(HaveQtdUnitsAttacking(2)) then {
+		for(Unit u){
+			if(HasNumberOfWorkersHarvesting(3)) then {
+				u.idle()
+			} else {
+				u.harvest()
+			}
+		}
+		u.moveToUnit(Enemy,Strongest)
+	} else {
+		if(u.HasUnitWithinDistanceFromOpponent(25)) then {
+			u.train(Worker,Up)
+		} else {
+			e
+		}
+	}
+}
+FIM

@@ -1,0 +1,28 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;For_S;S;C;Train;Worker;Down;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;C;Harvest;S;C;Attack;LessHealthy;S;S_S;S;For_S;S;C;Train;Worker;Down;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;S_S;S;C;Harvest;S;If_B_then_S_else_S;B;IsBuilder;S;C;Harvest;S;C;Attack;MostHealthy;S;C;Attack;LessHealthy;S;S_S;S;If_B_then_S_else_S;B;HasUnitThatKillsInOneAttack;S;For_S;S;C;Train;Worker;Down;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Build;Heavy;Up;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;S_S;S;C;Build;Base;EnemyDir;S;C;Harvest;S;C;Attack;LessHealthy;S;If_B_then_S_else_S;B;HasUnitThatKillsInOneAttack;S;For_S;S;C;Train;Worker;Down;S;Empty
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 597
+	at rts.PhysicalGameState.getTerrain(PhysicalGameState.java:136)
+	at rts.GameState.free(GameState.java:176)
+	at CFG.Direction.converte(Direction.java:68)
+	at CFG_Actions.Train.interpret(Train.java:96)
+	at CFG.C.interpret(C.java:52)
+	at CFG.S.interpret(S.java:51)
+	at CFG.For_S.interpret(For_S.java:55)
+	at CFG.S.interpret(S.java:51)
+	at CFG.If_B_then_S_else_S.interpret(If_B_then_S_else_S.java:122)
+	at CFG.S.interpret(S.java:51)
+	at CFG.S_S.interpret(S_S.java:72)
+	at CFG.S.interpret(S.java:51)
+	at CFG.For_S.interpret(For_S.java:55)
+	at CFG.S.interpret(S.java:51)
+	at AIs.Interpreter.getAction(Interpreter.java:78)
+	at Evaluations.Playout.run(Playout.java:71)
+	at Evaluations.SimulatedAnnealing.evaluation(SimulatedAnnealing.java:32)
+	at IAs.LS1.run(LS1.java:60)
+	at Teste.Test1.main(Test1.java:48)
+FIM

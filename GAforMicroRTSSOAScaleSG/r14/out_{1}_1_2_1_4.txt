@@ -1,0 +1,29 @@
+Unloading StdEnv/2020
+Atual=S;S_S;S;For_S;S;C;Attack;Farthest;S;For_S;S;C;MoveToUnit;Ally;LessHealthy
+Atual=S;S_S;S;For_S;S;C;Attack;Strongest;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;S_S;S;For_S;S;C;Attack;Strongest;S;For_S;S;For_S;S;C;Train;Worker;Left
+Atual=S;S_S;S;For_S;S;C;Attack;Strongest;S;For_S;S;For_S;S;C;Train;Worker;Right
+Atual=S;S_S;S;For_S;S;C;Attack;Strongest;S;For_S;S;For_S;S;C;Train;Worker;Up
+Atual=S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;Down
+Atual=S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;EnemyDir
+Atual=S;S_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Idle;S;C;MoveToUnit;Enemy;Random;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;50;S;C;MoveAway;S;C;Harvest;S;For_S;S;For_S;S;C;Train;Worker;EnemyDir
+Atual=S;S_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Attack;Strongest;S;For_S;S;S_S;S;C;Build;Heavy;Right;S;C;MoveToUnit;Enemy;Strongest;S;C;Harvest;S;For_S;S;For_S;S;C;Train;Worker;EnemyDir
+
+
+
+for(Unit u){
+	if(u.HasUnitWithinDistanceFromOpponent(10)) then {
+		u.attack(Strongest)
+	} else {
+		for(Unit u){
+			u.build(Heavy,Right)
+			u.moveToUnit(Enemy,Strongest)
+		}
+	}
+}
+for(Unit u){
+	for(Unit u){
+		u.train(Worker,EnemyDir)
+	}
+}
+FIM

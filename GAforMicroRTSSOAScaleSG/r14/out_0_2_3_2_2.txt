@@ -1,0 +1,11 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;For_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;For_S;S;C;Attack;Weakest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Idle;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;25;S;S_S;S;If_B_then_S;B;CanAttack;S;C;Attack;Strongest;S;For_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;MoveToUnit;Enemy;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;CanHarvest;S;S_S;S;If_B_then_S;B;CanAttack;S;C;Attack;Strongest;S;For_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;MoveToUnit;Enemy;Strongest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;CanHarvest;S;S_S;S;C;Harvest;S;For_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;MoveToUnit;Enemy;Strongest;S;C;Train;Worker;Right
+slurmstepd: error: *** JOB 5841687 ON cdr1564 CANCELLED AT 2021-06-23T07:37:50 DUE TO TIME LIMIT ***

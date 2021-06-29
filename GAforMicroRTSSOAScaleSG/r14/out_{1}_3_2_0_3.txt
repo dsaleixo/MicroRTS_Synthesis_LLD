@@ -1,0 +1,46 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;S_S;S;For_S;S;C;Attack;Closest;S;S_S;S;C;Attack;MostHealthy;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;S_S;S;For_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;C;MoveAway;S;C;MoveAway
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;S_S;S;If_B_then_S;B;HasLessNumberOfUnits;Ranged;5;S;For_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Idle;S;For_S;S;If_B_then_S;B;HasLessNumberOfUnits;Heavy;50;S;C;Attack;MostHealthy
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;S_S;S;For_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;Empty;S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;S_S;S;For_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;Empty;S;For_S;S;C;Harvest
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;S_S;S;For_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;Empty;S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;S_S;S;For_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;Empty;S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;S_S;S;For_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;Empty;S;For_S;S;C;MoveAway
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;S_S;S;For_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;Empty;S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;S_S;S;For_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;Empty;S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;S_S;S;For_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;Empty;S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;S_S;S;For_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;Empty;S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;0;S;S_S;S;For_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;Empty;S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Train;Light;EnemyDir;S;If_B_then_S;B;CanAttack;S;For_S;S;S_S;S;C;Build;Barracks;Left;S;C;Harvest;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Train;Light;EnemyDir;S;If_B_then_S;B;CanAttack;S;For_S;S;S_S;S;C;Build;Barracks;Left;S;C;Harvest;S;C;Attack;MostHealthy;S;C;MoveAway
+Atual=S;For_S;S;For_S;S;S_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;C;Train;Light;EnemyDir;S;If_B_then_S;B;CanAttack;S;For_S;S;S_S;S;C;Build;Barracks;Left;S;C;Harvest;S;C;Attack;MostHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;For_S;S;C;Train;Light;EnemyDir;S;If_B_then_S;B;CanAttack;S;For_S;S;S_S;S;C;Build;Barracks;Left;S;C;Harvest;S;C;Attack;Closest
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;S_S;S;C;Build;Barracks;Up;S;C;Build;Base;Right;S;S_S;S;S_S;S;For_S;S;For_S;S;C;Train;Light;EnemyDir;S;If_B_then_S;B;CanAttack;S;For_S;S;S_S;S;C;Build;Barracks;Left;S;C;Harvest;S;C;Attack;Closest
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanAttack;S;S_S;S;S_S;S;C;Idle;S;C;Idle;S;C;Build;Barracks;EnemyDir;S;S_S;S;S_S;S;For_S;S;For_S;S;C;Train;Light;EnemyDir;S;If_B_then_S;B;CanAttack;S;For_S;S;C;Harvest;S;C;Attack;Closest
+
+
+
+for(Unit u){
+	for(Unit u){
+		for(Unit u){
+			if(u.canAttack()) then {
+				u.idle()
+				u.build(Barracks,EnemyDir)
+			}
+		}
+		for(Unit u){
+			for(Unit u){
+				u.train(Light,EnemyDir)
+			}
+		}
+		if(u.canAttack()) then {
+			for(Unit u){
+				u.harvest()
+			}
+		}
+		u.attack(Closest)
+	}
+}
+FIM

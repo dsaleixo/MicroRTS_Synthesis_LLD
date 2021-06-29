@@ -1,0 +1,14 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;S_S;S;C;Idle;S;C;Harvest;S;C;Train;Worker;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;S_S;S;C;Build;Barracks;Left;S;For_S;S;C;Harvest;S;C;Train;Heavy;EnemyDir;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;S_S;S;C;Build;Barracks;Left;S;For_S;S;C;Harvest;S;C;Train;Heavy;EnemyDir;S;C;Attack;Strongest;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;S_S;S;C;Idle;S;C;Idle;S;C;Train;Worker;Up;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;S_S;S;C;Idle;S;C;Harvest;S;C;Train;Worker;Up;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;2;S;C;Harvest;S;If_B_then_S;B;CanAttack;S;For_S;S;For_S;S;C;Build;Ranged;Right;S;S_S;S;C;Train;Worker;Up;S;If_B_then_S_else_S;B;HasNumberOfUnits;Ranged;4;S;C;Attack;LessHealthy;S;C;Build;Ranged;EnemyDir;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;2;S;C;Harvest;S;For_S;S;For_S;S;C;Build;Worker;EnemyDir;S;C;Train;Worker;Up;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;2;S;C;Harvest;S;For_S;S;For_S;S;C;Build;Heavy;Right;S;C;Train;Worker;Up;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;2;S;C;Harvest;S;For_S;S;For_S;S;C;Build;Worker;Down;S;C;Train;Worker;Up;S;C;Attack;Strongest
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException
+FIM

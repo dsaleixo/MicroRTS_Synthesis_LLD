@@ -1,0 +1,28 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Weakest;S;For_S;S;C;Idle
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Train;Worker;Right;S;C;Harvest;S;C;Train;Worker;Up;S;C;Attack;Weakest;S;For_S;S;S_S;S;S_S;S;C;MoveAway;S;C;Idle;S;S_S;S;C;Build;Barracks;Left;S;C;MoveAway
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Idle;S;C;Train;Worker;Up;S;C;Attack;Weakest;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Idle
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Train;Barracks;Down;S;C;Train;Worker;Up;S;C;Attack;MostHealthy;S;For_S;S;S_S;S;C;Train;Heavy;Left;S;C;Idle
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;LessHealthy;S;C;Train;Worker;Up;S;C;Attack;Random;S;For_S;S;C;Idle
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Harvest;S;C;Attack;LessHealthy;S;C;Train;Worker;Up;S;For_S;S;S_S;S;C;Idle;S;C;Build;Ranged;Down
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Attack;MostHealthy;S;C;Harvest;S;C;Train;Worker;Up;S;For_S;S;S_S;S;C;Idle;S;C;Build;Light;Left
+
+
+
+for(Unit u){
+	if(u.canAttack()) then {
+		if(u.HasUnitWithinDistanceFromOpponent(10)) then {
+			u.attack(MostHealthy)
+		} else {
+			u.harvest()
+		}
+	} else {
+		u.train(Worker,Up)
+	}
+	for(Unit u){
+		u.idle()
+		u.build(Light,Left)
+	}
+}
+FIM

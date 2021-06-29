@@ -1,0 +1,21 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanHarvest;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Harvest;S;C;Harvest;S;If_B_then_S_else_S;B;CanHarvest;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;CanAttack;S;C;Harvest;S;If_B_then_S_else_S;B;CanAttack;S;For_S;S;S_S;S;C;Attack;Closest;S;C;Build;Base;Right;S;C;Train;Worker;EnemyDir
+
+
+
+for(Unit u){
+	if(u.canAttack()) then {
+		u.harvest()
+	}
+	if(u.canAttack()) then {
+		for(Unit u){
+			u.attack(Closest)
+		}
+	} else {
+		u.train(Worker,EnemyDir)
+	}
+}
+FIM

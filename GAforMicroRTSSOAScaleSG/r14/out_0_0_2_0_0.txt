@@ -1,0 +1,10 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;S_S;S;For_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;S;S_S;S;C;Idle;S;C;MoveToUnit;Enemy;Closest;S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;S;S_S;S;C;Idle;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;If_B_then_S;B;HasLessNumberOfUnits;Barracks;1;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Train;Heavy;Right;S;C;Train;Light;Down;S;S_S;S;C;Build;Heavy;EnemyDir;S;For_S;S;S_S;S;C;Train;Worker;Down;S;S_S;S;C;Train;Heavy;Right;S;C;Attack;MostHealthy
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;Closest;S;S_S;S;C;Attack;Random;S;C;Train;Heavy;EnemyDir;S;S_S;S;For_S;S;C;Build;Barracks;Up;S;For_S;S;C;Harvest;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;25;S;If_B_then_S_else_S;B;is_Type;Base;S;C;MoveToUnit;Ally;Closest;S;C;Idle;S;C;Build;Heavy;EnemyDir;S;For_S;S;S_S;S;C;Train;Worker;Down;S;C;Attack;MostHealthy
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;Closest;S;C;Train;Ranged;Left;S;S_S;S;For_S;S;C;Idle;S;For_S;S;Empty;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;25;S;C;MoveToUnit;Ally;Closest;S;Empty;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;C;Train;Worker;Left;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;Empty;S;Empty;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Harvest;S;C;Train;Worker;Left;S;For_S;S;C;Idle;S;C;Attack;Strongest
+slurmstepd: error: *** JOB 5841053 ON cdr637 CANCELLED AT 2021-06-23T07:34:13 DUE TO TIME LIMIT ***

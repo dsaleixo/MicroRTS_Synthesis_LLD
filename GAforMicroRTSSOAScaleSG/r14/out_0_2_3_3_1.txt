@@ -1,0 +1,7 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;S_S;S;For_S;S;S_S;S;C;Train;Worker;Up;S;C;Build;Heavy;Left;S;For_S;S;C;Attack;Closest
+Atual=S;S_S;S;For_S;S;S_S;S;C;Train;Worker;Up;S;C;Build;Base;Right;S;For_S;S;C;Attack;Closest
+Atual=S;S_S;S;For_S;S;S_S;S;C;Train;Worker;Up;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;25;S;For_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Enemy;Strongest;S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Harvest;S;C;Build;Heavy;Down;S;If_B_then_S;B;is_Type;Light;S;For_S;S;C;Build;Worker;EnemyDir
+slurmstepd: error: *** JOB 5841705 ON cdr411 CANCELLED AT 2021-06-23T07:37:56 DUE TO TIME LIMIT ***

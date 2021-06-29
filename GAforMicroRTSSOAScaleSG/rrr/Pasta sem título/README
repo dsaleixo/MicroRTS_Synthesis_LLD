@@ -1,0 +1,23 @@
+o arquivo esta organizado da seguinte forma, oq estetiver entre aspas é o q está esta escrito no arquivo
+
+
+"Instancia 0"
+		"jogador0" pensa como este conjunto fosse a elite para o jogador 0 e esta ordenado com em forma crescente, isto é o ultimo é o melhor
+			lista de Scripts
+		"jogador1" 
+			lista de Scripts
+		"populacao0"
+			lista de Scripts
+		"populacao1"
+			lista de Scripts
+		"novo jogador0" nova elite dps da remoção
+			lista de Scripts
+		"novojogador1" 
+			lista de Scripts
+"Instancia 0"
+
+
+um script da elite ou da população do jogador 1  é avaliado jogando contra a elite do jogador 0 
+um script da elite ou da população do jogador 0  é avaliado jogando contra a elite do jogador 1
+
+mandei o mapa tbm

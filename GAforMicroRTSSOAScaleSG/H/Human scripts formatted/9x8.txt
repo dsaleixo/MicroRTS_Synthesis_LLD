@@ -1,0 +1,5 @@
+9x8
+train(Worker,1,Up) build(Barrack,1,Down) harvest(1) train(Ranged,5,EnemyDir) attack(Ranged,closest) train(Heavy,2,EnemyDir) attack(Heavy,closest) 
+train(Worker,2,EnemyDir) if(IsPlayerInPosition(Right)) then(build(Barrack,1,Right)) if(IsPlayerInPosition(Left)) then(build(Barrack,1,Left)) harvest(3) train(Ranged,100,Up) attack(Ranged,closest) 
+build(Barrack,1,Up) train(Worker,2,EnemyDir) harvest(2) train(Ranged,2,EnemyDir) attack(Ranged,closest) for(u) (if(HaveQtdUnitsAttacking(Ranged,1,u)) then(train(Ranged,50,EnemyDir,u))) for(u) (if(HaveUnitsinEnemyRange(Worker,u)) then(moveaway(Worker,u)))
+train(Worker,25,Right) harvest(1) attack(Worker,closest)

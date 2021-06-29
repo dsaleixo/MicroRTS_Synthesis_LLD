@@ -1,0 +1,29 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Right;S;S_S;S;C;Attack;LessHealthy;S;C;MoveToUnit;Enemy;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Right;S;If_B_then_S;B;HasLessNumberOfUnits;Ranged;1;S;C;Build;Worker;Right;S;S_S;S;C;Attack;LessHealthy;S;C;MoveToUnit;Enemy;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Build;Base;Left;S;S_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;4;S;If_B_then_S;B;IsBuilder;S;C;Harvest;S;C;Attack;LessHealthy;S;C;MoveToUnit;Enemy;Weakest
+Atual=S;For_S;S;S_S;S;C;Train;Worker;EnemyDir;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;If_B_then_S;B;IsBuilder;S;C;Harvest;S;C;Attack;LessHealthy;S;C;Harvest
+Atual=S;For_S;S;S_S;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;25;S;C;Attack;LessHealthy;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Worker;Left;S;C;Train;Worker;EnemyDir;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Worker;Down;S;C;Train;Worker;EnemyDir;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Worker;Down;S;C;Train;Worker;Up;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;4;S;For_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Enemy;LessHealthy;S;C;Train;Barracks;Left;S;C;Train;Worker;Up;S;C;Harvest
+
+
+
+for(Unit u){
+	for(Unit u){
+		if(HasNumberOfWorkersHarvesting(4)) then {
+			for(Unit u){
+				u.idle()
+				u.moveToUnit(Enemy,LessHealthy)
+			}
+		} else {
+			e
+		}
+	}
+	u.train(Worker,Up)
+	u.harvest()
+}
+FIM

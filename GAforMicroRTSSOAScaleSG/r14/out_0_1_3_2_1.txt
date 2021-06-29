@@ -1,0 +1,24 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Right;S;C;Harvest;S;C;Build;Ranged;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;If_B_then_S;B;OpponentHasNumberOfUnits;Heavy;2;S;For_S;S;C;Attack;MostHealthy;S;C;Attack;Weakest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;S_S;S;Empty;S;C;Idle;S;C;Attack;Weakest;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;Harvest;S;C;Attack;Weakest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;5;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;C;Train;Ranged;Left;S;If_B_then_S_else_S;B;CanHarvest;S;C;Harvest;S;C;Harvest;S;S_S;S;C;Train;Worker;Right;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;5;S;Empty;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;5;S;C;Harvest;S;Empty;S;S_S;S;C;Train;Worker;Right;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Build;Ranged;Left;S;S_S;S;C;Train;Worker;Right;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;1;S;C;Build;Ranged;Left;S;C;Harvest;S;S_S;S;C;Train;Worker;Right;S;C;Attack;LessHealthy
+
+
+
+for(Unit u){
+	if(HasNumberOfWorkersHarvesting(1)) then {
+		u.build(Ranged,Left)
+	} else {
+		u.harvest()
+	}
+	u.train(Worker,Right)
+	u.attack(LessHealthy)
+}
+FIM

@@ -1,0 +1,28 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Worker;4;S;S_S;S;C;Idle;S;S_S;S;C;Train;Worker;Left;S;C;MoveAway;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Worker;4;S;S_S;S;C;Idle;S;S_S;S;C;Train;Ranged;EnemyDir;S;C;Attack;Random;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Worker;4;S;S_S;S;C;Idle;S;C;Attack;Random;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Worker;4;S;S_S;S;C;Idle;S;C;Attack;Random;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Worker;4;S;S_S;S;C;Idle;S;C;Attack;Random;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Worker;4;S;S_S;S;C;Idle;S;C;Attack;Random;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Worker;4;S;S_S;S;C;Idle;S;C;Attack;Random;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Worker;4;S;S_S;S;C;Idle;S;C;Attack;Random;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Worker;4;S;S_S;S;C;Idle;S;C;Attack;Random;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Heavy;2;S;C;Build;Ranged;Left;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Up;S;S_S;S;S_S;S;C;Idle;S;C;Train;Worker;Right;S;C;Harvest;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Up;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;C;Train;Worker;Right;S;C;Attack;Weakest;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;50;S;If_B_then_S;B;HasLessNumberOfUnits;Light;50;S;C;Idle;S;C;Harvest;S;C;Attack;Closest
+
+
+
+for(Unit u){
+	u.train(Worker,Up)
+	if(HaveQtdUnitsAttacking(3)) then {
+		e
+	} else {
+		u.attack(Weakest)
+	}
+	u.harvest()
+}
+FIM

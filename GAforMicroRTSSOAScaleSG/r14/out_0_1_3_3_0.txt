@@ -1,0 +1,34 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;1;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;For_S;S;S_S;S;C;Train;Worker;Right;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;C;Harvest;S;C;Train;Worker;EnemyDir;S;S_S;S;C;Build;Heavy;EnemyDir;S;C;Attack;Weakest
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;C;Harvest;S;C;Train;Worker;Right;S;S_S;S;C;Build;Heavy;EnemyDir;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;S_S;S;C;Build;Light;Left;S;C;Harvest;S;C;Train;Worker;Right;S;S_S;S;For_S;S;C;Train;Heavy;Left;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;For_S;S;S_S;S;C;Build;Light;Left;S;C;Harvest;S;C;Train;Worker;Right;S;C;Attack;Strongest
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Right;S;C;Harvest;S;C;Train;Worker;Right;S;C;Attack;Strongest
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfUnits;Base;0;S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Right;S;C;Harvest;S;C;Train;Worker;Right;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Right;S;C;Harvest;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Right;S;C;Harvest;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Right;S;C;Harvest;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Right;S;C;Harvest;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Right;S;C;Harvest;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Right;S;C;Harvest;S;C;Attack;Random
+
+
+
+for(Unit u){
+	for(Unit u){
+		for(Unit u){
+			for(Unit u){
+				for(Unit u){
+					u.build(Barracks,EnemyDir)
+				}
+				u.train(Light,Right)
+			}
+			u.harvest()
+		}
+		u.attack(Random)
+	}
+}
+FIM

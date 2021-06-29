@@ -1,0 +1,11 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Build;Heavy;Right;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Build;Light;Down;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;For_S;S;C;MoveToUnit;Enemy;LessHealthy;S;S_S;S;C;Build;Light;Down;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;C;Harvest;S;S_S;S;C;Build;Heavy;EnemyDir;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;C;Harvest;S;S_S;S;C;Build;Heavy;EnemyDir;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;LessHealthy;S;C;Train;Worker;Down;S;For_S;S;C;Build;Ranged;Up
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException
+FIM

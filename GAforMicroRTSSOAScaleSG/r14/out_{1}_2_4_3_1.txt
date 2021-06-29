@@ -1,0 +1,20 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Attack;Closest;S;C;Train;Worker;Up
+Atual=S;For_S;S;If_B_then_S_else_S;B;IsBuilder;S;S_S;S;S_S;S;C;Harvest;S;C;Train;Light;Right;S;For_S;S;C;Attack;Weakest;S;If_B_then_S_else_S;B;IsBuilder;S;C;Attack;Closest;S;C;Train;Worker;Up
+
+
+
+for(Unit u){
+	if(u.isBuilder()) then {
+		u.harvest()
+		for(Unit u){
+			u.attack(Weakest)
+		}
+	} else {
+		u.train(Worker,Up)
+	}
+}
+FIM

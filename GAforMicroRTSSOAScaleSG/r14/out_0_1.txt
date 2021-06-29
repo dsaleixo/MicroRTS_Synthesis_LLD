@@ -1,0 +1,26 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Attack;Random;S;C;Attack;Random;S;For_S;S;C;Harvest;S;If_B_then_S_else_S;B;HasUnitThatKillsInOneAttack;S;C;Train;Worker;Left;S;C;Idle
+Atual=S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Attack;Weakest;S;If_B_then_S_else_S;B;HasUnitThatKillsInOneAttack;S;C;Train;Worker;Left;S;Empty
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Attack;Weakest;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;C;Train;Worker;Right;S;C;Attack;Weakest;S;C;Train;Worker;Left
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;3;S;C;Train;Worker;Right;S;For_S;S;C;MoveToUnit;Ally;Farthest;S;C;Attack;Weakest
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;1;S;For_S;S;C;Harvest;S;For_S;S;C;Train;Worker;Right;S;S_S;S;For_S;S;S_S;S;C;Train;Base;Right;S;C;Attack;MostHealthy;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Farthest;S;C;Build;Ranged;Down
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;1;S;Empty;S;For_S;S;C;Attack;MostHealthy;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;For_S;S;S_S;S;C;Harvest;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;For_S;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;EnemyDir;S;For_S;S;S_S;S;C;Attack;Random;S;C;Idle
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;For_S;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;Up;S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;For_S;S;S_S;S;For_S;S;C;Train;Worker;Down;S;C;Idle;S;For_S;S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;4;S;For_S;S;S_S;S;For_S;S;C;Train;Worker;Down;S;C;Idle;S;For_S;S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;4;S;For_S;S;For_S;S;C;Train;Worker;Down;S;For_S;S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;4;S;For_S;S;For_S;S;C;Train;Worker;Down;S;For_S;S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;2;S;For_S;S;For_S;S;C;Train;Worker;Down;S;For_S;S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;For_S;S;For_S;S;C;Train;Worker;Down;S;For_S;S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;For_S;S;For_S;S;C;Train;Worker;Left;S;For_S;S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;For_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;0;S;If_B_then_S_else_S;B;is_Type;Heavy;S;S_S;S;C;Attack;Closest;S;C;Harvest;S;C;Train;Worker;Right;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Base;5;S;For_S;S;For_S;S;C;Attack;Strongest;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;For_S;S;C;Idle;S;S_S;S;For_S;S;For_S;S;C;Attack;Strongest;S;S_S;S;S_S;S;C;Build;Worker;Up;S;C;MoveAway;S;S_S;S;C;Train;Worker;Up;S;C;Idle
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;Empty;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Attack;Closest;S;C;Harvest;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;Empty;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Attack;Closest;S;C;Harvest;S;C;Train;Worker;Left
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;Empty;S;S_S;S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Barracks;3;S;If_B_then_S;B;HasUnitInOpponentRange;S;C;MoveAway;S;For_S;S;For_S;S;C;Attack;Strongest;S;C;Train;Worker;Right
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;Empty;S;S_S;S;For_S;S;For_S;S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Up;S;C;Harvest;S;For_S;S;C;Attack;Strongest;S;C;Train;Worker;Right
+slurmstepd: error: *** JOB 5920184 ON cdr1562 CANCELLED AT 2021-06-24T06:52:32 DUE TO TIME LIMIT ***

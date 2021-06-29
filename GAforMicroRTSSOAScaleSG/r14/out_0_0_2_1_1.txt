@@ -1,0 +1,22 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Up;S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;S;S_S;S;C;Train;Worker;Up;S;For_S;S;C;Attack;Closest
+
+
+
+for(Unit u){
+	for(Unit u){
+		for(Unit u){
+			for(Unit u){
+				u.idle()
+				u.harvest()
+			}
+		}
+	}
+	u.train(Worker,Up)
+	for(Unit u){
+		u.attack(Closest)
+	}
+}
+FIM

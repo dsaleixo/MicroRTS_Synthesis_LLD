@@ -1,0 +1,21 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Strongest;S;If_B_then_S;B;CanAttack;S;For_S;S;S_S;S;C;Harvest;S;C;MoveToUnit;Ally;MostHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Strongest;S;If_B_then_S;B;CanAttack;S;For_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Enemy;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Strongest;S;If_B_then_S;B;CanAttack;S;For_S;S;S_S;S;C;Harvest;S;C;MoveAway
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Strongest;S;If_B_then_S;B;CanAttack;S;For_S;S;S_S;S;C;Build;Worker;Down;S;C;Idle
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Strongest;S;If_B_then_S;B;CanAttack;S;For_S;S;S_S;S;C;Build;Light;Right;S;C;Build;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Strongest;S;If_B_then_S;B;CanAttack;S;For_S;S;C;Idle
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Strongest;S;If_B_then_S;B;CanAttack;S;For_S;S;C;Harvest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;Attack;LessHealthy;S;If_B_then_S;B;CanAttack;S;For_S;S;C;Build;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;Attack;LessHealthy;S;If_B_then_S;B;CanAttack;S;For_S;S;C;Build;Light;Right
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Closest;S;If_B_then_S;B;CanAttack;S;For_S;S;Empty
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;Build;Heavy;Down;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;Build;Light;Down;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Attack;Strongest;S;S_S;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;S;C;Attack;Strongest;S;For_S;S;C;Train;Heavy;Up
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;C;Train;Worker;EnemyDir;S;S_S;S;C;Idle;S;C;Harvest;S;C;MoveToUnit;Enemy;Closest
+slurmstepd: error: *** JOB 5852089 ON cdr519 CANCELLED AT 2021-06-23T11:42:03 DUE TO TIME LIMIT ***

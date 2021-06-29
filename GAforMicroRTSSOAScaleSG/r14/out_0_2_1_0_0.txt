@@ -1,0 +1,6 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;S_S;S;C;MoveAway;S;C;Train;Worker;Down;S;C;Train;Barracks;Right
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;4;S;C;Idle;S;C;Harvest;S;C;Attack;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;1;S;C;Idle;S;C;Harvest;S;C;Attack;MostHealthy;S;C;Train;Worker;Down
+slurmstepd: error: *** JOB 5841531 ON cdr1276 CANCELLED AT 2021-06-23T07:35:49 DUE TO TIME LIMIT ***

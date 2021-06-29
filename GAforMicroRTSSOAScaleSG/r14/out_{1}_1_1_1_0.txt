@@ -1,0 +1,40 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Left;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Heavy;Up;S;C;Train;Worker;Left;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Light;Right;S;S_S;S;C;Build;Heavy;Up;S;C;Train;Worker;Left;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Worker;Down;S;C;Train;Worker;Down;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Worker;Down;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Heavy;Right;S;C;Train;Worker;Down;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Build;Heavy;Right;S;C;Train;Worker;Down;S;S_S;S;C;Idle;S;C;Harvest;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Build;Barracks;Down;S;For_S;S;C;Train;Worker;Down;S;S_S;S;C;Train;Heavy;Right;S;C;Harvest;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Build;Barracks;Down;S;For_S;S;C;Train;Heavy;Right;S;S_S;S;C;Train;Heavy;Right;S;C;Harvest;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Build;Barracks;Down;S;For_S;S;C;Train;Light;Left;S;C;Harvest;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Build;Barracks;Down;S;For_S;S;C;Train;Light;Left;S;C;Harvest;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Build;Barracks;Up;S;For_S;S;C;Train;Light;Left;S;C;Harvest;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Build;Barracks;Up;S;For_S;S;C;Train;Light;Left;S;C;Harvest;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;C;Harvest;S;C;Train;Heavy;Left;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Build;Barracks;Up;S;For_S;S;C;Train;Light;Left;S;C;Harvest;S;C;Attack;MostHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;Empty;S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Idle;S;C;Build;Barracks;Up;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;For_S;S;C;Train;Light;Left;S;C;Harvest;S;C;Attack;MostHealthy
+
+
+
+for(Unit u){
+	for(Unit u){
+		if(u.canAttack()) then {
+			u.idle()
+			u.build(Barracks,Up)
+		} else {
+			if(u.OpponentHasUnitInPlayerRange()) then {
+				for(Unit u){
+					u.moveToUnit(Enemy,Closest)
+				}
+			}
+		}
+		for(Unit u){
+			u.train(Light,Left)
+		}
+	}
+	u.harvest()
+	u.attack(MostHealthy)
+}
+FIM

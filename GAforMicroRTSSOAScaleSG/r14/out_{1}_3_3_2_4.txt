@@ -1,0 +1,11 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Attack;Random;S;S_S;S;C;MoveToUnit;Enemy;LessHealthy;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Attack;Random;S;S_S;S;C;Idle;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Attack;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Attack;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Attack;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Attack;LessHealthy;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;IsBuilder;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Harvest;S;For_S;S;C;Attack;Weakest;S;C;Attack;LessHealthy;S;C;Train;Worker;EnemyDir
+slurmstepd: error: *** JOB 5852275 ON cdr1510 CANCELLED AT 2021-06-23T11:42:03 DUE TO TIME LIMIT ***

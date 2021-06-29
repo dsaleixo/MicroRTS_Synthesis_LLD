@@ -1,0 +1,53 @@
+Unloading StdEnv/2020
+Atual=S;S_S;S;Empty;S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasNumberOfUnits;Base;25;S;C;Attack;LessHealthy;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Enemy;Strongest;S;S_S;S;C;Train;Worker;Left;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;C;Train;Barracks;Up;S;C;Harvest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;S_S;S;C;Train;Worker;Left;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Weakest;S;C;Harvest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Weakest;S;C;Harvest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Weakest;S;C;Harvest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Weakest;S;C;Harvest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Weakest;S;C;Harvest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Weakest;S;C;Harvest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Weakest;S;C;Harvest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Weakest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Weakest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Weakest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Weakest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Weakest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Weakest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Weakest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Weakest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Weakest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Weakest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Weakest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Weakest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Strongest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Strongest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Attack;Strongest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Random;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;MoveAway;S;C;Harvest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveToUnit;Ally;Strongest
+
+
+
+for(Unit u){
+	if(u.canAttack()) then {
+		u.attack(Random)
+	} else {
+		u.train(Worker,Up)
+	}
+	for(Unit u){
+		if(u.OpponentHasUnitInPlayerRange()) then {
+			e
+		} else {
+			if(u.HasUnitWithinDistanceFromOpponent(25)) then {
+				u.moveAway()
+			} else {
+				u.harvest()
+			}
+		}
+	}
+	if(u.OpponentHasUnitInPlayerRange()) then {
+		u.moveToUnit(Ally,Strongest)
+	}
+}
+FIM

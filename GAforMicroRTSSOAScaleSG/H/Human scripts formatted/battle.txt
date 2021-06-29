@@ -1,0 +1,5 @@
+Battle
+moveToUnit(Ranged,Enemy,closest) attack(Ranged,closest) attack(Heavy,closest)
+if(IsPlayerInPosition(Left)) then(moveOnceToCoord(Heavy,3,2,4) moveOnceToCoord(Ranged,2,1,4)) if(IsPlayerInPosition(Right)) then(moveOnceToCoord(Ranged,3,16,4) moveOnceToCoord(Heavy,3,15,4)) attack(Heavy,closest) attack(Ranged,closest) 
+if(HaveUnitsToDistantToEnemy(Ranged,8)) then(attack(Ranged,closest)) moveToUnit(Ranged,Ally,mostHealthy) attack(Heavy,closest)
+attack(Heavy,closest) attack(Ranged,closest)

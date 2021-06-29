@@ -1,0 +1,12 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;C;Train;Base;Down;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Down;S;C;Harvest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Down;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Right;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;3;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Right;S;C;Harvest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Attack;Closest;S;C;Train;Worker;Up;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;3;S;C;Attack;Closest;S;C;Harvest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Attack;Closest;S;C;Train;Worker;Up;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;3;S;C;Attack;Closest;S;C;Harvest;S;S_S;S;S_S;S;C;MoveAway;S;C;Attack;Closest;S;For_S;S;C;Build;Base;EnemyDir
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;3;S;C;Attack;Farthest;S;C;Harvest;S;S_S;S;S_S;S;C;MoveAway;S;C;Attack;MostHealthy;S;For_S;S;C;Build;Base;Up
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException
+FIM

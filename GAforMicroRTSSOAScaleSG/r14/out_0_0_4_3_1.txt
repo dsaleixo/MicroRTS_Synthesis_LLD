@@ -1,0 +1,5 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Left;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;Harvest;S;C;Train;Worker;Left;S;C;Attack;LessHealthy
+slurmstepd: error: *** JOB 5841237 ON cdr1510 CANCELLED AT 2021-06-23T07:34:13 DUE TO TIME LIMIT ***

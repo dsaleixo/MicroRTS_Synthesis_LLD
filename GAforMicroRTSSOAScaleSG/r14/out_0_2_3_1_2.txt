@@ -1,0 +1,68 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HasNumberOfUnits;Base;0;S;For_S;S;C;Attack;Weakest;S;S_S;S;S_S;S;C;Train;Light;Right;S;C;Idle;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;Left
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;Left
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;Left
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down;S;For_S;S;C;MoveAway
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down;S;S_S;S;C;Attack;Random;S;C;Build;Worker;Up
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;IsBuilder;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Build;Ranged;EnemyDir;S;C;Train;Worker;Left;S;If_B_then_S_else_S;B;IsBuilder;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;Empty
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Harvest;S;If_B_then_S_else_S;B;HasNumberOfUnits;Base;1;S;C;Train;Worker;Left;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;0;S;C;Attack;Closest;S;C;Harvest;S;If_B_then_S_else_S;B;IsBuilder;S;If_B_then_S;B;CanAttack;S;For_S;S;C;Attack;Strongest;S;Empty
+slurmstepd: error: *** JOB 5841665 ON cdr1564 CANCELLED AT 2021-06-23T07:37:18 DUE TO TIME LIMIT ***
+
+
+
+for(Unit u){
+	for(Unit u){
+		if(u.isBuilder()) then {
+			u.harvest()
+		} else {
+			u.train(Worker,Left)
+		}
+		if(u.isBuilder()) then {
+			for(Unit u){
+				u.attack(Strongest)
+			}
+		} else {
+			e
+		}
+	}
+}

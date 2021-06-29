@@ -1,0 +1,22 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Up;S;C;Attack;MostHealthy
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Harvest;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;4;S;S_S;S;C;Idle;S;C;Harvest;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Harvest;S;C;Harvest;S;S_S;S;If_B_then_S_else_S;B;HasUnitThatKillsInOneAttack;S;C;Train;Worker;Up;S;C;Build;Light;EnemyDir;S;C;Attack;Strongest
+
+
+
+for(Unit u){
+	if(HaveQtdUnitsAttacking(3)) then {
+		u.harvest()
+	}
+	if(u.HasUnitThatKillsInOneAttack()) then {
+		u.train(Worker,Up)
+	} else {
+		u.build(Light,EnemyDir)
+	}
+	u.attack(Strongest)
+}
+FIM

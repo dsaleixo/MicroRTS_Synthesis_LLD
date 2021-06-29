@@ -1,0 +1,27 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Harvest;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Build;Worker;Down;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;C;Harvest;S;C;Train;Barracks;Right;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;For_S;S;C;Harvest;S;Empty;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Closest;S;C;Harvest;S;C;Train;Worker;Up
+
+
+
+for(Unit u){
+	if(HaveQtdUnitsAttacking(3)) then {
+		for(Unit u){
+			u.harvest()
+		}
+	} else {
+		e
+	}
+	if(u.canAttack()) then {
+		u.attack(Closest)
+	} else {
+		e
+	}
+	u.train(Worker,Up)
+}
+FIM

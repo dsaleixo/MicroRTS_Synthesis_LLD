@@ -1,0 +1,28 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Closest;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Weakest;S;S_S;S;C;Harvest;S;S_S;S;S_S;S;C;MoveAway;S;C;Idle;S;C;Train;Worker;EnemyDir;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Weakest;S;S_S;S;C;Harvest;S;C;Train;Worker;Right;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Weakest;S;S_S;S;C;Harvest;S;C;Train;Barracks;EnemyDir;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;For_S;S;C;Attack;Weakest;S;C;Harvest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;5;S;C;Attack;Closest;S;C;Build;Worker;Right;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;For_S;S;C;Attack;Weakest;S;C;Harvest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;C;Attack;Closest;S;C;Build;Worker;Right;S;S_S;S;S_S;S;C;Harvest;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;For_S;S;C;Attack;Weakest;S;C;Harvest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;C;Attack;Closest;S;C;Build;Barracks;Left;S;S_S;S;C;Harvest;S;C;Train;Light;Left
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;C;Attack;MostHealthy;S;C;Build;Barracks;Left;S;S_S;S;C;Harvest;S;C;Train;Light;Left
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;Empty;S;C;Idle;S;S_S;S;C;Attack;Closest;S;C;Build;Ranged;Down
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Train;Worker;Down;S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;25;S;For_S;S;C;Train;Worker;Down;S;For_S;S;If_B_then_S;B;IsBuilder;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveAway;S;C;Idle;S;C;Idle;S;S_S;S;C;Harvest;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Weakest
+
+
+
+for(Unit u){
+	u.moveAway()
+	u.idle()
+	u.harvest()
+	u.train(Worker,Down)
+	u.attack(Weakest)
+}
+FIM

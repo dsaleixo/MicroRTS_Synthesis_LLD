@@ -1,0 +1,55 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Train;Base;EnemyDir;S;S_S;S;S_S;S;C;Train;Ranged;Down;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Weakest;S;C;Harvest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Weakest;S;C;Harvest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;4;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;Build;Ranged;Up;S;C;Attack;Closest;S;C;Harvest;S;C;Train;Worker;Down
+
+
+
+for(Unit u){
+	for(Unit u){
+		if(u.HasUnitWithinDistanceFromOpponent(4)) then {
+			if(HaveQtdUnitsAttacking(5)) then {
+				for(Unit u){
+					u.build(Ranged,Up)
+				}
+			} else {
+				u.attack(Closest)
+			}
+		} else {
+			u.harvest()
+		}
+	}
+	u.train(Worker,Down)
+}
+FIM

@@ -1,0 +1,47 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;If_B_then_S_else_S;B;is_Type;Base;S;C;Train;Worker;Up;S;C;Attack;Strongest
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;S_S;S;C;Attack;Weakest;S;C;MoveAway;S;For_S;S;C;Harvest;S;If_B_then_S_else_S;B;is_Type;Base;S;C;Train;Worker;Up;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Harvest;S;C;Attack;LessHealthy;S;C;MoveAway;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Attack;Weakest;S;For_S;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;C;Attack;Random;S;C;Harvest;S;If_B_then_S_else_S;B;is_Type;Worker;S;For_S;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;If_B_then_S_else_S;B;is_Type;Worker;S;For_S;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;If_B_then_S_else_S;B;is_Type;Worker;S;For_S;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;If_B_then_S_else_S;B;is_Type;Barracks;S;C;MoveAway;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Worker;Down;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;5;S;S_S;S;S_S;S;C;Harvest;S;C;Train;Worker;Left;S;C;Train;Base;Right;S;S_S;S;C;Build;Worker;Down;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 596
+	at rts.PhysicalGameState.getTerrain(PhysicalGameState.java:136)
+	at rts.GameState.free(GameState.java:176)
+	at CFG.Direction.converte(Direction.java:68)
+	at CFG_Actions.Build.interpret(Build.java:103)
+	at CFG.C.interpret(C.java:52)
+	at CFG.S.interpret(S.java:51)
+	at CFG.S_S.interpret(S_S.java:71)
+	at CFG.S.interpret(S.java:51)
+	at CFG.If_B_then_S_else_S.interpret(If_B_then_S_else_S.java:126)
+	at CFG.S.interpret(S.java:51)
+	at CFG.S_S.interpret(S_S.java:71)
+	at CFG.S.interpret(S.java:51)
+	at CFG.For_S.interpret(For_S.java:55)
+	at CFG.S.interpret(S.java:51)
+	at AIs.Interpreter.getAction(Interpreter.java:78)
+	at Evaluations.Playout.run(Playout.java:71)
+	at Evaluations.SimulatedAnnealing.evaluation(SimulatedAnnealing.java:33)
+	at IAs.LS1.run(LS1.java:60)
+	at Teste.Test1.main(Test1.java:48)
+FIM

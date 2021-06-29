@@ -1,0 +1,23 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;MostHealthy;S;C;Train;Worker;Up;S;If_B_then_S;B;CanAttack;S;C;MoveToUnit;Ally;Farthest
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Train;Worker;Up;S;If_B_then_S;B;CanAttack;S;C;Attack;Farthest
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Up;S;If_B_then_S;B;CanAttack;S;C;Attack;MostHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;2;S;C;Attack;Closest;S;S_S;S;C;Build;Ranged;Left;S;S_S;S;C;Harvest;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;2;S;C;Attack;Closest;S;S_S;S;C;Build;Worker;EnemyDir;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;2;S;C;Attack;Closest;S;S_S;S;C;Harvest;S;C;Harvest;S;C;Train;Worker;Up
+
+
+
+for(Unit u){
+	for(Unit u){
+		if(HasNumberOfWorkersHarvesting(2)) then {
+			u.attack(Closest)
+		} else {
+			u.harvest()
+		}
+		u.train(Worker,Up)
+	}
+}
+FIM

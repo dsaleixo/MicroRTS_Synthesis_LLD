@@ -1,0 +1,11 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;S_S;S;C;Harvest;S;C;MoveToUnit;Ally;LessHealthy;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;S_S;S;C;Train;Heavy;Left;S;C;Build;Heavy;Left;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Train;Ranged;Down;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;is_Type;Worker;S;C;Build;Worker;Down;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HasUnitInOpponentRange;S;S_S;S;S_S;S;S_S;S;C;Attack;Strongest;S;C;Harvest;S;S_S;S;C;MoveAway;S;C;MoveAway;S;S_S;S;S_S;S;C;Idle;S;C;Idle;S;For_S;S;C;Idle;S;S_S;S;C;Harvest;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HasUnitInOpponentRange;S;S_S;S;C;MoveAway;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;3;S;For_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;1;S;If_B_then_S;B;is_Type;Worker;S;For_S;S;S_S;S;C;Idle;S;C;Train;Heavy;Right;S;S_S;S;C;Harvest;S;S_S;S;If_B_then_S;B;HasNumberOfUnits;Worker;10;S;S_S;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Worker;2;S;C;Harvest;S;C;Harvest;S;For_S;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Idle;S;C;Train;Worker;Up
+slurmstepd: error: *** JOB 5841260 ON cdr1547 CANCELLED AT 2021-06-23T07:34:44 DUE TO TIME LIMIT ***

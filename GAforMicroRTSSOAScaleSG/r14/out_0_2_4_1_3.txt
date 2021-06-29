@@ -1,0 +1,20 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Up;S;C;Attack;MostHealthy
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Up;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;4;S;S_S;S;C;Harvest;S;C;Train;Heavy;EnemyDir;S;S_S;S;C;Train;Worker;Up;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;S_S;S;C;Harvest;S;C;Harvest;S;C;Harvest;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;Down;S;S_S;S;C;Train;Base;Right;S;C;Idle;S;C;Attack;LessHealthy
+
+
+
+for(Unit u){
+	if(HaveQtdUnitsAttacking(3)) then {
+		u.harvest()
+	}
+	for(Unit u){
+		u.train(Worker,Down)
+	}
+	u.idle()
+	u.attack(LessHealthy)
+}
+FIM

@@ -1,0 +1,10 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;C;Idle;S;C;Harvest;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;4;S;C;Idle;S;C;Harvest;S;C;MoveToUnit;Enemy;Closest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;2;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Idle;S;S_S;S;C;Harvest;S;C;Train;Heavy;Down;S;C;Harvest;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Train;Worker;Up
+slurmstepd: error: *** JOB 5841541 ON cdr1186 CANCELLED AT 2021-06-23T07:35:49 DUE TO TIME LIMIT ***

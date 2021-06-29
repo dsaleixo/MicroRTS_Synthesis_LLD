@@ -1,0 +1,13 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;Build;Heavy;Down;S;C;Idle;S;C;Train;Ranged;Right;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Build;Light;Left;S;C;Attack;Closest;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Ranged;Up;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Heavy;EnemyDir;S;S_S;S;C;Build;Ranged;Up;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Light;EnemyDir;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Heavy;Down;S;S_S;S;C;Attack;LessHealthy;S;S_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Base;Up;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;2;S;C;Build;Ranged;Up;S;C;Harvest;S;S_S;S;S_S;S;C;Build;Heavy;Down;S;C;Attack;LessHealthy;S;C;Train;Worker;Right
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException
+FIM

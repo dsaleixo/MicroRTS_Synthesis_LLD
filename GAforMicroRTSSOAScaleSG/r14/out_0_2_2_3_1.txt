@@ -1,0 +1,12 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Build;Heavy;Down;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Build;Light;EnemyDir;S;C;Attack;LessHealthy;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Build;Base;Down;S;S_S;S;C;Attack;LessHealthy;S;For_S;S;C;Harvest;S;C;Train;Worker;Left
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Attack;LessHealthy;S;For_S;S;C;Build;Worker;Up;S;C;Train;Worker;Left
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Attack;LessHealthy;S;For_S;S;Empty;S;C;Train;Worker;Left
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Barracks;50;S;S_S;S;C;MoveToUnit;Enemy;Strongest;S;C;MoveToUnit;Ally;LessHealthy;S;S_S;S;S_S;S;C;Harvest;S;C;MoveAway;S;For_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Barracks;50;S;S_S;S;C;MoveToUnit;Enemy;Strongest;S;C;MoveToUnit;Ally;LessHealthy;S;S_S;S;C;Harvest;S;For_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Barracks;50;S;S_S;S;C;MoveAway;S;C;MoveToUnit;Enemy;Random;S;S_S;S;C;Harvest;S;For_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Left
+slurmstepd: error: *** JOB 5841618 ON cdr87 CANCELLED AT 2021-06-23T07:36:54 DUE TO TIME LIMIT ***

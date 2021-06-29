@@ -1,0 +1,10 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;C;Attack;Strongest;S;C;Train;Worker;EnemyDir;S;C;Attack;Farthest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;C;Idle;S;C;Train;Worker;EnemyDir;S;C;Attack;Random
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;C;Idle;S;C;Train;Worker;EnemyDir;S;C;Attack;Random
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;Empty;S;C;Train;Worker;EnemyDir;S;C;Attack;Random
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;C;MoveAway;S;C;Train;Worker;EnemyDir;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;5;S;C;MoveToUnit;Ally;Strongest;S;C;Train;Worker;EnemyDir;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;C;Harvest;S;C;Train;Worker;EnemyDir;S;C;Attack;Weakest
+slurmstepd: error: *** JOB 5851863 ON cdr718 CANCELLED AT 2021-06-23T11:09:40 DUE TO TIME LIMIT ***

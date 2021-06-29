@@ -1,0 +1,8 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;0;S;C;Train;Worker;Down;S;C;Idle;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;0;S;C;Idle;S;C;Build;Heavy;Up;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;1;S;C;Train;Base;Left;S;C;Harvest;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;4;S;S_S;S;Empty;S;C;Train;Ranged;Left;S;C;Harvest;S;S_S;S;S_S;S;C;Build;Barracks;Up;S;C;Train;Worker;Down;S;C;Attack;Weakest
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;4;S;C;Train;Ranged;Left;S;C;Harvest;S;S_S;S;S_S;S;C;Build;Barracks;Up;S;C;Train;Worker;Down;S;C;Attack;Weakest
+slurmstepd: error: *** JOB 5841240 ON cdr1510 CANCELLED AT 2021-06-23T07:34:13 DUE TO TIME LIMIT ***

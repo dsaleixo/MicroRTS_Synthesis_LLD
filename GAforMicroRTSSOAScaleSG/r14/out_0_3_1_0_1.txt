@@ -1,0 +1,22 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;Train;Worker;EnemyDir;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;For_S;S;For_S;S;S_S;S;C;Harvest;S;C;Train;Heavy;Down;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;EnemyDir
+
+
+
+for(Unit u){
+	if(HaveQtdUnitsAttacking(2)) then {
+		for(Unit u){
+			for(Unit u){
+				u.harvest()
+			}
+		}
+	} else {
+		u.attack(Strongest)
+		u.train(Worker,EnemyDir)
+	}
+}
+FIM

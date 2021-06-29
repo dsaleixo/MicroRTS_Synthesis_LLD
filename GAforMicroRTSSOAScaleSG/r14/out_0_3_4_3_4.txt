@@ -1,0 +1,23 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Train;Worker;Left;S;C;Attack;Random
+Atual=S;For_S;S;S_S;S;For_S;S;C;Attack;Strongest;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Right;S;C;Idle
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;4;S;C;Harvest;S;C;Attack;LessHealthy;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Right;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;4;S;C;Harvest;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Right;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;C;Harvest;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Right;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;C;Harvest;S;C;Attack;LessHealthy
+
+
+
+for(Unit u){
+	u.train(Worker,Right)
+	if(HaveQtdUnitsAttacking(3)) then {
+		u.harvest()
+	} else {
+		u.attack(LessHealthy)
+	}
+}
+FIM

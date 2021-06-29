@@ -1,0 +1,20 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Attack;Random
+Atual=S;For_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Attack;Random
+Atual=S;For_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;If_B_then_S;B;HasUnitInOpponentRange;S;For_S;S;C;MoveAway;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;S_S;S;Empty;S;C;Harvest;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;C;Harvest;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Attack;Closest
+
+
+
+for(Unit u){
+	if(HaveQtdUnitsAttacking(3)) then {
+		u.harvest()
+	} else {
+		u.train(Worker,EnemyDir)
+		u.attack(Closest)
+	}
+}
+FIM

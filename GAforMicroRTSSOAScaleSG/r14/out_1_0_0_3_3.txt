@@ -1,0 +1,55 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanHarvest;S;For_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;4;S;C;Harvest;S;C;Train;Worker;Up;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanHarvest;S;For_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;2;S;C;Harvest;S;C;Train;Worker;Up;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanHarvest;S;If_B_then_S_else_S;B;CanAttack;S;C;Harvest;S;C;MoveAway;S;C;Train;Light;EnemyDir;S;S_S;S;If_B_then_S;B;CanAttack;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanHarvest;S;If_B_then_S_else_S;B;IsBuilder;S;S_S;S;For_S;S;C;Harvest;S;C;Attack;MostHealthy;S;If_B_then_S;B;CanAttack;S;For_S;S;C;Idle;S;For_S;S;C;Train;Light;EnemyDir;S;S_S;S;If_B_then_S;B;HasLessNumberOfUnits;Ranged;25;S;S_S;S;S_S;S;S_S;S;C;Attack;LessHealthy;S;C;Build;Base;Down;S;For_S;S;C;Build;Barracks;EnemyDir;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;50;S;C;MoveToUnit;Enemy;Closest;S;C;Harvest;S;If_B_then_S;B;CanAttack;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanHarvest;S;If_B_then_S_else_S;B;IsBuilder;S;S_S;S;For_S;S;For_S;S;C;Idle;S;C;Train;Light;Right;S;If_B_then_S;B;CanAttack;S;S_S;S;For_S;S;C;Attack;MostHealthy;S;For_S;S;C;Idle;S;For_S;S;C;Train;Light;EnemyDir;S;S_S;S;If_B_then_S;B;HasLessNumberOfUnits;Ranged;25;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;5;S;C;Attack;MostHealthy;S;C;Harvest;S;For_S;S;C;Build;Barracks;EnemyDir;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Heavy;10;S;C;Harvest;S;C;Build;Barracks;EnemyDir;S;If_B_then_S;B;CanAttack;S;C;Attack;Weakest
+
+
+
+for(Unit u){
+	if(u.canHarvest()) then {
+		if(u.isBuilder()) then {
+			for(Unit u){
+				for(Unit u){
+					u.idle()
+				}
+			}
+			u.train(Light,Right)
+		} else {
+			if(u.canAttack()) then {
+				for(Unit u){
+					u.attack(MostHealthy)
+				}
+				for(Unit u){
+					u.idle()
+				}
+			}
+		}
+	} else {
+		for(Unit u){
+			u.train(Light,EnemyDir)
+		}
+	}
+	if(HasLessNumberOfUnits(Ranged,25)) then {
+		if(HaveQtdUnitsAttacking(5)) then {
+			u.attack(MostHealthy)
+		} else {
+			u.harvest()
+		}
+		for(Unit u){
+			u.build(Barracks,EnemyDir)
+		}
+		if(HasLessNumberOfUnits(Heavy,10)) then {
+			u.harvest()
+		} else {
+			u.build(Barracks,EnemyDir)
+		}
+	}
+	if(u.canAttack()) then {
+		u.attack(Weakest)
+	}
+}
+FIM

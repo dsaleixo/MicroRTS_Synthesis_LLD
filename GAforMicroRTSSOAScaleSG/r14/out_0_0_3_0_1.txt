@@ -1,0 +1,30 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;Strongest;S;C;Build;Base;Left;S;C;Train;Worker;Up;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;C;MoveToUnit;Ally;Weakest;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Weakest;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;MoveToUnit;Ally;Weakest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;MoveToUnit;Ally;Weakest;S;S_S;S;S_S;S;If_B_then_S;B;HasUnitInOpponentRange;S;C;Attack;LessHealthy;S;C;MoveToUnit;Enemy;Farthest;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Up;S;C;MoveAway
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;MoveToUnit;Ally;Weakest;S;S_S;S;S_S;S;C;Idle;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;C;Harvest;S;S_S;S;C;MoveToUnit;Enemy;Random;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Up;S;Empty
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;MoveToUnit;Ally;Weakest;S;S_S;S;S_S;S;C;Idle;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;2;S;Empty;S;S_S;S;C;Train;Worker;Right;S;C;Attack;Farthest
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;MoveToUnit;Ally;Weakest;S;S_S;S;C;Idle;S;S_S;S;C;Train;Worker;Right;S;C;Attack;Strongest
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;MoveToUnit;Ally;Weakest;S;S_S;S;C;Idle;S;S_S;S;C;MoveToUnit;Enemy;Strongest;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;MoveToUnit;Ally;Weakest;S;S_S;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;S;C;MoveToUnit;Ally;Strongest;S;S_S;S;C;MoveToUnit;Enemy;Strongest;S;C;Train;Worker;Right
+
+
+
+for(Unit u){
+	for(Unit u){
+		if(HaveQtdUnitsAttacking(2)) then {
+			u.moveToUnit(Ally,Weakest)
+		} else {
+			u.idle()
+			u.harvest()
+			u.moveToUnit(Ally,Strongest)
+			u.moveToUnit(Enemy,Strongest)
+			u.train(Worker,Right)
+		}
+	}
+}
+FIM

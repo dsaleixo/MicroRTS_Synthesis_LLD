@@ -1,0 +1,12 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Build;Heavy;Right;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Build;Light;Up;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Build;Ranged;Right;S;C;Build;Light;Up;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Build;Heavy;Down;S;Empty;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Build;Light;Left;S;Empty;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Build;Light;Left;S;Empty;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;Empty;S;Empty;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Harvest;S;If_B_then_S_else_S;B;CanHarvest;S;For_S;S;C;Attack;Closest;S;C;Train;Worker;Down
+slurmstepd: error: *** JOB 5864381 ON cdr1880 CANCELLED AT 2021-06-23T14:52:01 DUE TO TIME LIMIT ***

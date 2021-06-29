@@ -1,0 +1,52 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Left;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;C;Attack;Weakest;S;S_S;S;C;Train;Worker;Left;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;S_S;S;C;Build;Light;EnemyDir;S;C;Train;Ranged;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;4;S;S_S;S;C;Idle;S;C;MoveToUnit;Enemy;Random;S;C;Attack;Weakest
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;EnemyDir;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Ranged;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Ranged;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Ranged;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Ranged;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Ranged;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Ranged;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Ranged;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;Right;S;S_S;S;C;Idle;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;Right;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;Down;S;S_S;S;C;Build;Light;Right;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Left;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Build;Light;Down;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down;S;C;MoveToUnit;Enemy;Random
+
+
+
+for(Unit u){
+	for(Unit u){
+		for(Unit u){
+			for(Unit u){
+				for(Unit u){
+					u.build(Light,Down)
+					u.attack(Weakest)
+					u.train(Worker,Down)
+				}
+			}
+			u.moveToUnit(Enemy,Random)
+		}
+	}
+}
+FIM

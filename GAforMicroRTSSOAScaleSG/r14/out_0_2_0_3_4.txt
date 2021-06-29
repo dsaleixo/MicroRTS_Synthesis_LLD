@@ -1,0 +1,22 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanHarvest;S;C;Attack;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanHarvest;S;S_S;S;S_S;S;C;Idle;S;C;Harvest;S;C;Attack;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanHarvest;S;S_S;S;S_S;S;S_S;S;C;Idle;S;C;Harvest;S;C;Attack;Closest;S;S_S;S;For_S;S;C;Attack;Random;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanHarvest;S;S_S;S;C;Harvest;S;S_S;S;For_S;S;C;Attack;Closest;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Train;Worker;Down
+
+
+
+for(Unit u){
+	if(u.canHarvest()) then {
+		u.harvest()
+		for(Unit u){
+			u.attack(Closest)
+		}
+		u.moveToUnit(Enemy,MostHealthy)
+	} else {
+		u.train(Worker,Down)
+	}
+}
+FIM

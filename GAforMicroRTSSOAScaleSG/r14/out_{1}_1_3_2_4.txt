@@ -1,0 +1,25 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Down;S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Down
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Down
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Down
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Down
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Down
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;LessHealthy;S;If_B_then_S;B;CanHarvest;S;S_S;S;C;Harvest;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;LessHealthy;S;If_B_then_S;B;CanHarvest;S;S_S;S;C;Harvest;S;For_S;S;S_S;S;C;Attack;Closest;S;C;Idle;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;LessHealthy;S;If_B_then_S;B;CanHarvest;S;S_S;S;C;Harvest;S;For_S;S;C;MoveToUnit;Ally;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;LessHealthy;S;If_B_then_S;B;CanHarvest;S;S_S;S;C;Harvest;S;For_S;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;For_S;S;C;Attack;LessHealthy;S;If_B_then_S;B;CanHarvest;S;S_S;S;C;Harvest;S;For_S;S;C;Harvest;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;For_S;S;C;Attack;LessHealthy;S;If_B_then_S;B;CanHarvest;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;For_S;S;C;Harvest;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;For_S;S;C;Attack;LessHealthy;S;If_B_then_S;B;CanHarvest;S;S_S;S;C;Harvest;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;Right
+slurmstepd: error: *** JOB 5851978 ON cdr1315 CANCELLED AT 2021-06-23T11:09:40 DUE TO TIME LIMIT ***

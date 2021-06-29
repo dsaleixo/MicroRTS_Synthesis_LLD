@@ -1,0 +1,6 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveAway;S;S_S;S;For_S;S;C;Train;Worker;Right;S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;Empty;S;S_S;S;For_S;S;S_S;S;C;Train;Worker;Right;S;If_B_then_S;B;CanHarvest;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;S;For_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;50;S;For_S;S;For_S;S;C;Build;Base;Right;S;S_S;S;C;Attack;LessHealthy;S;C;Harvest
+slurmstepd: error: *** JOB 5841122 ON cdr92 CANCELLED AT 2021-06-23T07:34:13 DUE TO TIME LIMIT ***

@@ -1,0 +1,44 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Weakest;S;C;MoveToUnit;Enemy;Closest;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Build;Ranged;EnemyDir;S;C;Build;Worker;Up;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Weakest;S;C;MoveToUnit;Enemy;Closest;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Harvest;S;C;Train;Heavy;Up;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Weakest;S;C;MoveToUnit;Enemy;Closest;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Weakest;S;C;MoveToUnit;Enemy;Closest;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Random;S;C;MoveToUnit;Ally;LessHealthy;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Random;S;C;MoveToUnit;Ally;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Random;S;C;MoveToUnit;Ally;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Random;S;C;MoveToUnit;Ally;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Random;S;C;MoveToUnit;Ally;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Random;S;C;MoveToUnit;Ally;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Random;S;C;MoveToUnit;Ally;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Random;S;C;MoveToUnit;Ally;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Random;S;C;MoveToUnit;Ally;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Random;S;C;MoveToUnit;Ally;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Random;S;C;MoveToUnit;Ally;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Random;S;C;MoveToUnit;Enemy;Strongest;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Ranged;1;S;C;Attack;Random;S;C;MoveToUnit;Enemy;Strongest;S;C;Train;Worker;Down
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;4;S;C;Attack;Closest;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;S_S;S;For_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Ranged;1;S;C;Attack;Random;S;C;MoveToUnit;Enemy;Strongest;S;C;Train;Worker;Down
+
+
+
+for(Unit u){
+	for(Unit u){
+		if(HasNumberOfWorkersHarvesting(4)) then {
+			u.attack(Closest)
+		}
+		if(HaveQtdUnitsAttacking(3)) then {
+			u.build(Ranged,EnemyDir)
+			u.harvest()
+		}
+		for(Unit u){
+			u.idle()
+		}
+		if(HasLessNumberOfUnits(Ranged,1)) then {
+			u.attack(Random)
+		} else {
+			u.moveToUnit(Enemy,Strongest)
+		}
+		u.train(Worker,Down)
+	}
+}
+FIM

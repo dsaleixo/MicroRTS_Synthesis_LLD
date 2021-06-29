@@ -1,0 +1,42 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;C;Idle;S;C;Idle
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;C;Attack;Weakest;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;C;Attack;Weakest;S;S_S;S;C;Train;Worker;Down;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;C;Attack;Weakest;S;S_S;S;C;Train;Worker;Down;S;C;MoveToUnit;Enemy;Strongest
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;C;Attack;Weakest;S;S_S;S;C;Train;Worker;Down;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;C;Attack;Weakest;S;S_S;S;C;Train;Worker;Down;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;C;Attack;Weakest;S;S_S;S;C;Train;Worker;Down;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;C;Attack;Weakest;S;S_S;S;C;Train;Worker;Down;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;C;Attack;Weakest;S;S_S;S;C;Train;Worker;Down;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;C;Attack;Weakest;S;S_S;S;C;Train;Worker;Down;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;For_S;S;C;Attack;Weakest;S;S_S;S;C;Train;Worker;Down;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Build;Worker;Right;S;For_S;S;C;Attack;Weakest;S;S_S;S;C;Train;Worker;Down;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Harvest;S;S_S;S;C;Idle;S;For_S;S;C;Attack;Weakest;S;S_S;S;For_S;S;C;Train;Worker;Down;S;C;MoveToUnit;Enemy;Random
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Harvest;S;For_S;S;For_S;S;C;Attack;Weakest;S;S_S;S;For_S;S;S_S;S;C;Build;Barracks;Down;S;For_S;S;C;Train;Light;EnemyDir;S;C;MoveToUnit;Ally;Farthest
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Harvest;S;For_S;S;For_S;S;C;Attack;Weakest;S;S_S;S;For_S;S;S_S;S;C;Build;Barracks;Down;S;For_S;S;C;Train;Light;Left;S;C;MoveToUnit;Ally;Farthest
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Harvest;S;For_S;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Base;4;S;C;Harvest;S;C;Attack;MostHealthy;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;C;Train;Worker;Up;S;S_S;S;C;Build;Barracks;Down;S;For_S;S;C;Train;Light;Left;S;C;Train;Ranged;Left
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Harvest;S;For_S;S;C;Attack;MostHealthy;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;C;Train;Worker;Up;S;S_S;S;C;Build;Barracks;Down;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Harvest;S;For_S;S;C;Attack;LessHealthy;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;C;Train;Heavy;Down;S;S_S;S;C;Build;Barracks;Down;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Harvest;S;For_S;S;C;Attack;LessHealthy;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;S_S;S;C;Build;Barracks;Down;S;For_S;S;C;Train;Light;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Harvest;S;For_S;S;C;Attack;LessHealthy;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;S_S;S;C;Train;Worker;Up;S;C;Idle
+
+
+
+for(Unit u){
+	if(u.canAttack()) then {
+		u.harvest()
+		for(Unit u){
+			u.attack(LessHealthy)
+		}
+	} else {
+		for(Unit u){
+			if(u.HasUnitInOpponentRange()) then {
+				e
+			} else {
+				u.train(Worker,Up)
+			}
+		}
+	}
+}
+FIM

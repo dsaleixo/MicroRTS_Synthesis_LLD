@@ -1,0 +1,37 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right;S;C;Harvest
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Up;S;If_B_then_S;B;CanHarvest;S;For_S;S;C;Harvest
+
+
+slurmstepd: error: *** JOB 5841795 ON cdr1160 CANCELLED AT 2021-06-23T07:38:55 DUE TO TIME LIMIT ***
+
+for(Unit u){
+	u.attack(Weakest)
+	u.train(Worker,Up)
+	if(u.canHarvest()) then {
+		for(Unit u){
+			u.harvest()
+		}
+	}
+}

@@ -1,0 +1,29 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Up;S;C;Attack;LessHealthy;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Idle;S;C;Attack;Strongest;S;For_S;S;C;Train;Worker;Up;S;S_S;S;For_S;S;C;Build;Worker;Down;S;S_S;S;C;Build;Barracks;Left;S;C;Attack;MostHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Weakest;S;For_S;S;For_S;S;C;Train;Worker;Up;S;For_S;S;For_S;S;C;Build;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfUnits;Ranged;3;S;C;MoveAway;S;C;MoveAway;S;C;Attack;Weakest;S;C;MoveToUnit;Ally;MostHealthy;S;For_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;Harvest;S;C;MoveAway;S;For_S;S;C;Build;Barracks;Down;S;S_S;S;For_S;S;C;Idle;S;For_S;S;C;Train;Ranged;EnemyDir;S;For_S;S;For_S;S;C;Build;Heavy;Left
+
+
+
+for(Unit u){
+	u.attack(Weakest)
+	u.moveToUnit(Ally,MostHealthy)
+	for(Unit u){
+		for(Unit u){
+			u.harvest()
+			u.moveAway()
+			for(Unit u){
+				u.build(Barracks,Down)
+			}
+			for(Unit u){
+				u.idle()
+			}
+			for(Unit u){
+				u.train(Ranged,EnemyDir)
+			}
+		}
+	}
+}
+FIM

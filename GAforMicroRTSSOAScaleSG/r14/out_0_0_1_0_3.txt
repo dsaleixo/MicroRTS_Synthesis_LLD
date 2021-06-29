@@ -1,0 +1,9 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;For_S;S;S_S;S;C;Build;Base;Up;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfUnits;Worker;4;S;For_S;S;For_S;S;For_S;S;C;Idle;S;C;Attack;Strongest;S;C;Train;Worker;Up
+slurmstepd: error: *** JOB 5840931 ON cdr699 CANCELLED AT 2021-06-23T07:32:45 DUE TO TIME LIMIT ***

@@ -1,0 +1,12 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Attack;Closest;S;C;Attack;LessHealthy;S;S_S;S;C;Train;Worker;Up;S;For_S;S;C;Harvest
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;C;Train;Worker;Up;S;For_S;S;C;Build;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;C;Train;Worker;Up;S;For_S;S;C;Build;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;C;Train;Worker;Up;S;For_S;S;C;Build;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;1;S;C;Build;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;1;S;C;Harvest
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;2;S;For_S;S;C;Harvest
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;C;Train;Worker;Up;S;For_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;0;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;1;S;C;Idle;S;C;Harvest
+slurmstepd: error: *** JOB 5841181 ON cdr812 CANCELLED AT 2021-06-23T07:34:13 DUE TO TIME LIMIT ***

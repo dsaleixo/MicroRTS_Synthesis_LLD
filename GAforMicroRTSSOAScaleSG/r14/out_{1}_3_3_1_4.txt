@@ -1,0 +1,25 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;S_S;S;S_S;S;C;Train;Worker;Up;S;C;Harvest;S;S_S;S;C;MoveAway;S;C;Train;Heavy;Down
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;2;S;C;Attack;LessHealthy;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Left;S;For_S;S;C;Idle;S;For_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;2;S;C;Attack;LessHealthy;S;C;Harvest;S;C;Train;Worker;Up
+
+
+
+for(Unit u){
+	for(Unit u){
+		u.build(Base,Left)
+	}
+	for(Unit u){
+		u.idle()
+	}
+	for(Unit u){
+		if(HasNumberOfWorkersHarvesting(2)) then {
+			u.attack(LessHealthy)
+		} else {
+			u.harvest()
+		}
+	}
+	u.train(Worker,Up)
+}
+FIM

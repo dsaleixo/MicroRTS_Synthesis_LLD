@@ -1,0 +1,20 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;5;S;C;Train;Worker;Up;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Strongest;S;C;Harvest;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;For_S;S;C;Attack;Strongest;S;C;Harvest;S;C;Train;Worker;Right
+
+
+
+for(Unit u){
+	if(u.HasUnitWithinDistanceFromOpponent(10)) then {
+		for(Unit u){
+			u.attack(Strongest)
+		}
+	} else {
+		u.harvest()
+	}
+	u.train(Worker,Right)
+}
+FIM

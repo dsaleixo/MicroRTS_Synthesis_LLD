@@ -1,0 +1,29 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanHarvest;S;C;Build;Base;Right;S;C;Build;Light;Up;S;S_S;S;For_S;S;C;Train;Worker;Up;S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;C;Train;Worker;Up;S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasNumberOfUnits;Ranged;2;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;S_S;S;C;Build;Barracks;Right;S;C;Harvest;S;C;Idle;S;For_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;C;Train;Heavy;Down;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveAway;S;For_S;S;C;Harvest
+
+
+
+for(Unit u){
+	for(Unit u){
+		for(Unit u){
+			u.idle()
+		}
+		for(Unit u){
+			for(Unit u){
+				u.train(Worker,Down)
+				u.moveToUnit(Enemy,Closest)
+				for(Unit u){
+					u.harvest()
+				}
+			}
+		}
+	}
+}
+FIM

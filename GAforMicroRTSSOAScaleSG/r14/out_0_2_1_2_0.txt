@@ -1,0 +1,13 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Train;Worker;Down;S;S_S;S;For_S;S;C;Build;Heavy;Left;S;C;Train;Ranged;Right
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Idle;S;C;Harvest;S;S_S;S;C;Train;Worker;Right;S;C;Idle;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Harvest;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;5;S;C;Attack;Random;S;S_S;S;C;Harvest;S;For_S;S;C;Build;Barracks;Right;S;C;Train;Heavy;Up;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Left;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Train;Base;EnemyDir;S;C;Attack;LessHealthy;S;S_S;S;C;Train;Worker;Left;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanAttack;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;For_S;S;C;Idle;S;S_S;S;C;Train;Heavy;Down;S;C;Train;Worker;Right;S;C;MoveToUnit;Enemy;Closest
+Atual=S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanAttack;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;For_S;S;C;Idle;S;C;Train;Worker;Right;S;For_S;S;C;Harvest;S;C;MoveToUnit;Enemy;Closest
+Atual=S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanAttack;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;S_S;S;C;Train;Light;Right;S;For_S;S;C;Idle;S;C;Train;Worker;Right;S;For_S;S;C;Build;Light;Up;S;C;MoveToUnit;Enemy;Closest
+Atual=S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanAttack;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;For_S;S;For_S;S;C;Idle;S;C;Train;Worker;Right;S;For_S;S;C;Attack;LessHealthy;S;C;MoveToUnit;Enemy;Closest
+slurmstepd: error: *** JOB 5841557 ON cdr1251 CANCELLED AT 2021-06-23T07:35:49 DUE TO TIME LIMIT ***

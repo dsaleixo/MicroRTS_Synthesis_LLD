@@ -1,0 +1,5 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;S_S;S;For_S;S;For_S;S;C;Train;Worker;Down;S;For_S;S;C;Attack;Weakest
+Atual=S;S_S;S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;S;For_S;S;C;MoveToUnit;Enemy;Weakest
+slurmstepd: error: *** JOB 5864321 ON cdr585 CANCELLED AT 2021-06-23T14:25:12 DUE TO TIME LIMIT ***

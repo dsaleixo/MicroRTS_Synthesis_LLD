@@ -1,0 +1,6 @@
+New Loop
+Player0
+ for(u) (if(HaveQtdEnemiesbyType(Light,5,u)) (moveToUnit(Worker,Enemy,farthest,u)) (moveToUnit(Ranged,Ally,weakest,u)))
+Player1
+ for(u) (if(HaveQtdEnemiesbyType(Light,5,u)) (moveToUnit(Worker,Enemy,farthest,u)) (moveToUnit(Ranged,Ally,weakest,u)))
+

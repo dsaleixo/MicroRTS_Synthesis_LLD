@@ -1,0 +1,11 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Up;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;S_S;S;C;Train;Barracks;Right;S;C;Harvest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Up;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;C;Harvest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;S_S;S;C;Attack;LessHealthy;S;C;Build;Barracks;Right;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;For_S;S;C;Harvest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;S_S;S;C;Attack;Weakest;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;LessHealthy;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;For_S;S;C;Harvest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;S_S;S;C;Attack;Weakest;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;5;S;C;MoveToUnit;Enemy;Farthest;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;For_S;S;C;Harvest;S;C;Train;Worker;Right
+slurmstepd: error: *** JOB 5841467 ON cdr1179 CANCELLED AT 2021-06-23T07:35:21 DUE TO TIME LIMIT ***

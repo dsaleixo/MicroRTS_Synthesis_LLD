@@ -1,0 +1,19 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;C;Build;Base;EnemyDir;S;C;Attack;Strongest;S;S_S;S;S_S;S;C;Attack;Weakest;S;C;MoveToUnit;Ally;MostHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Build;Heavy;EnemyDir;S;C;MoveToUnit;Ally;Farthest;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;C;Attack;Strongest;S;S_S;S;S_S;S;C;Attack;Weakest;S;C;MoveToUnit;Ally;MostHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Build;Heavy;Right;S;C;Idle;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;C;Harvest;S;S_S;S;S_S;S;C;Attack;Closest;S;C;Attack;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Build;Heavy;Right;S;Empty;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;C;Harvest;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Down
+
+
+
+for(Unit u){
+	if(HaveQtdUnitsAttacking(3)) then {
+		u.build(Heavy,Right)
+		u.harvest()
+	}
+	u.attack(Closest)
+	u.train(Worker,Down)
+}
+FIM

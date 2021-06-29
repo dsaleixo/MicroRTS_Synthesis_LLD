@@ -1,0 +1,24 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Random;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Idle;S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Right
+Atual=S;For_S;S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;If_B_then_S;B;HasLessNumberOfUnits;Worker;4;S;S_S;S;C;Harvest;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;If_B_then_S;B;HasLessNumberOfUnits;Barracks;1;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;3;S;C;Train;Light;Left;S;C;Harvest;S;C;Train;Worker;Up
+slurmstepd: error: *** JOB 5841549 ON cdr1280 CANCELLED AT 2021-06-23T07:35:49 DUE TO TIME LIMIT ***

@@ -1,0 +1,17 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfUnits;Worker;3;S;C;Attack;LessHealthy;S;S_S;S;C;Build;Base;Up;S;For_S;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;If_B_then_S_else_S;B;HasNumberOfUnits;Worker;3;S;C;Attack;LessHealthy;S;For_S;S;C;Harvest;S;C;Harvest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;If_B_then_S_else_S;B;HasNumberOfUnits;Worker;3;S;C;Attack;LessHealthy;S;For_S;S;S_S;S;C;Build;Worker;Up;S;C;Harvest;S;Empty;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;If_B_then_S_else_S;B;HasNumberOfUnits;Worker;3;S;C;Attack;LessHealthy;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;S;Empty;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;If_B_then_S_else_S;B;HasNumberOfUnits;Worker;3;S;C;Attack;LessHealthy;S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Build;Worker;Down;S;C;Harvest;S;Empty;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;If_B_then_S_else_S;B;HasNumberOfUnits;Worker;3;S;C;Attack;LessHealthy;S;For_S;S;S_S;S;C;Build;Heavy;Right;S;S_S;S;C;Build;Worker;Down;S;C;Harvest;S;Empty;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;LessHealthy;S;For_S;S;S_S;S;C;Build;Heavy;Right;S;C;Harvest;S;Empty;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;LessHealthy;S;For_S;S;S_S;S;C;Harvest;S;C;MoveAway;S;Empty;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;C;Harvest;S;C;Build;Ranged;EnemyDir;S;C;Attack;LessHealthy;S;For_S;S;C;Harvest;S;Empty;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;C;Build;Ranged;EnemyDir;S;C;Train;Barracks;Left;S;C;Attack;LessHealthy;S;For_S;S;C;Harvest;S;Empty;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;C;Build;Light;EnemyDir;S;Empty;S;C;Attack;LessHealthy;S;For_S;S;C;Harvest;S;Empty;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;C;Harvest;S;Empty;S;C;Attack;LessHealthy;S;For_S;S;C;Harvest;S;Empty;S;C;Train;Worker;Up
+slurmstepd: error: *** JOB 5841591 ON cdr1042 CANCELLED AT 2021-06-23T07:35:49 DUE TO TIME LIMIT ***

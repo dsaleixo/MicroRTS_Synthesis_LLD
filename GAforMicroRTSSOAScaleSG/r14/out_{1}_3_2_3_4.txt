@@ -1,0 +1,9 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;S_S;S;For_S;S;C;Attack;Strongest;S;For_S;S;C;Train;Worker;Left
+Atual=S;S_S;S;For_S;S;C;Attack;Strongest;S;For_S;S;C;Train;Worker;Right
+Atual=S;S_S;S;For_S;S;For_S;S;C;Attack;Strongest;S;For_S;S;C;Train;Worker;Up
+Atual=S;S_S;S;For_S;S;S_S;S;For_S;S;C;Attack;Strongest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;LessHealthy;S;C;Harvest;S;S_S;S;C;Harvest;S;C;Attack;MostHealthy;S;For_S;S;C;Train;Worker;Down
+Atual=S;S_S;S;For_S;S;S_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Heavy;1;S;C;Train;Barracks;Right;S;For_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Farthest;S;C;Attack;MostHealthy;S;S_S;S;C;Idle;S;C;Attack;Weakest;S;C;Train;Worker;Down
+slurmstepd: error: *** JOB 5852249 ON cdr1501 CANCELLED AT 2021-06-23T11:42:03 DUE TO TIME LIMIT ***

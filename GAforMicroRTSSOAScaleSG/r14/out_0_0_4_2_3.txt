@@ -1,0 +1,10 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir
+Atual=S;If_B_then_S_else_S;B;HasNumberOfUnits;Worker;5;S;For_S;S;C;MoveAway;S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir
+Atual=S;If_B_then_S_else_S;B;HasNumberOfUnits;Worker;5;S;For_S;S;C;Attack;MostHealthy;S;For_S;S;If_B_then_S_else_S;B;is_Type;Heavy;S;S_S;S;S_S;S;C;Attack;Farthest;S;C;Train;Worker;Up;S;C;Attack;Farthest;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir
+Atual=S;If_B_then_S_else_S;B;HasNumberOfUnits;Heavy;2;S;C;MoveAway;S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;C;Attack;Closest;S;S_S;S;C;Harvest;S;C;Attack;LessHealthy;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;5;S;C;Attack;Closest;S;S_S;S;C;Harvest;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;2;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Ranged;5;S;C;Attack;Closest;S;If_B_then_S;B;OpponentHasNumberOfUnits;Base;5;S;C;Train;Heavy;Up;S;C;Harvest;S;C;Train;Worker;Down
+slurmstepd: error: *** JOB 5841226 ON cdr1585 CANCELLED AT 2021-06-23T07:34:13 DUE TO TIME LIMIT ***

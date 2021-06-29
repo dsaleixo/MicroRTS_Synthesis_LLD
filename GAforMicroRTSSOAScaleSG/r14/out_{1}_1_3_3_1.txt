@@ -1,0 +1,22 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;C;Train;Worker;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;Build;Heavy;Down;S;C;Train;Worker;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;Harvest;S;C;Train;Worker;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;4;S;C;Harvest;S;C;Train;Worker;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;4;S;C;Harvest;S;C;Train;Worker;Left;S;C;Attack;LessHealthy;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Left;S;C;Build;Heavy;Up;S;S_S;S;C;Attack;LessHealthy;S;C;Build;Ranged;Left
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Left;S;C;Build;Light;Left;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;C;Build;Light;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;C;Build;Ranged;Up;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;C;Build;Heavy;Right;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;C;Build;Light;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;C;Build;Ranged;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;C;Build;Ranged;Up;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;C;Build;Heavy;Right;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;C;Build;Light;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;C;Build;Ranged;Up;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;C;Build;Heavy;EnemyDir;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;C;Build;Light;Down;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;C;Harvest;S;C;Idle;S;C;Attack;Weakest
+slurmstepd: error: *** JOB 5851981 ON cdr1326 CANCELLED AT 2021-06-23T11:09:40 DUE TO TIME LIMIT ***

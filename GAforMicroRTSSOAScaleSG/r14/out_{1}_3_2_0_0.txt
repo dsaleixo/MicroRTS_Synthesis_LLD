@@ -1,0 +1,27 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;S_S;S;C;MoveAway;S;S_S;S;C;Harvest;S;C;Attack;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;S_S;S;C;Idle;S;C;Train;Worker;Right;S;S_S;S;C;Harvest;S;C;Attack;Random;S;C;Build;Heavy;Down
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;C;Attack;Closest;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;C;Attack;Closest;S;For_S;S;For_S;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;S;C;Train;Worker;Down;S;S_S;S;C;Idle;S;C;Attack;Random;S;For_S;S;For_S;S;C;Train;Worker;EnemyDir
+
+
+
+for(Unit u){
+	for(Unit u){
+		for(Unit u){
+			for(Unit u){
+				for(Unit u){
+					u.idle()
+				}
+			}
+			u.harvest()
+			u.train(Worker,Down)
+			u.attack(Random)
+		}
+	}
+}
+FIM

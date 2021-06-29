@@ -1,0 +1,22 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;S_S;S;C;Train;Worker;Down;S;C;MoveAway
+Atual=S;For_S;S;S_S;S;C;Build;Heavy;Up;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Build;Light;Left;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Build;Barracks;Right;S;S_S;S;C;Build;Ranged;EnemyDir;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Build;Heavy;Right;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;1;S;C;Attack;Weakest;S;S_S;S;C;Harvest;S;C;Build;Worker;Right;S;S_S;S;C;Train;Worker;Down;S;C;Attack;Closest
+
+
+
+for(Unit u){
+	if(HasNumberOfWorkersHarvesting(1)) then {
+		u.attack(Weakest)
+	} else {
+		u.harvest()
+	}
+	u.train(Worker,Down)
+}
+FIM

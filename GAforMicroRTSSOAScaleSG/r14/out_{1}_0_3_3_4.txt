@@ -1,0 +1,8 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;If_B_then_S_else_S;B;is_Type;Worker;S;For_S;S;For_S;S;S_S;S;C;Harvest;S;C;Train;Base;Up;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;If_B_then_S_else_S;B;is_Type;Worker;S;For_S;S;C;Build;Worker;EnemyDir;S;C;MoveToUnit;Enemy;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;If_B_then_S_else_S;B;is_Type;Worker;S;For_S;S;C;Build;Light;EnemyDir;S;C;MoveToUnit;Enemy;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;If_B_then_S_else_S;B;is_Type;Worker;S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Harvest;S;C;Idle;S;C;Build;Barracks;Left;S;C;Train;Worker;Down
+slurmstepd: error: *** JOB 5864383 ON cdr535 CANCELLED AT 2021-06-23T14:56:24 DUE TO TIME LIMIT ***

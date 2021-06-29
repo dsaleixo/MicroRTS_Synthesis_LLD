@@ -1,0 +1,56 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Attack;LessHealthy;S;C;Harvest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;S_S;S;C;Idle;S;C;Train;Worker;Down;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;is_Type;Base;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Build;Worker;Down;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;is_Type;Base;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Build;Worker;Down;S;S_S;S;For_S;S;C;Train;Worker;Up;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;is_Type;Worker;S;For_S;S;C;Attack;Closest;S;S_S;S;C;Train;Barracks;Down;S;C;Build;Base;Left;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;3;S;S_S;S;For_S;S;C;Train;Worker;Up;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;is_Type;Worker;S;For_S;S;C;Attack;Closest;S;Empty;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;3;S;For_S;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;is_Type;Worker;S;C;Attack;Weakest;S;Empty;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;5;S;For_S;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;is_Type;Worker;S;C;Attack;Weakest;S;Empty;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;5;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;is_Type;Worker;S;C;Attack;Closest;S;Empty;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;50;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;C;Build;Base;Left;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;LessHealthy;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;5;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Right
+
+
+
+for(Unit u){
+	for(Unit u){
+		u.idle()
+	}
+	for(Unit u){
+		if(HaveQtdUnitsAttacking(1)) then {
+			u.harvest()
+		} else {
+			u.attack(Random)
+		}
+	}
+	for(Unit u){
+		u.train(Worker,Right)
+	}
+}
+FIM

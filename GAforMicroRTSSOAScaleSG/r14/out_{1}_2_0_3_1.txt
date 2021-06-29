@@ -1,0 +1,14 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Build;Worker;Left;S;C;MoveToUnit;Ally;Closest;S;S_S;S;C;Harvest;S;C;Train;Worker;Down;S;For_S;S;If_B_then_S;B;is_Type;Worker;S;S_S;S;C;Idle;S;C;MoveToUnit;Enemy;Farthest
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;Down;S;For_S;S;If_B_then_S;B;is_Type;Worker;S;S_S;S;C;Idle;S;C;Attack;MostHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;Down;S;For_S;S;If_B_then_S;B;is_Type;Worker;S;S_S;S;C;Idle;S;C;MoveToUnit;Enemy;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;Down;S;For_S;S;If_B_then_S;B;is_Type;Worker;S;S_S;S;S_S;S;C;Idle;S;C;Harvest;S;C;MoveToUnit;Enemy;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;Down;S;For_S;S;If_B_then_S;B;is_Type;Worker;S;S_S;S;S_S;S;C;Idle;S;C;Build;Light;Up;S;C;MoveToUnit;Enemy;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;Down;S;For_S;S;If_B_then_S;B;is_Type;Worker;S;S_S;S;S_S;S;C;Harvest;S;For_S;S;C;Attack;Weakest;S;C;MoveToUnit;Enemy;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;Build;Light;Down;S;C;Train;Light;Left;S;For_S;S;C;Build;Barracks;Right;S;If_B_then_S;B;HasLessNumberOfUnits;Ranged;2;S;If_B_then_S;B;HasLessNumberOfUnits;Worker;1;S;C;Idle;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;MoveToUnit;Enemy;MostHealthy;S;C;MoveToUnit;Ally;Random;S;For_S;S;If_B_then_S;B;is_Type;Worker;S;S_S;S;S_S;S;C;Harvest;S;For_S;S;C;Attack;Weakest;S;C;MoveToUnit;Enemy;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;Build;Light;Down;S;C;Train;Light;Left;S;For_S;S;C;Build;Barracks;Right;S;If_B_then_S;B;HasLessNumberOfUnits;Worker;1;S;C;Idle;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;MoveToUnit;Enemy;MostHealthy;S;C;MoveToUnit;Ally;Random;S;For_S;S;If_B_then_S;B;is_Type;Worker;S;S_S;S;S_S;S;C;Harvest;S;For_S;S;C;Idle;S;C;MoveToUnit;Enemy;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;Build;Light;Down;S;C;Train;Light;Left;S;For_S;S;C;Build;Barracks;Left;S;If_B_then_S;B;HasLessNumberOfUnits;Worker;1;S;C;Idle;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;MoveToUnit;Enemy;MostHealthy;S;C;MoveToUnit;Enemy;Closest;S;For_S;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;S_S;S;C;Harvest;S;For_S;S;C;Idle;S;C;MoveToUnit;Enemy;Strongest
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException
+FIM

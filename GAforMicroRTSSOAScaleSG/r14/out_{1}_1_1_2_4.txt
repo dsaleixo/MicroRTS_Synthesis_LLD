@@ -1,0 +1,7 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Heavy;Down;S;C;MoveToUnit;Ally;LessHealthy;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Train;Barracks;Right;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;S_S;S;S_S;S;C;Idle;S;C;Harvest;S;S_S;S;C;MoveAway;S;C;Attack;Farthest;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;2;S;S_S;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;S_S;S;C;Attack;Closest;S;C;MoveToUnit;Ally;MostHealthy;S;C;Harvest;S;S_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;C;Idle;S;C;Build;Worker;Right;S;C;Train;Worker;Up
+slurmstepd: error: *** JOB 5851732 ON cdr474 CANCELLED AT 2021-06-23T10:52:05 DUE TO TIME LIMIT ***

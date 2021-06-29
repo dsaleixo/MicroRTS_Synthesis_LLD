@@ -1,0 +1,26 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Train;Ranged;Up;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Harvest;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;C;Idle;S;If_B_then_S;B;HaveQtdUnitsAttacking;2;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;S;C;Harvest;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;2;S;C;Harvest;S;S_S;S;S_S;S;C;Attack;Closest;S;If_B_then_S;B;HasUnitInOpponentRange;S;For_S;S;C;MoveAway;S;C;Train;Worker;Down
+
+
+
+for(Unit u){
+	u.idle()
+	if(HaveQtdUnitsAttacking(2)) then {
+		for(Unit u){
+			for(Unit u){
+				u.harvest()
+			}
+		}
+	}
+	u.attack(Closest)
+	if(u.HasUnitInOpponentRange()) then {
+		for(Unit u){
+			u.moveAway()
+		}
+	}
+	u.train(Worker,Down)
+}
+FIM

@@ -1,0 +1,39 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Attack;Closest;S;C;Train;Ranged;Left;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Build;Heavy;Up;S;C;Attack;Strongest;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Build;Light;Left;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;For_S;S;For_S;S;C;Build;Ranged;EnemyDir;S;S_S;S;C;Build;Light;Left;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;For_S;S;For_S;S;C;Build;Heavy;Left;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;For_S;S;For_S;S;C;Build;Heavy;Down;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;For_S;S;For_S;S;C;Build;Light;Up;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;For_S;S;For_S;S;If_B_then_S_else_S;B;is_Type;Worker;S;C;Harvest;S;For_S;S;For_S;S;C;Idle;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;5;S;C;Harvest;S;For_S;S;For_S;S;C;Idle;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;C;Harvest;S;For_S;S;For_S;S;C;Idle;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;C;Harvest;S;For_S;S;For_S;S;C;Idle;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;Harvest;S;For_S;S;For_S;S;C;Idle;S;C;Attack;Weakest;S;C;Train;Worker;Down
+
+
+
+for(Unit u){
+	if(u.canAttack()) then {
+		for(Unit u){
+			for(Unit u){
+				if(HaveQtdUnitsAttacking(2)) then {
+					u.harvest()
+				} else {
+					for(Unit u){
+						for(Unit u){
+							u.idle()
+						}
+					}
+				}
+			}
+		}
+		u.attack(Weakest)
+	} else {
+		u.train(Worker,Down)
+	}
+}
+FIM

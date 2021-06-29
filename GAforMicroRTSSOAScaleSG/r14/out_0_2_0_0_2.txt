@@ -1,0 +1,8 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Attack;MostHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;If_B_then_S;B;CanHarvest;S;S_S;S;C;Train;Heavy;Down;S;C;Idle;S;If_B_then_S_else_S;B;IsBuilder;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;S_S;S;C;Harvest;S;C;Harvest;S;If_B_then_S_else_S;B;IsBuilder;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;S_S;S;C;Harvest;S;For_S;S;C;MoveAway;S;If_B_then_S_else_S;B;IsBuilder;S;C;Attack;Strongest;S;C;Train;Worker;Up
+slurmstepd: error: *** JOB 5841494 ON cdr1382 CANCELLED AT 2021-06-23T07:35:21 DUE TO TIME LIMIT ***

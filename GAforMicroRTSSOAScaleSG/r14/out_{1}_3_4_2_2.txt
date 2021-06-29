@@ -1,0 +1,9 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Attack;Weakest;S;C;MoveAway;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Build;Base;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;If_B_then_S;B;OpponentHasNumberOfUnits;Ranged;1;S;S_S;S;C;Train;Worker;Up;S;C;MoveToUnit;Enemy;Strongest;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;For_S;S;S_S;S;C;Harvest;S;For_S;S;C;MoveToUnit;Ally;Weakest;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;For_S;S;S_S;S;C;Harvest;S;For_S;S;C;Build;Light;EnemyDir;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;EnemyDir
+slurmstepd: error: *** JOB 5852305 ON cdr1526 CANCELLED AT 2021-06-23T11:42:03 DUE TO TIME LIMIT ***

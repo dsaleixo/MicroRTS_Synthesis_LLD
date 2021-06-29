@@ -1,0 +1,7 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Attack;MostHealthy;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;C;Idle;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;1;S;C;Attack;Weakest;S;C;Harvest;S;C;Train;Worker;EnemyDir
+slurmstepd: error: *** JOB 5852132 ON cdr602 CANCELLED AT 2021-06-23T11:42:03 DUE TO TIME LIMIT ***

@@ -1,0 +1,18 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;C;Attack;Closest;S;C;Harvest;S;C;Attack;Closest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;4;S;C;Attack;Closest;S;C;Harvest;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;1;S;C;Attack;Closest;S;C;Harvest;S;C;Harvest;S;C;Train;Worker;Up
+
+
+
+for(Unit u){
+	if(HasNumberOfWorkersHarvesting(1)) then {
+		u.attack(Closest)
+	} else {
+		u.harvest()
+	}
+	u.train(Worker,Up)
+}
+FIM

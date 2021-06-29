@@ -1,0 +1,17 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;C;Train;Worker;Up;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;S_S;S;S_S;S;C;Idle;S;S_S;S;C;MoveAway;S;C;Harvest;S;C;Train;Worker;Up;S;C;Attack;Weakest
+
+
+
+for(Unit u){
+	if(u.HasUnitThatKillsInOneAttack()) then {
+		u.idle()
+		u.moveAway()
+		u.harvest()
+		u.train(Worker,Up)
+	}
+	u.attack(Weakest)
+}
+FIM

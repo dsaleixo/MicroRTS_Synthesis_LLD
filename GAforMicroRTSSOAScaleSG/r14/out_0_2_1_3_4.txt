@@ -1,0 +1,20 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;S_S;S;C;Build;Heavy;Down;S;For_S;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Train;Worker;Up;S;C;Build;Ranged;Down;S;If_B_then_S;B;CanAttack;S;For_S;S;C;Build;Light;Down
+Atual=S;For_S;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Idle
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Right;S;C;Attack;MostHealthy
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Right;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Right;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;50;S;S_S;S;For_S;S;C;Harvest;S;C;Train;Worker;Right;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Train;Barracks;Down;S;C;Train;Ranged;Right;S;C;Attack;LessHealthy
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;For_S;S;For_S;S;C;Attack;MostHealthy;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;For_S;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;For_S;S;For_S;S;C;Attack;Random;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;For_S;S;For_S;S;C;Attack;Random;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;C;Idle;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;C;Idle;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Strongest;S;C;MoveToUnit;Enemy;Weakest;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;C;Idle;S;S_S;S;C;Attack;Weakest;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;C;Idle;S;S_S;S;C;Attack;Weakest;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;S_S;S;S_S;S;C;Build;Light;Left;S;C;Train;Worker;EnemyDir;S;For_S;S;C;Train;Heavy;Down;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;C;Idle;S;S_S;S;C;Attack;Weakest;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;Harvest;S;For_S;S;C;Train;Worker;Down
+slurmstepd: error: *** JOB 5841575 ON cdr1152 CANCELLED AT 2021-06-23T07:35:49 DUE TO TIME LIMIT ***

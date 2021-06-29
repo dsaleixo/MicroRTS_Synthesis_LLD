@@ -1,0 +1,29 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Right;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Train;Worker;Up;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Idle;S;If_B_then_S_else_S;B;HasNumberOfUnits;Barracks;5;S;C;Train;Heavy;Left;S;S_S;S;S_S;S;C;Build;Barracks;Up;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;S_S;S;C;MoveToUnit;Enemy;LessHealthy;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;S_S;S;C;Build;Light;Up;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;S_S;S;C;Build;Light;Up;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;S_S;S;C;Build;Light;Up;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Random;S;For_S;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Train;Worker;EnemyDir;S;C;MoveToUnit;Enemy;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Ranged;EnemyDir;S;C;Attack;Closest;S;S_S;S;C;Train;Worker;EnemyDir;S;C;MoveToUnit;Enemy;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Worker;Down;S;C;Attack;Closest;S;S_S;S;C;Train;Worker;EnemyDir;S;C;MoveToUnit;Enemy;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Worker;Down;S;C;Attack;Strongest;S;S_S;S;C;Train;Worker;Up;S;C;Build;Ranged;EnemyDir
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitThatKillsInOneAttack;S;C;Harvest;S;C;Attack;Farthest;S;For_S;S;For_S;S;For_S;S;For_S;S;C;Idle;S;C;Train;Worker;Up
+slurmstepd: error: *** JOB 5851796 ON cdr568 CANCELLED AT 2021-06-23T10:58:52 DUE TO TIME LIMIT ***

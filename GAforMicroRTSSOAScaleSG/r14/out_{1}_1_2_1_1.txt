@@ -1,0 +1,7 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;If_B_then_S_else_S;B;IsBuilder;S;S_S;S;C;Build;Heavy;Right;S;For_S;S;C;Attack;Weakest;S;C;Build;Barracks;Right;S;C;Train;Worker;Down
+Atual=S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Build;Light;Right;S;For_S;S;If_B_then_S;B;IsBuilder;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Harvest;S;If_B_then_S_else_S;B;CanAttack;S;S_S;S;C;Build;Light;Right;S;For_S;S;If_B_then_S;B;IsBuilder;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+slurmstepd: error: *** JOB 5851798 ON cdr598 CANCELLED AT 2021-06-23T10:58:48 DUE TO TIME LIMIT ***

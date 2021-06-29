@@ -1,0 +1,9 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;CanHarvest;S;For_S;S;For_S;S;C;Build;Worker;Down;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;S_S;S;C;Harvest;S;C;MoveAway;S;For_S;S;C;Attack;Farthest;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;S_S;S;C;Harvest;S;For_S;S;C;Idle;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Train;Light;Down;S;C;Build;Barracks;Up;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;C;Harvest;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException
+FIM

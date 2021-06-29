@@ -1,0 +1,9 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;C;Train;Worker;Left;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Left;S;For_S;S;C;Build;Light;Down;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Right;S;C;Train;Light;Up;S;For_S;S;C;Build;Light;Down;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Right;S;For_S;S;C;Build;Heavy;Right;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;For_S;S;If_B_then_S_else_S;B;CanAttack;S;For_S;S;S_S;S;C;Build;Light;Right;S;C;Train;Worker;Left;S;S_S;S;C;Train;Barracks;Up;S;C;Idle;S;C;Attack;Strongest
+slurmstepd: error: *** JOB 5841153 ON cdr223 CANCELLED AT 2021-06-23T07:34:13 DUE TO TIME LIMIT ***

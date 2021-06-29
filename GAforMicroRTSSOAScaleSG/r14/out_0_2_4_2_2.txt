@@ -1,0 +1,17 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;S_S;S;For_S;S;For_S;S;C;Train;Worker;Left;S;For_S;S;C;Attack;LessHealthy
+Atual=S;S_S;S;S_S;S;For_S;S;For_S;S;C;Train;Worker;Left;S;For_S;S;C;Build;Heavy;Down;S;For_S;S;C;Attack;LessHealthy
+Atual=S;S_S;S;S_S;S;For_S;S;For_S;S;C;Train;Worker;Left;S;For_S;S;C;Build;Ranged;Up;S;For_S;S;C;Attack;LessHealthy
+Atual=S;S_S;S;S_S;S;For_S;S;For_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;5;S;C;Attack;Farthest;S;C;Train;Worker;Left;S;For_S;S;C;Build;Light;Up;S;For_S;S;C;Attack;LessHealthy
+Atual=S;S_S;S;S_S;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Left;S;For_S;S;C;Build;Worker;Right;S;For_S;S;C;Attack;LessHealthy
+Atual=S;S_S;S;S_S;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;EnemyDir;S;For_S;S;C;Build;Worker;Right;S;For_S;S;C;Attack;LessHealthy
+Atual=S;S_S;S;S_S;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Right;S;For_S;S;C;Build;Heavy;Down;S;For_S;S;C;Attack;LessHealthy
+Atual=S;S_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Attack;Weakest;S;S_S;S;C;Harvest;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;Harvest;S;For_S;S;If_B_then_S_else_S;B;HasNumberOfUnits;Barracks;5;S;If_B_then_S_else_S;B;CanAttack;S;C;Idle;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;Train;Worker;Down;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;Idle;S;For_S;S;C;Attack;Farthest
+Atual=S;S_S;S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Left;S;C;Attack;Strongest;S;For_S;S;If_B_then_S_else_S;B;HasNumberOfUnits;Barracks;5;S;C;Attack;LessHealthy;S;C;Train;Heavy;EnemyDir
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Build;Heavy;Right;S;C;Train;Worker;Left;S;C;Attack;Strongest
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Build;Ranged;Right;S;C;Train;Worker;Left;S;C;Attack;Strongest
+Atual=S;For_S;S;For_S;S;S_S;S;C;Build;Light;Right;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Build;Ranged;Right;S;C;Train;Worker;Left;S;C;Attack;Strongest
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;S_S;S;C;Idle;S;S_S;S;C;Train;Worker;Right;S;C;Train;Base;EnemyDir;S;C;Harvest;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;Empty;S;C;Train;Worker;Left;S;C;Attack;Strongest
+slurmstepd: error: *** JOB 5841802 ON cdr1062 CANCELLED AT 2021-06-23T07:38:56 DUE TO TIME LIMIT ***

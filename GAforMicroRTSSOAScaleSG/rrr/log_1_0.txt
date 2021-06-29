@@ -1,0 +1,196 @@
+trtrt
+trtrt
+Tempo 340    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+----------------------------------------------------
+Player 0 avaliacao = -0.3076923
+		Recurso = 5
+		Base = 0
+		barracks = 0
+		Worker = 0
+		Light = 0
+		Heavy = 2
+		Ranged = 0
+Player 1 avaliacao = 0.3076923
+		Recurso = 5
+		Base = 0
+		barracks = 0
+		Worker = 0
+		Light = 0
+		Heavy = 3
+		Ranged = 0
+	
+	
+----------------------------------------------------
+Player 0 avaliacao = -0.3076923
+		Recurso = 5
+		Base = 0
+		barracks = 0
+		Worker = 0
+		Light = 0
+		Heavy = 2
+		Ranged = 0
+Player 1 avaliacao = 0.3076923
+		Recurso = 5
+		Base = 0
+		barracks = 0
+		Worker = 0
+		Light = 0
+		Heavy = 3
+		Ranged = 0
+	
+	
+Avaliacao 0.0
+Avaliacao de Validacao 0.0
+Avaliacao 1.0
+Avaliacao de Validacao 1.0
+Script 0 attack(Heavy,closest) for(u) (if(HaveUnitsToDistantToEnemy(Worker,1,u)) then((Z)) else(attack(Ranged,closest,u))) for(u) (if(HaveQtdUnitsHarversting(10,u)) then((Z)) (Z)) (Z)
+Script 1 attack(Heavy,closest) for(u) (if(HaveUnitsToDistantToEnemy(Worker,1,u)) then((Z)) else(attack(Ranged,closest,u))) for(u) (if(HaveQtdUnitsHarversting(10,u)) then((Z)) (Z)) (Z)
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Tempo 170    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+----------------------------------------------------
+Player 0 avaliacao = -0.2352941
+		Recurso = 5
+		Base = 0
+		barracks = 0
+		Worker = 0
+		Light = 0
+		Heavy = 4
+		Ranged = 0
+Player 1 avaliacao = 0.2352941
+		Recurso = 5
+		Base = 0
+		barracks = 0
+		Worker = 0
+		Light = 0
+		Heavy = 4
+		Ranged = 0
+	
+	
+----------------------------------------------------
+Player 0 avaliacao = -0.2352941
+		Recurso = 5
+		Base = 0
+		barracks = 0
+		Worker = 0
+		Light = 0
+		Heavy = 4
+		Ranged = 0
+Player 1 avaliacao = 0.2352941
+		Recurso = 5
+		Base = 0
+		barracks = 0
+		Worker = 0
+		Light = 0
+		Heavy = 4
+		Ranged = 0
+	
+	
+Avaliacao 0.0
+Avaliacao de Validacao 0.0
+Avaliacao 2.0
+Avaliacao de Validacao 2.0
+Script 0 attack(Heavy,closest) for(u) (if(HaveUnitsToDistantToEnemy(Worker,1,u)) then((Z)) else(attack(Ranged,closest,u))) for(u) (if(HaveQtdUnitsHarversting(10,u)) then((Z)) (Z)) (Z)
+Script 1 attack(Heavy,closest) for(u) (if(HaveUnitsToDistantToEnemy(Worker,1,u)) then((Z)) else(attack(Ranged,closest,u))) for(u) (if(HaveQtdUnitsHarversting(10,u)) then((Z)) (Z)) (Z)
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Tempo 0    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+----------------------------------------------------
+Player 0 avaliacao = 0.0
+		Recurso = 5
+		Base = 0
+		barracks = 0
+		Worker = 0
+		Light = 0
+		Heavy = 4
+		Ranged = 4
+Player 1 avaliacao = 0.0
+		Recurso = 5
+		Base = 0
+		barracks = 0
+		Worker = 0
+		Light = 0
+		Heavy = 4
+		Ranged = 4
+	
+	
+----------------------------------------------------
+Player 0 avaliacao = 0.0
+		Recurso = 5
+		Base = 0
+		barracks = 0
+		Worker = 0
+		Light = 0
+		Heavy = 4
+		Ranged = 4
+Player 1 avaliacao = 0.0
+		Recurso = 5
+		Base = 0
+		barracks = 0
+		Worker = 0
+		Light = 0
+		Heavy = 4
+		Ranged = 4
+	
+	
+Avaliacao 1.0
+Avaliacao de Validacao 1.0
+Avaliacao 2.0
+Avaliacao de Validacao 2.0
+Script 0 attack(Heavy,closest) for(u) (if(HaveUnitsToDistantToEnemy(Worker,1,u)) then((Z)) else(attack(Ranged,closest,u))) for(u) (if(HaveQtdUnitsHarversting(10,u)) then((Z)) (Z)) (Z)
+Script 1 attack(Heavy,closest) for(u) (if(HaveUnitsToDistantToEnemy(Worker,1,u)) then((Z)) else(attack(Ranged,closest,u))) for(u) (if(HaveQtdUnitsHarversting(10,u)) then((Z)) (Z)) (Z)
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+LS
+Resultado 0
+Script attack(Ranged,weakest) (Z) (Z) for(u) (if(HaveQtdUnitsAttacking(Heavy,19,u)) then(train(Heavy,50,Up,u) moveToUnit(Light,Ally,closest,u)) moveToUnit(Worker,Ally,closest,u) if(HaveQtdEnemiesbyType(Ranged,14,u)) then(moveToUnit(Light,Enemy,farthest,u) attack(Heavy,lessHealthy,u) moveToUnit(Worker,Ally,weakest,u))) for(u) (attack(Heavy,mostHealthy,u) moveToUnit(Worker,Ally,lessHealthy,u) train(Ranged,50,Up,u) if(HaveQtdUnitsbyType(Worker,7,u)) then(moveToUnit(Ranged,Ally,mostHealthy,u) (Z)) else(attack(Heavy,closest,u)) moveToUnit(Light,Enemy,farthest,u)) build(Base,50,Down)
+    A3N =0.0
+    LR =0.0
+    WR =0.0
+Resultado 1
+Script moveToUnit(Light,Ally,strongest) attack(Heavy,closest) attack(Worker,closest) for(u) (if(HaveUnitsToDistantToEnemy(Worker,1,u)) then(moveToUnit(Heavy,Enemy,strongest,u)) else(attack(Ranged,closest,u) train(Ranged,50,Left,u) build(Barrack,50,Up,u)) moveToUnit(Ranged,Enemy,weakest,u) moveToUnit(Light,Enemy,strongest,u)) for(u) (if(HaveQtdUnitsHarversting(10,u)) then(attack(Light,strongest,u)) else(moveToUnit(Ranged,Enemy,mostHealthy,u) moveToUnit(Heavy,Ally,strongest,u)) (Z)) if(HaveQtdUnitsbyType(Worker,20)) then(moveToUnit(Ranged,Ally,mostHealthy) attack(Light,mostHealthy))
+    A3N =1.5
+    LR =5.0
+    WR =5.0
+Remove 0
+Avaliacao 4.0
+Avaliacao de Validacao 2.0
+Resultado 0
+Script attack(Ranged,weakest) (Z) (Z)
+    A3N =0.0
+    LR =0.0
+    WR =0.0
+Remove 1
+Avaliacao 5.0
+Avaliacao de Validacao 5.0
+Resultado 1
+Script attack(Heavy,closest) for(u) (if(HaveUnitsToDistantToEnemy(Worker,1,u)) then((Z)) else(attack(Ranged,closest,u))) for(u) (if(HaveQtdUnitsHarversting(10,u)) then((Z)) (Z)) (Z)
+    A3N =0.0
+    LR =5.0
+    WR =5.0
+
+
+LSBU
+Resultado 0
+Script if(HaveUnitsToDistantToEnemy(Ranged,7)) then(moveToUnit(Heavy,Ally,farthest)) for(u) (attack(Heavy,closest,u) (Z)) for(u) (if(HaveQtdUnitsbyType(Worker,2,u)) then((Z)) else((Z)) attack(Ranged,lessHealthy,u))
+    A3N =0.0
+    LR =10.0
+    WR =10.0
+Resultado 1
+Script attack(Heavy,closest) for(u) (if(HaveUnitsToDistantToEnemy(Worker,1,u)) then((Z)) else(attack(Ranged,closest,u))) for(u) (if(HaveQtdUnitsHarversting(10,u)) then((Z)) (Z)) (Z)
+    A3N =2.0
+    LR =5.0
+    WR =5.0
+Remove 0
+Avaliacao 1.0
+Avaliacao de Validacao 1.0
+Resultado 0
+Script if(HaveUnitsToDistantToEnemy(Ranged,7)) then(moveToUnit(Heavy,Ally,farthest)) for(u) (attack(Heavy,closest,u) (Z)) for(u) (if(HaveQtdUnitsbyType(Worker,2,u)) then((Z)) else((Z)) attack(Ranged,lessHealthy,u))
+    A3N =0.5
+    LR =10.0
+    WR =10.0
+Remove 1
+Avaliacao 2.0
+Avaliacao de Validacao 2.0
+Resultado 1
+Script attack(Heavy,closest) for(u) (if(HaveUnitsToDistantToEnemy(Worker,1,u)) then((Z)) else(attack(Ranged,closest,u))) for(u) (if(HaveQtdUnitsHarversting(10,u)) then((Z)) (Z)) (Z)
+    A3N =0.5
+    LR =5.0
+    WR =5.0

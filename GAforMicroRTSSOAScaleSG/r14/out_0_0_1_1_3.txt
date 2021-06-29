@@ -1,0 +1,7 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Train;Worker;Up;S;S_S;S;C;Idle;S;C;MoveAway
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Heavy;Up;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Train;Worker;Up;S;C;Idle
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Heavy;Up;S;S_S;S;S_S;S;S_S;S;C;Build;Base;Up;S;S_S;S;C;Idle;S;C;Harvest;S;C;MoveToUnit;Enemy;Weakest;S;C;Train;Worker;Up;S;C;Idle
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException
+FIM

@@ -1,0 +1,34 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;MostHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Up
+Atual=S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;S_S;S;C;Harvest;S;C;MoveToUnit;Enemy;MostHealthy;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Up
+
+
+
+for(Unit u){
+	if(HaveQtdUnitsAttacking(2)) then {
+		if(u.HasUnitThatKillsInOneAttack()) then {
+			u.harvest()
+			u.moveToUnit(Enemy,MostHealthy)
+		}
+	} else {
+		u.attack(Weakest)
+		u.train(Worker,Up)
+	}
+}
+FIM

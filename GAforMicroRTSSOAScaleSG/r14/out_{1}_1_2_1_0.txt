@@ -1,0 +1,6 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Strongest;S;C;Train;Worker;Right;S;If_B_then_S_else_S;B;HasNumberOfUnits;Worker;50;S;C;Train;Worker;Up;S;C;Harvest
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;C;Attack;Strongest;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;Attack;LessHealthy;S;C;Train;Worker;Up
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Harvest;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Attack;Farthest;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;Empty;S;C;Train;Worker;Up
+slurmstepd: error: *** JOB 5851797 ON cdr648 CANCELLED AT 2021-06-23T10:58:52 DUE TO TIME LIMIT ***

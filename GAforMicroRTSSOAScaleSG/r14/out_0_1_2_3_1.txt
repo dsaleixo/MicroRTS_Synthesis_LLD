@@ -1,0 +1,25 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;S_S;S;C;Train;Barracks;Right;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;3;S;C;Attack;Weakest;S;C;Build;Base;Left;S;C;Harvest;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;3;S;C;Attack;LessHealthy;S;C;Harvest;S;C;Harvest;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;3;S;C;Attack;LessHealthy;S;C;Harvest;S;C;Train;Worker;EnemyDir;S;S_S;S;C;Harvest;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;2;S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Worker;5;S;C;Idle;S;If_B_then_S;B;HaveQtdUnitsAttacking;25;S;For_S;S;C;Build;Ranged;EnemyDir;S;C;Harvest;S;C;Train;Worker;Left;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Left;S;S_S;S;C;Attack;Weakest;S;For_S;S;C;Harvest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Build;Barracks;Down;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Left;S;S_S;S;S_S;S;C;Harvest;S;S_S;S;C;Attack;Random;S;C;Idle;S;For_S;S;C;Idle
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Left;S;S_S;S;S_S;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Idle
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Left;S;S_S;S;S_S;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Idle
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Left;S;S_S;S;S_S;S;C;Harvest;S;C;Attack;Random;S;For_S;S;C;Idle
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Left;S;S_S;S;S_S;S;C;Harvest;S;C;Attack;MostHealthy;S;For_S;S;C;Idle
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;5;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Left;S;S_S;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;Build;Base;Up;S;S_S;S;S_S;S;C;Harvest;S;C;Attack;MostHealthy;S;For_S;S;C;Idle
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Base;1;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;5;S;S_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Left;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;S_S;S;S_S;S;C;Harvest;S;C;Attack;MostHealthy;S;For_S;S;C;Idle
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Base;1;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;5;S;S_S;S;For_S;S;For_S;S;C;Build;Barracks;EnemyDir;S;C;Train;Light;Left;S;For_S;S;C;Harvest;S;S_S;S;S_S;S;C;Harvest;S;C;Attack;Strongest;S;For_S;S;C;Idle
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Base;1;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;5;S;S_S;S;For_S;S;For_S;S;C;Build;Barracks;Left;S;C;Train;Light;Left;S;For_S;S;C;Harvest;S;S_S;S;S_S;S;C;Harvest;S;C;Attack;Strongest;S;For_S;S;C;Idle
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Base;1;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Barracks;2;S;S_S;S;For_S;S;For_S;S;C;Build;Barracks;Left;S;C;Train;Light;Left;S;For_S;S;C;Harvest;S;S_S;S;S_S;S;C;Harvest;S;C;Attack;Strongest;S;For_S;S;Empty
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Base;1;S;S_S;S;For_S;S;For_S;S;C;Build;Barracks;Down;S;C;Train;Light;Left;S;S_S;S;C;Harvest;S;C;Attack;Strongest
+slurmstepd: error: *** JOB 5841384 ON cdr1467 CANCELLED AT 2021-06-23T07:35:18 DUE TO TIME LIMIT ***

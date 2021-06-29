@@ -1,0 +1,45 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Right;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Harvest
+Atual=S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Right;S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;C;MoveToUnit;Enemy;Random;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Right;S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Right;S;For_S;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Attack;LessHealthy;S;C;Build;Heavy;Down;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Build;Heavy;Left;S;S_S;S;S_S;S;C;Attack;Weakest;S;S_S;S;C;Idle;S;C;Train;Base;EnemyDir;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;C;Train;Worker;Up;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Build;Worker;Down;S;C;Build;Heavy;Up;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Build;Worker;Down;S;C;MoveToUnit;Enemy;Closest;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Build;Ranged;Down;S;C;Build;Worker;Right;S;C;Train;Worker;Down;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;Idle;S;C;Harvest;S;S_S;S;C;Harvest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Weakest;S;C;Train;Ranged;Up;S;C;Train;Base;Down;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;Idle;S;C;Build;Worker;Left;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;Farthest;S;Empty;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Attack;MostHealthy;S;Empty;S;C;Attack;Closest
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;Train;Ranged;Right;S;C;MoveToUnit;Enemy;Closest;S;C;Train;Worker;Up;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;C;Idle;S;C;MoveAway;S;C;Attack;Closest
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;CanHarvest;S;C;Harvest;S;C;Harvest;S;C;Train;Worker;Up;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;0;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Right;S;S_S;S;C;Train;Heavy;Left;S;C;Harvest
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;CanHarvest;S;C;MoveToUnit;Enemy;Random;S;C;Idle;S;C;Train;Worker;Up;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;CanHarvest;S;C;MoveToUnit;Enemy;Random;S;Empty;S;C;Train;Worker;Up;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;CanHarvest;S;C;MoveToUnit;Enemy;Random;S;Empty;S;C;Train;Worker;Up;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;CanHarvest;S;C;Idle;S;Empty;S;C;Train;Worker;Up;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;For_S;S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Attack;Strongest;S;S_S;S;S_S;S;C;MoveAway;S;C;Attack;Strongest;S;C;Train;Worker;Down;S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;C;Attack;Closest;S;C;MoveToUnit;Ally;Strongest;S;C;Train;Worker;Left
+Atual=S;For_S;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Train;Worker;Down;S;For_S;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;C;Attack;Closest;S;C;MoveToUnit;Ally;Strongest;S;C;Build;Ranged;EnemyDir
+Atual=S;For_S;S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;2;S;C;Train;Worker;Down;S;For_S;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;C;Attack;Closest;S;C;MoveToUnit;Ally;Strongest
+
+
+
+for(Unit u){
+	for(Unit u){
+		for(Unit u){
+			if(OpponentHasNumberOfUnits(Worker,2)) then {
+				u.train(Worker,Down)
+			}
+			for(Unit u){
+				if(u.OpponentHasUnitThatKillsUnitInOneAttack()) then {
+					u.attack(Closest)
+					u.moveToUnit(Ally,Strongest)
+				}
+			}
+		}
+	}
+}
+slurmstepd: error: *** JOB 5841480 ON cdr1432 CANCELLED AT 2021-06-23T07:35:21 DUE TO TIME LIMIT ***

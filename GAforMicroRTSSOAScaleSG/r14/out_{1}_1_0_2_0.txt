@@ -1,0 +1,12 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;MostHealthy
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Up;S;C;Attack;LessHealthy;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Up;S;C;Build;Worker;Down;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Idle;S;C;Train;Worker;Up;S;C;Build;Worker;Down;S;C;MoveToUnit;Enemy;Closest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;C;Train;Base;Up;S;C;Idle;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;1;S;C;Harvest;S;C;Attack;Weakest;S;If_B_then_S_else_S;B;is_Type;Barracks;S;S_S;S;For_S;S;C;Idle;S;For_S;S;C;Idle;S;S_S;S;S_S;S;C;MoveAway;S;C;Train;Worker;Left;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;C;Build;Ranged;Left;S;C;Attack;Weakest;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;C;MoveAway;S;C;Attack;Weakest;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Attack;Weakest;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;Harvest;S;C;Attack;Weakest;S;C;Train;Worker;Left
+slurmstepd: error: *** JOB 5851683 ON cdr648 CANCELLED AT 2021-06-23T10:37:48 DUE TO TIME LIMIT ***

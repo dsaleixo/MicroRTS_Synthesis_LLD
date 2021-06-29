@@ -1,0 +1,25 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Build;Heavy;Right;S;If_B_then_S_else_S;B;IsBuilder;S;If_B_then_S;B;CanAttack;S;S_S;S;C;Train;Ranged;Left;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanHarvest;S;If_B_then_S;B;CanAttack;S;C;Build;Light;Left;S;For_S;S;For_S;S;S_S;S;C;Idle;S;C;Idle;S;If_B_then_S_else_S;B;IsBuilder;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanHarvest;S;C;Harvest;S;For_S;S;For_S;S;C;Idle;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Weakest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanHarvest;S;C;Harvest;S;C;Idle;S;If_B_then_S_else_S;B;CanAttack;S;For_S;S;C;Attack;Weakest;S;C;Train;Worker;Down
+
+
+
+for(Unit u){
+	if(u.canHarvest()) then {
+		u.harvest()
+	} else {
+		e
+	}
+	if(u.canAttack()) then {
+		for(Unit u){
+			u.attack(Weakest)
+		}
+	} else {
+		u.train(Worker,Down)
+	}
+}
+FIM

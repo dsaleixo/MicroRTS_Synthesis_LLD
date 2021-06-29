@@ -1,0 +1,11 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Up
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Up;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;C;Harvest;S;C;Attack;Farthest
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;10;S;S_S;S;C;Idle;S;S_S;S;C;Train;Worker;Up;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Ranged;2;S;C;Attack;MostHealthy;S;C;MoveToUnit;Ally;Closest;S;If_B_then_S_else_S;B;CanHarvest;S;C;Harvest;S;C;Attack;Farthest
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;25;S;S_S;S;C;Idle;S;S_S;S;C;Train;Worker;Up;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Ranged;2;S;C;Attack;MostHealthy;S;C;MoveToUnit;Ally;Closest;S;If_B_then_S_else_S;B;CanHarvest;S;C;Harvest;S;C;Attack;Farthest
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;25;S;S_S;S;C;Attack;Weakest;S;S_S;S;C;Train;Worker;Up;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Ranged;2;S;C;Attack;MostHealthy;S;C;MoveToUnit;Ally;Closest;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;Empty
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Worker;25;S;S_S;S;C;Attack;Weakest;S;S_S;S;C;Train;Worker;Up;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Base;10;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;For_S;S;C;Harvest;S;C;Attack;MostHealthy;S;C;MoveToUnit;Ally;Closest;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;Empty;S;Empty
+slurmstepd: error: *** JOB 5842303 ON cdr815 CANCELLED AT 2021-06-23T07:47:36 DUE TO TIME LIMIT ***

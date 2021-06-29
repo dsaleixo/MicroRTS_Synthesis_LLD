@@ -1,0 +1,29 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;C;Idle;S;C;MoveToUnit;Enemy;Strongest;S;C;Train;Worker;Left
+Atual=S;For_S;S;For_S;S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;For_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;2;S;C;Attack;Closest;S;C;Harvest;S;C;Train;Worker;Left
+
+
+
+for(Unit u){
+	for(Unit u){
+		for(Unit u){
+			for(Unit u){
+				if(u.OpponentHasUnitThatKillsUnitInOneAttack()) then {
+					for(Unit u){
+						if(HasNumberOfWorkersHarvesting(2)) then {
+							u.attack(Closest)
+						} else {
+							u.harvest()
+						}
+					}
+				} else {
+					u.train(Worker,Left)
+				}
+			}
+		}
+	}
+}
+FIM

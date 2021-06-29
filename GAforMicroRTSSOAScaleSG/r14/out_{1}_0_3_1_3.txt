@@ -1,0 +1,17 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;25;S;S_S;S;C;Attack;Weakest;S;C;MoveAway;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Idle
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;MoveToUnit;Enemy;Strongest;S;C;MoveToUnit;Enemy;LessHealthy;S;C;Attack;Strongest
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Attack;LessHealthy;S;C;MoveToUnit;Enemy;LessHealthy;S;C;Attack;Strongest
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;EnemyDir;S;S_S;S;C;Train;Worker;Up;S;C;Build;Worker;Left;S;C;Attack;LessHealthy;S;C;Build;Base;Up
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Build;Worker;Down;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Build;Heavy;Down;S;C;Harvest;S;S_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Build;Worker;Down;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Build;Heavy;Down;S;Empty;S;S_S;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Build;Heavy;Up;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;C;Build;Light;Down;S;S_S;S;C;Train;Worker;EnemyDir;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;1;S;C;Attack;Weakest;S;C;Build;Ranged;Up;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;C;Build;Ranged;Up;S;If_B_then_S;B;HasLessNumberOfUnits;Barracks;2;S;C;Train;Worker;Up;S;C;Attack;Closest
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Up;S;C;MoveAway
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;C;Harvest;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Train;Worker;Up
+slurmstepd: error: *** JOB 5864371 ON cdr1984 CANCELLED AT 2021-06-23T14:52:01 DUE TO TIME LIMIT ***

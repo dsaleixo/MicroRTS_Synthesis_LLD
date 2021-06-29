@@ -1,0 +1,27 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Train;Worker;EnemyDir;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;S_S;S;C;Idle;S;C;Train;Worker;EnemyDir;S;S_S;S;C;Harvest;S;C;Idle;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;S_S;S;C;Train;Light;Down;S;C;Attack;Random;S;If_B_then_S;B;HasLessNumberOfUnits;Worker;25;S;S_S;S;C;Harvest;S;C;Train;Worker;Down;S;If_B_then_S;B;is_Type;Worker;S;S_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;50;S;C;Train;Heavy;Down;S;C;MoveToUnit;Enemy;LessHealthy;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;2;S;C;Attack;MostHealthy;S;C;Idle
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;C;Attack;Random;S;S_S;S;C;Harvest;S;C;Train;Worker;Down;S;If_B_then_S;B;is_Type;Worker;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;50;S;Empty;S;C;MoveToUnit;Enemy;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;C;Attack;Random;S;S_S;S;C;Harvest;S;C;Train;Worker;Down;S;If_B_then_S;B;is_Type;Worker;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;50;S;Empty;S;C;MoveToUnit;Enemy;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;C;Attack;Random;S;S_S;S;C;Harvest;S;C;Train;Worker;Down;S;If_B_then_S;B;is_Type;Worker;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;50;S;Empty;S;C;MoveToUnit;Enemy;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;C;Attack;Random;S;S_S;S;C;Harvest;S;C;Train;Worker;Down;S;If_B_then_S;B;is_Type;Worker;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;50;S;Empty;S;C;MoveToUnit;Enemy;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;C;Attack;Random;S;S_S;S;C;Harvest;S;C;Train;Worker;Down;S;If_B_then_S;B;is_Type;Worker;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;50;S;Empty;S;C;MoveToUnit;Enemy;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;C;Attack;Random;S;S_S;S;C;Harvest;S;C;Train;Worker;Down;S;If_B_then_S;B;is_Type;Worker;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;50;S;Empty;S;C;MoveToUnit;Enemy;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;C;Attack;Random;S;S_S;S;C;Harvest;S;C;Train;Worker;Down;S;If_B_then_S;B;is_Type;Worker;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;50;S;Empty;S;C;MoveToUnit;Enemy;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;C;Attack;Random;S;S_S;S;C;Harvest;S;C;Train;Worker;Down;S;If_B_then_S;B;is_Type;Worker;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;50;S;Empty;S;C;MoveToUnit;Enemy;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;C;Attack;Random;S;S_S;S;C;Harvest;S;C;Train;Worker;Down;S;If_B_then_S;B;is_Type;Worker;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;50;S;Empty;S;C;MoveToUnit;Enemy;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;1;S;For_S;S;C;Attack;Random;S;S_S;S;C;Harvest;S;C;Train;Worker;Down;S;If_B_then_S;B;is_Type;Worker;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Light;50;S;Empty;S;C;MoveToUnit;Enemy;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;1;S;C;Attack;LessHealthy;S;S_S;S;C;Harvest;S;C;Train;Worker;Down;S;If_B_then_S;B;is_Type;Worker;S;If_B_then_S_else_S;B;IsBuilder;S;Empty;S;Empty
+
+
+
+for(Unit u){
+	if(HasNumberOfWorkersHarvesting(1)) then {
+		u.attack(LessHealthy)
+	}
+	u.harvest()
+	u.train(Worker,Down)
+}
+FIM

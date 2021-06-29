@@ -1,0 +1,21 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;S_S;S;For_S;S;C;Train;Worker;Up;S;For_S;S;C;Train;Light;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;S_S;S;C;Train;Worker;Up;S;For_S;S;S_S;S;C;Idle;S;C;Harvest
+
+
+
+for(Unit u){
+	u.attack(Strongest)
+	for(Unit u){
+		u.train(Worker,Up)
+		for(Unit u){
+			u.idle()
+			u.harvest()
+		}
+	}
+}
+FIM

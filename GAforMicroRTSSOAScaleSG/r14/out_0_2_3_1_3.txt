@@ -1,0 +1,29 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;For_S;S;C;Train;Worker;Up;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Build;Worker;Down;S;S_S;S;For_S;S;C;Train;Worker;Up;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;C;Build;Heavy;Up;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Build;Light;Left;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Build;Ranged;EnemyDir;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Build;Ranged;EnemyDir;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Build;Light;EnemyDir;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;C;Build;Light;EnemyDir;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Train;Base;Up;S;S_S;S;S_S;S;C;Build;Heavy;EnemyDir;S;C;Harvest;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;S_S;S;S_S;S;C;Harvest;S;C;MoveAway;S;C;Attack;Strongest;S;C;Train;Worker;Up
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;C;Harvest;S;C;Train;Worker;Down;S;C;Attack;Strongest;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Idle;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;3;S;C;Harvest;S;C;Train;Worker;Down;S;C;Attack;Weakest
+
+
+slurmstepd: error: *** JOB 5841670 ON cdr1564 CANCELLED AT 2021-06-23T07:37:18 DUE TO TIME LIMIT ***
+
+for(Unit u){
+	u.idle()
+	if(HaveQtdUnitsAttacking(3)) then {
+		u.harvest()
+	} else {
+		u.train(Worker,Down)
+	}
+	u.attack(Weakest)
+}

@@ -1,0 +1,27 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HasUnitThatKillsInOneAttack;S;For_S;S;C;Build;Base;EnemyDir;S;S_S;S;C;Train;Worker;Left;S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Left;S;For_S;S;S_S;S;C;Attack;Strongest;S;S_S;S;For_S;S;C;Build;Heavy;EnemyDir;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Build;Barracks;Down
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Left;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Build;Worker;Left
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Left;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;If_B_then_S_else_S;B;HasNumberOfUnits;Base;25;S;C;Train;Light;Right;S;C;MoveToUnit;Enemy;Strongest
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Left;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Build;Ranged;Up
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Left;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Build;Light;Left
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Left;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Build;Light;Down
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Right;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Build;Light;Down
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Right;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Build;Heavy;Up
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Right;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Build;Heavy;Up
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Right;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Idle
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Right;S;For_S;S;S_S;S;C;Attack;Random;S;For_S;S;Empty
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Right;S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Right;S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Right;S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;Right;S;For_S;S;C;Attack;Random
+Atual=S;For_S;S;For_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Train;Worker;EnemyDir;S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Left;S;C;Idle;S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Left;S;For_S;S;S_S;S;S_S;S;C;Build;Heavy;Up;S;C;Attack;Strongest;S;C;Idle
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Left;S;For_S;S;S_S;S;C;Build;Ranged;EnemyDir;S;C;Attack;Strongest
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Left;S;For_S;S;S_S;S;C;Build;Light;Left;S;C;Attack;Closest
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Left;S;For_S;S;S_S;S;C;Build;Light;Down;S;C;Attack;Closest
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Right;S;For_S;S;S_S;S;C;Build;Light;Down;S;C;Attack;Closest
+Atual=S;For_S;S;For_S;S;S_S;S;C;Train;Worker;Right;S;For_S;S;S_S;S;C;Build;Heavy;Up;S;C;Attack;Strongest
+slurmstepd: error: *** JOB 5841070 ON cdr129 CANCELLED AT 2021-06-23T07:34:13 DUE TO TIME LIMIT ***

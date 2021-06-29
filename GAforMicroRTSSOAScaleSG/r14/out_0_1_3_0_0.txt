@@ -1,0 +1,11 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Farthest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Attack;Closest;S;C;Train;Barracks;Left;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;For_S;S;C;Attack;Closest;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Ranged;Right;S;C;Attack;LessHealthy;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;S_S;S;C;Build;Light;EnemyDir;S;C;Attack;Strongest;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;S_S;S;C;MoveAway;S;C;Train;Heavy;Down;S;If_B_then_S_else_S;B;IsBuilder;S;C;Build;Worker;EnemyDir;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;For_S;S;C;Attack;Closest;S;If_B_then_S_else_S;B;IsBuilder;S;Empty;S;C;Train;Worker;Right
+Atual=S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Up;S;If_B_then_S_else_S;B;CanAttack;S;Empty;S;Empty
+Atual=S;For_S;S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;Build;Base;Left;S;C;Harvest;S;For_S;S;C;Idle;S;C;Attack;Closest;S;C;Train;Worker;Up
+slurmstepd: error: *** JOB 5841391 ON cdr1470 CANCELLED AT 2021-06-23T07:35:18 DUE TO TIME LIMIT ***

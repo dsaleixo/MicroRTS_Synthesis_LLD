@@ -1,0 +1,9 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Train;Base;Right;S;C;Train;Worker;Left;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;Empty;S;C;Train;Worker;Left;S;C;Attack;LessHealthy;S;For_S;S;C;Build;Heavy;Left
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Closest;S;C;Train;Worker;Left;S;C;Attack;LessHealthy;S;For_S;S;C;Build;Ranged;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Strongest;S;C;Train;Worker;Left;S;For_S;S;C;Build;Light;EnemyDir
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;C;Attack;Strongest;S;C;Train;Worker;Right;S;For_S;S;C;Build;Light;EnemyDir
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;CanAttack;S;If_B_then_S;B;HasLessNumberOfUnits;Heavy;2;S;C;Attack;Strongest;S;C;Train;Worker;Right;S;For_S;S;For_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;If_B_then_S;B;HaveQtdUnitsAttacking;3;S;For_S;S;If_B_then_S;B;CanHarvest;S;For_S;S;C;Harvest
+slurmstepd: error: *** JOB 5851810 ON cdr626 CANCELLED AT 2021-06-23T10:58:52 DUE TO TIME LIMIT ***

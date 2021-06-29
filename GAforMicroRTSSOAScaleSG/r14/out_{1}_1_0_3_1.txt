@@ -1,0 +1,18 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;Random;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;For_S;S;For_S;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;For_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;HasLessNumberOfUnits;Heavy;2;S;C;Build;Heavy;EnemyDir;S;C;MoveAway;S;For_S;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;For_S;S;For_S;S;S_S;S;S_S;S;C;Build;Heavy;EnemyDir;S;For_S;S;C;Train;Worker;Down;S;For_S;S;C;Build;Light;Up
+slurmstepd: error: *** JOB 5851696 ON cdr560 CANCELLED AT 2021-06-23T10:37:48 DUE TO TIME LIMIT ***

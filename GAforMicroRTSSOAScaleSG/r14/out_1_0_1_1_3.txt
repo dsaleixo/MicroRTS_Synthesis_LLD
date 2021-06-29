@@ -1,0 +1,28 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Strongest
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Build;Worker;Right;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;C;Harvest;S;C;Train;Heavy;Left;S;S_S;S;S_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;10;S;C;Build;Worker;Right;S;C;Attack;LessHealthy;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;C;Harvest;S;C;Train;Worker;Up;S;S_S;S;S_S;S;C;Build;Barracks;EnemyDir;S;C;Attack;LessHealthy;S;C;Build;Ranged;Up
+Atual=S;For_S;S;S_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;4;S;C;Harvest;S;C;Train;Worker;Up;S;S_S;S;S_S;S;C;Build;Light;Up;S;C;Attack;Weakest;S;C;Build;Ranged;Up
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -23
+	at rts.PhysicalGameState.getTerrain(PhysicalGameState.java:136)
+	at rts.GameState.free(GameState.java:176)
+	at CFG.Direction.converte(Direction.java:67)
+	at CFG_Actions.Build.interpret(Build.java:103)
+	at CFG.C.interpret(C.java:52)
+	at CFG.S.interpret(S.java:51)
+	at CFG.S_S.interpret(S_S.java:71)
+	at CFG.S.interpret(S.java:51)
+	at CFG.S_S.interpret(S_S.java:71)
+	at CFG.S.interpret(S.java:51)
+	at CFG.S_S.interpret(S_S.java:72)
+	at CFG.S.interpret(S.java:51)
+	at CFG.For_S.interpret(For_S.java:55)
+	at CFG.S.interpret(S.java:51)
+	at AIs.Interpreter.getAction(Interpreter.java:78)
+	at Evaluations.Playout.run(Playout.java:71)
+	at Evaluations.SimulatedAnnealing.evaluation(SimulatedAnnealing.java:33)
+	at IAs.LS1.run(LS1.java:60)
+	at Teste.Test1.main(Test1.java:48)
+FIM

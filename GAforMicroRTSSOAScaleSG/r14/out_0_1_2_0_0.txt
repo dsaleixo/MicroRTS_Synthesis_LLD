@@ -1,0 +1,18 @@
+Unloading StdEnv/2020
+Atual=S;For_S;S;C;Attack;Weakest
+Atual=S;For_S;S;S_S;S;S_S;S;C;Harvest;S;C;Attack;Weakest;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;C;Build;Ranged;Right;S;C;Train;Worker;Left;S;S_S;S;C;Attack;LessHealthy;S;C;Train;Worker;EnemyDir
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Idle;S;S_S;S;C;Train;Worker;Down;S;C;Harvest;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Random;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;C;MoveAway;S;C;Train;Worker;Down;S;C;Train;Worker;Down;S;C;Harvest;S;C;Attack;LessHealthy
+Atual=S;For_S;S;S_S;S;For_S;S;C;Attack;Random;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;C;Attack;Random;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;C;Attack;Random;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;C;Attack;Random;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;C;Attack;Random;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;C;Attack;Random;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;C;Attack;Strongest;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;0;S;Empty;S;C;Train;Worker;Down
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;C;Attack;Strongest;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitInPlayerRange;S;C;Attack;Strongest;S;S_S;S;C;Harvest;S;C;Attack;Weakest;S;C;Train;Worker;Left
+Atual=S;For_S;S;S_S;S;For_S;S;For_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;2;S;C;Attack;Strongest;S;S_S;S;C;Harvest;S;C;Attack;Weakest;S;C;Train;Worker;Left
+slurmstepd: error: *** JOB 5841355 ON cdr1572 CANCELLED AT 2021-06-23T07:34:44 DUE TO TIME LIMIT ***
