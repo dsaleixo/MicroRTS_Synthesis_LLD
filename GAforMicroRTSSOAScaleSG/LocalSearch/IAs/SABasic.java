@@ -111,7 +111,7 @@ public class SABasic implements Search {
 					Pair<Double,Double> v2 = this.Avalia(gs, max_cicle,aux);
 					//System.out.println(v2.m_b+" "+aux.translate());
 					boolean b = accept(v,v2);
-				//	System.out.println("atual "+v2.m_a+" "+v2.m_b+" "+aux.translate());
+				System.out.println("atual "+v2.m_a+" "+v2.m_b+" "+aux.translate());
 					
 					if(b) {
 						//System.out.println("Sujo "+aux.translate());
