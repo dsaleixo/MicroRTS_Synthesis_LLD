@@ -89,58 +89,50 @@ public class SABasic implements Search {
 	@Override
 	public Node run(GameState gs, int max_cicle) throws Exception {
 		// TODO Auto-generated method stub
-		
-		long Tini1 = System.currentTimeMillis();
-		long paraou1 = System.currentTimeMillis()-Tini1;
-		while( (paraou1*1.0)/1000.0 <3600) {
+		Node_LS atual =  new S_LS(new Empty_LS());
+		Pair<Double,Double> v = new Pair<>(-1.0,-1.0);
+		long Tini = System.currentTimeMillis();
+		long paraou = System.currentTimeMillis()-Tini;
+		while( (paraou*1.0)/1000.0 <3600) {
 			Random r =new Random();
-			Node_LS atual =  new S_LS(new Empty_LS());
-			Pair<Double,Double> v = new Pair<>(-1.0,-1.0);
-			
-		
-			long Tini = System.currentTimeMillis();
-			long paraou = System.currentTimeMillis()-Tini;
-			while( (paraou*1.0)/1000.0 <360) {
-				for(int i= 0;i<1000;i++) {
-					if(this.stop(v))break;
-					Node_LS aux = (Node_LS) (atual.Clone(f));
-					int n = r.nextInt(aux.countNode());
-					int custo = r.nextInt(9)+1;
-					aux.mutation(n, custo);
+			Node_LS melhor_vizinho = null ;
+			Pair<Double,Double> v_vizinho = new Pair<>(-1.0,-1.0);
+			for(int i= 0;i<100;i++) {
 				
-					Pair<Double,Double> v2 = this.Avalia(gs, max_cicle,aux);
+				Node_LS aux = (Node_LS) (atual.Clone(f));
+				int n = r.nextInt(aux.countNode());
+				int custo = r.nextInt(9)+1;
+				aux.mutation(n, custo);
+				Pair<Double,Double> v2 = this.Avalia(gs, max_cicle,aux);
 					//System.out.println(v2.m_b+" "+aux.translate());
-					boolean b = accept(v,v2);
-				System.out.println("atual "+v2.m_a+" "+v2.m_b+" "+aux.translate());
-					
-					if(b) {
-						//System.out.println("Sujo "+aux.translate());
+				boolean b = if_best(v_vizinho,v2);
+				if(b) {
 						if(this.use_cleanr)aux.clear(null, f);
-						//System.out.println("Limpo "+aux.translate());
-						//System.out.println("Ciclo "+i+":\n\t"+aux.translate()+"\n\t"+m_ais.m_a.translate());
-						best = (Node_LS) aux.Clone(f);
-			
-						v=v2;
-						
-						if(if_best(this.best_v,v2)) {
-							System.out.println("atual\t"+((paraou*1.0)/1000.0)+"\t"+v.m_a+"\t"+v.m_b+"\t"+
-									best.translate()+"\t"+aux.translate());
-							this.best = (Node_LS) aux.Clone(f);
-							this.best_v = v;
-						}
-						
-						
-						
-						
-					}
+						melhor_vizinho = (Node_LS) aux.Clone(f);
+						v_vizinho=v2;
 					
 				}
-				paraou = System.currentTimeMillis()-Tini;
-			//System.out.println(rep+" Ciclo "+i+": "+m_ais.m_a.translate());
-			
-			
+				
+		
 			}
-			paraou1 = System.currentTimeMillis()-Tini;
+			
+			boolean b = accept(v,v_vizinho);
+			
+			if(b) {
+				atual=(Node_LS) melhor_vizinho.Clone(f);
+				v = v_vizinho;
+			}
+			paraou = System.currentTimeMillis()-Tini;
+			if(this.if_best(this.best_v,v_vizinho)) {
+				this.best = (Node_LS) melhor_vizinho.Clone(f);
+				this.best_v = v_vizinho;
+				System.out.println("atual\t"+((paraou*1.0)/1000.0)+"\t"+v.m_a+"\t"+v.m_b+"\t"+
+						best.translate()+"\t");
+			}
+			
+			
+			
+			
 		}
 		System.out.println("atual\t"+3600+"\t"+this.best_v.m_a+"\t"+this.best_v.m_b+"\t"+
 				best.translate()+"\t"+this.best.translate());

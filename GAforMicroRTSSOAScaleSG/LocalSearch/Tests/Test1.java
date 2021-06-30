@@ -17,6 +17,7 @@ import Evaluations.Kakashi;
 import Evaluations.SimplesEvaluations;
 
 import IAs.LSBasic;
+import IAs.SABasic;
 import IAs.Search;
 import LS_CFG.*;
 import Oraculo.Oraculo;
@@ -59,7 +60,7 @@ public class Test1 {
 		}
 		
 		Playout playout = new SimplePlayout(eval);
-		Search search = new LSBasic(true,adv,playout);
+		Search search = new SABasic(true,adv,playout,2000,0.9,1);
 		Node n = search.run(gs2, 5000);
 		System.out.println("FIM");
 		System.out.println(n.translateIndentation(0));
