@@ -26,7 +26,7 @@ public class SABasic implements Search {
 	double T0;
 	double alpha;
 	double beta;
-	
+	Random r =new Random();
 	Node_LS best;
 	Pair<Double,Double> best_v;
 	public SABasic() {
@@ -67,11 +67,16 @@ public class SABasic implements Search {
 		return false;
 	}
 	
-	public boolean accept(Pair<Double,Double> v1 ,Pair<Double,Double>  v2) {
+	public boolean accept(Pair<Double,Double> v1 ,Pair<Double,Double>  v2, double temperatura) {
 		if(v2.m_a>v1.m_a)return true;
 	
 		boolean aux = Math.abs(v2.m_a - v1.m_a) <0.1;
-		if(aux && v2.m_b > v1.m_b) return true;
+		if(aux ) {
+			//np.exp(self.beta * (next_score - current_score)/self.current_temperature)
+			double aux2 = Math.exp(this.beta*(v2.m_b - v1.m_b)/temperatura);
+			aux2 = Math.min(1,aux2);
+			if(r.nextFloat()<aux2)return true;
+		}
 		return false;
 	}
 	
@@ -93,8 +98,10 @@ public class SABasic implements Search {
 		Pair<Double,Double> v = new Pair<>(-1.0,-1.0);
 		long Tini = System.currentTimeMillis();
 		long paraou = System.currentTimeMillis()-Tini;
+		
+		double T = this.T0;
 		while( (paraou*1.0)/1000.0 <3600) {
-			Random r =new Random();
+			
 			Node_LS melhor_vizinho = null ;
 			Pair<Double,Double> v_vizinho = new Pair<>(-1.0,-1.0);
 			for(int i= 0;i<100;i++) {
@@ -105,8 +112,8 @@ public class SABasic implements Search {
 				aux.mutation(n, custo);
 				Pair<Double,Double> v2 = this.Avalia(gs, max_cicle,aux);
 					//System.out.println(v2.m_b+" "+aux.translate());
-				boolean b = if_best(v_vizinho,v2);
-				if(b) {
+		
+				if(if_best(v_vizinho,v2)) {
 						if(this.use_cleanr)aux.clear(null, f);
 						melhor_vizinho = (Node_LS) aux.Clone(f);
 						v_vizinho=v2;
@@ -115,10 +122,8 @@ public class SABasic implements Search {
 				
 		
 			}
-			
-			boolean b = accept(v,v_vizinho);
-			
-			if(b) {
+		
+			if(accept(v,v_vizinho,T)) {
 				atual=(Node_LS) melhor_vizinho.Clone(f);
 				v = v_vizinho;
 			}
@@ -129,7 +134,7 @@ public class SABasic implements Search {
 				System.out.println("atual\t"+((paraou*1.0)/1000.0)+"\t"+v.m_a+"\t"+v.m_b+"\t"+
 						best.translate()+"\t");
 			}
-			
+			T=T*this.alpha;
 			
 			
 			

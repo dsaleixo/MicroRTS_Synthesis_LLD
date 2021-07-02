@@ -56,7 +56,7 @@ public class Test1 {
 		if(args[0].equals("3")) {
 			List<GameState> gss2= Oraculo.carregar("oraculo2");
 			eval = new CabocoDagua(gss2,0);
-			((CabocoDagua)eval).oraculo.imprimir();
+			//((CabocoDagua)eval).oraculo.imprimir();
 		}
 		
 		Playout playout = new SimplePlayout(eval);
