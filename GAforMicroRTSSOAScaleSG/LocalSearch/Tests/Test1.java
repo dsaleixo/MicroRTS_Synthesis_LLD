@@ -44,7 +44,6 @@ public class Test1 {
 		GameState gs2 = new GameState(pgs, utt);
 		
 		
-		
 		AI adv = new WorkerRush(utt);
 		EvaluateGS eval = null;
 		if(args[0].equals("0")) {
