@@ -53,7 +53,7 @@ public class Test1 {
 		if(args[0].equals("1"))eval = new LTD3();
 		if(args[0].equals("2"))eval = new Cego();
 		if(args[0].equals("3")) {
-			List<GameState> gss2= Oraculo.carregar("oraculo2");
+			List<GameState> gss2= Oraculo.carregar("oraculo3");
 			eval = new CabocoDagua(gss2,0);
 			//((CabocoDagua)eval).oraculo.imprimir();
 		}
