@@ -7,7 +7,12 @@ import AIs.Interpreter;
 import Oraculo.Oraculo;
 import ai.RandomBiasedAI;
 import ai.CMAB.A3NWithin;
+import ai.abstraction.LightRush;
+import ai.abstraction.RangedRush;
 import ai.abstraction.WorkerRush;
+import ai.coac.CoacAI;
+import ai.competition.capivara.Capivara;
+import ai.competition.tiamat.Tiamat;
 import ai.configurablescript.BasicExpandedConfigurableScript;
 import ai.configurablescript.ScriptsCreator;
 import ai.core.AI;
@@ -26,16 +31,15 @@ public class TestOraculo {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		UnitTypeTable utt = new UnitTypeTable();
-		String path_map ="./maps/24x24/basesWorkers24x24A.xml";
+		String path_map ="./maps/BWDistantResources32x32.xml";
 		PhysicalGameState pgs = PhysicalGameState.load(path_map, utt);
 		GameState gs2 = new GameState(pgs, utt);
-		AI adv = new WorkerRush(utt);
-		AI oraculo = new A3NWithin(100, -1, 100, 8, 0.3F, 0.0F, 0.4F, 0, adv,
-				new SimpleSqrtEvaluationFunction3(), true, utt, "ManagerClosestEnemy", 3,
-				decodeScripts(utt, "1;2;3;"), "A3N");
-		AI adv2 = new WorkerRush(utt);
-		List<GameState> gss = Oraculo.gerar(gs2,0,3000,adv2,adv,false);
-		Oraculo.reproduz(gss);
+		AI adv = new CoacAI(utt);
+		AI oraculo = new  RangedRush(utt);
+	//	AI adv2 = new WorkerRush(utt);
+		List<GameState> gss = Oraculo.gerar(gs2,0,3000,adv,oraculo,true);
+	//	Oraculo.salvar(gss, "CoacAIxCoacAI");
+	//	Oraculo.reproduz(gss);
 		
 	}
 	

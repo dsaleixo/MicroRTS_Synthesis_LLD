@@ -111,7 +111,7 @@ double pont= 0.0;
 		pont += 1*(1 - diffType(this.barrack,oraculo.barrack));	
 		pont +=0.5* (1 - diffType(this.saved_resource,oraculo.saved_resource));	
 		
-		return (float) (pont/7);
+		return (float) (pont/6);
 	}
 
 	@Override

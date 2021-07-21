@@ -32,6 +32,10 @@ import CFG_Condition.HasNumberOfWorkersHarvesting;
 import CFG_Condition.HasUnitWithinDistanceFromOpponent;
 import CFG_Condition.Is_Builder;
 import CFG_Condition.is_Type;
+import ai.abstraction.LightRush;
+import ai.abstraction.RangedRush;
+import ai.coac.CoacAI;
+import ai.core.AI;
 import gui.PhysicalGameStatePanel;
 import rts.GameState;
 import rts.PhysicalGameState;
@@ -339,8 +343,8 @@ public class BuildScriptsBasic {
 		return s;
 	}
 	public static Node monta19() {
-		Attack a = new Attack(new OpponentPolicy("Strongest"));
-		Train t = new Train(new Type("Worker"),new Direction("EnemyDir"));
+		Attack a = new Attack(new OpponentPolicy("LessHealthy"));
+		Train t = new Train(new Type("Worker"),new Direction("Up"));
 		C c = new C(a);
 		C ct = new C(t);
 		S_S ss = new S_S(new S(c),new S(ct));
@@ -369,7 +373,7 @@ public class BuildScriptsBasic {
 		Factory f = new FactoryBase();
 		
 	
-		Node no= monta20();
+		Node no= monta19();
 		//if(true)return ;
 		System.out.println(no.translateIndentation(0));
 		
@@ -378,7 +382,7 @@ public class BuildScriptsBasic {
 		//AI ai1 = new WorkerRush(utt);
 		//AI ai2 = new LightRush(utt);
 		Node no2= monta19();
-		Interpreter ai2 =  new Interpreter(utt,no2.Clone(f));
+		AI ai2 =  new CoacAI(utt);
 	
 		GameState gs2 = new GameState(pgs, utt);
 		boolean gameover = false;
@@ -386,8 +390,8 @@ public class BuildScriptsBasic {
 		if(true) w = PhysicalGameStatePanel.newVisualizer(gs2,640,640,false,PhysicalGameStatePanel.COLORSCHEME_BLACK);  
         do {
       
-                PlayerAction pa1 = ai1.getAction(1, gs2);
-                PlayerAction pa2 = ai2.getAction(0, gs2);
+                PlayerAction pa1 = ai1.getAction(0, gs2);
+                PlayerAction pa2 = ai2.getAction(1, gs2);
                 gs2.issueSafe(pa1);
                 gs2.issueSafe(pa2);
              

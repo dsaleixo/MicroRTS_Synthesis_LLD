@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="Synthesis_David"/>
 	<classpathentry kind="src" path="Synthesis2"/>
 	<classpathentry kind="src" path="BUS"/>
 	<classpathentry kind="src" path="LocalSearch"/>
+	<classpathentry kind="src" path="SBI"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/MicroRTS_Synthesis"/>
 	<classpathentry kind="lib" path="/home/dsaleixo/Área de Trabalho/lib/commons-collections4-4.4.jar"/>
 	<classpathentry kind="lib" path="/home/dsaleixo/Área de Trabalho/lib/commons-math3-3.6.1.jar"/>
